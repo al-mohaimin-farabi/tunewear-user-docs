@@ -114,6 +114,18 @@ colours the product's Colour option has:
 To get clickable dots, give the product a second colour. To remove them,
 leave it one colour.
 
+Two or more colours — `Everyday Crew Tee` in White, Navy and Black: the
+dots to click (1), and the photos change to the colour picked (2). For
+that, pick each photo's colour (1.10).
+
+![Several colours: dots to click](assets/merchant-guide/01-46-colour-dots.webp)
+
+One colour — `Polo Shirt - White`: the colour is named (1), nothing to
+click. Its other colour, sold as its own product `Polo Shirt - Black`,
+is one click away under **Other colours** (2; how, in 1.12).
+
+![One colour: named, not a choice](assets/merchant-guide/01-45-one-colour-named.webp)
+
 ### 1.2 Create the product — details
 
 Sidebar **Products** → **Create**.
@@ -288,6 +300,10 @@ switch to turn on: **the product names are the switch.**
    and the colour:
    - `Solid Summer T-Shirt - Blue`
    - `Solid Summer T-Shirt - White`
+
+   Any garment works the same way: `Polo Shirt - White`,
+   `Polo Shirt - Black`.
+
 3. **Give each one its colour** — one **Colour** option with **one**
    value, next to Size, when you create it (1.3): `Colour` → `Blue`. This
    is what puts the product under **Blue** in the shop's colour filter and
