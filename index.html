@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="TuneWear merchant administration guide" />
+    <title>TuneWear Merchant Guide</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+    <style>
+      :root {
+        --theme-color: #1f6f78;
+        --sidebar-width: 280px;
+      }
+
+      body {
+        color: #243238;
+      }
+
+      .markdown-section {
+        max-width: 980px;
+        padding: 2rem 2.5rem 4rem;
+      }
+
+      .markdown-section img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin: 1.5rem auto 2rem;
+        border: 1px solid #dce5e7;
+        border-radius: 6px;
+        box-shadow: 0 8px 24px rgba(36, 50, 56, 0.08);
+      }
+
+      @media (max-width: 600px) {
+        .markdown-section {
+          padding: 1.25rem 1rem 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading guide...</div>
+
+    <script>
+      window.$docsify = {
+        name: "TuneWear Merchant Guide",
+        homepage: "MERCHANT-GUIDE.md",
+        loadSidebar: false,
+        subMaxLevel: 2,
+        auto2top: true,
+        search: {
+          placeholder: "Search the guide",
+          noData: "No matching sections found",
+          depth: 6,
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  </body>
+</html>
