@@ -1015,17 +1015,17 @@ everything else). Medusa's roles do not apply here.
 
 ### 11.2 The pages
 
-| Sidebar entry                          | What it edits                                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------------- |
-| **Pages → Home**                       | Hero, the Men / Women / Sale cards, section headings, brand story                 |
-| **Pages → Men**, **Women**             | Each aisle's hero and text (the category tiles are Medusa's, chapter 2)           |
-| **Pages → Sale**                       | Masthead, Mix & Match photo, the prepaid-offer strip (countdown on/off, end date) |
-| **Pages → New arrivals**, **Shop all** | Page headings                                                                     |
-| **Pages → About, Contact, FAQ & more** | About, Contact, FAQ, Shipping, Returns, Size guide, Privacy policy, your pages    |
-| **Site content → Footer**              | Footer columns and links, the newsletter box on/off                               |
-| **Site content → Trust Bar**           | The reassurance strip (delivery, returns, secure payment)                         |
-| **Site content → Announcement strip**  | The scrolling words under the header — one list for home, one for other pages     |
-| **Media**                              | Every uploaded photo, with a focal point (what stays in frame when cropped)       |
+| Sidebar entry                          | What it edits                                                                                   |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Pages → Home**                       | Hero, the Men / Women / Sale cards, the sale section on/off, section headings, brand story      |
+| **Pages → Men**, **Women**             | Each aisle's hero and text (the category tiles are Medusa's, chapter 2)                         |
+| **Pages → Sale**                       | Masthead, Mix & Match photo, the prepaid-offer strip (strip on/off, countdown on/off, end date) |
+| **Pages → New arrivals**, **Shop all** | Page headings                                                                                   |
+| **Pages → About, Contact, FAQ & more** | About, Contact, FAQ, Shipping, Returns, Size guide, Privacy policy, your pages                  |
+| **Site content → Footer**              | Footer columns and links, the newsletter box on/off                                             |
+| **Site content → Trust Bar**           | The reassurance strip (delivery, returns, secure payment)                                       |
+| **Site content → Announcement strip**  | The scrolling words under the header — one list for home, one for other pages                   |
+| **Media**                              | Every uploaded photo, with a focal point (what stays in frame when cropped)                     |
 
 Example — the Home page: open **Pages → Home**, change a heading, **Save**.
 
@@ -1040,6 +1040,20 @@ Example — the Home page: open **Pages → Home**, change a heading, **Save**.
 ![Trust Bar](assets/merchant-guide/11-07-trust-bar.webp)
 
 ![Announcement strip](assets/merchant-guide/11-08-announcement.webp)
+
+#### Hiding the sale, the offer strip or the timer — and bringing them back
+
+Three switches. Untick to hide, tick to show again, then **Save**. What
+you typed is kept while hidden; nothing has to be retyped.
+
+| To hide…                                                                 | Go to                                      | Switch                    |
+| ------------------------------------------------------------------------ | ------------------------------------------ | ------------------------- |
+| Just the countdown timer                                                 | **Pages → Sale** → **Prepaid offer strip** | **Show the countdown**    |
+| The whole offer strip ("Extra 10% off…"), on the home page and Sale page | **Pages → Sale** → **Prepaid offer strip** | **Show this strip**       |
+| The sale section on the home page (Sale masthead, best-deals row, strip) | **Pages → Home** → **Sale section**        | **Show the sale section** |
+
+The last one only changes the home page; `/sale` itself stays. The change
+is live within seconds of **Save**.
 
 ### 11.3 The FAQ
 
