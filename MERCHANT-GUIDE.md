@@ -108,7 +108,7 @@ colours the product's Colour option has:
 | Colours on the product                    | Card in the shop | Colour filter   | Product page                                   |
 | ----------------------------------------- | ---------------- | --------------- | ---------------------------------------------- |
 | **None** (only Size)                      | No dot           | Not listed      | No colour dots                                 |
-| **One** (e.g. `White`)                    | One dot          | Under **White** | "Color: White" with its dot, nothing to click  |
+| **One** (e.g. `White`)                    | One dot          | Under **White** | Nothing — the colour is already chosen         |
 | **Two or more** (e.g. Black, White, Navy) | A dot for each   | Under each      | Colour dots to click; photos follow the colour |
 
 To get clickable dots, give the product a second colour. To remove them,
@@ -120,11 +120,13 @@ that, pick each photo's colour (1.10).
 
 ![Several colours: dots to click](assets/merchant-guide/01-46-colour-dots.webp)
 
-One colour — `Polo Shirt - White`: the colour is named (1), nothing to
-click. Its other colour, sold as its own product `Polo Shirt - Black`,
-is one click away under **Other colours** (2; how, in 1.12).
+One colour — `Polo Shirt - White`: no colour line at all — there is
+nothing to choose, so the page picks the colour for the shopper and goes
+straight to the sizes (1). Its other colour, sold as its own product
+`Polo Shirt - Black`, is one click away under **Other colours** (2; how, in
+1.12).
 
-![One colour: named, not a choice](assets/merchant-guide/01-45-one-colour-named.webp)
+![One colour: nothing to choose, straight to the sizes](assets/merchant-guide/01-45-one-colour.webp)
 
 ### 1.2 Create the product — details
 
@@ -252,6 +254,12 @@ means "unknown", never zero.
 ![Cost saved](assets/merchant-guide/01-27-cost-saved.webp)
 
 ### 1.10 Photos and colours
+
+**The shape of a photo.** Product cards in the shop show every photo tall,
+at **2 : 3** (for example 1200 × 1800 pixels); the product page shows it a
+little shorter (4 : 5). Shoot or crop tall, with some space around the
+garment, so nothing important sits at the very top or bottom edge — the
+shop trims whatever does not fit the frame.
 
 The **Photographs & image SEO** box: for each photo, pick which colour it
 shows (or **Shows every colour**). A shopper who picks that colour is taken
