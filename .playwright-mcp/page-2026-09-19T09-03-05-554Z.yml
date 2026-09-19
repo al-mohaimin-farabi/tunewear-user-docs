@@ -1,0 +1,2446 @@
+- main [ref=e2]:
+  - button "Menu" [ref=e3] [cursor=pointer]
+  - complementary [ref=e8]:
+    - searchbox "Search text" [ref=e11]
+    - heading [level=1] [ref=e12]:
+      - link "TuneWear Merchant Guide" [ref=e13] [cursor=pointer]:
+        - /url: /index.html
+    - list [ref=e15]:
+      - listitem [ref=e16]:
+        - link "Running TuneWear — the admin guide" [ref=e17] [cursor=pointer]:
+          - /url: "#/?id=running-tunewear-the-admin-guide"
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link "Contents" [ref=e20] [cursor=pointer]:
+            - /url: "#/?id=contents"
+        - listitem [ref=e21]:
+          - link "0. Getting started" [ref=e22] [cursor=pointer]:
+            - /url: "#/?id=_0-getting-started"
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "The two admins" [ref=e25] [cursor=pointer]:
+              - /url: "#/?id=the-two-admins"
+          - listitem [ref=e26]:
+            - link "The sidebar" [ref=e27] [cursor=pointer]:
+              - /url: "#/?id=the-sidebar"
+          - listitem [ref=e28]:
+            - link "Where each thing is edited" [ref=e29] [cursor=pointer]:
+              - /url: "#/?id=where-each-thing-is-edited"
+        - listitem [ref=e30]:
+          - link "1. Products" [ref=e31] [cursor=pointer]:
+            - /url: "#/?id=_1-products"
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - 'link "1.1 The one idea everything depends on: options and variants" [ref=e34] [cursor=pointer]':
+              - /url: "#/?id=_11-the-one-idea-everything-depends-on-options-and-variants"
+          - listitem [ref=e35]:
+            - link "1.2 Create the product — details" [ref=e36] [cursor=pointer]:
+              - /url: "#/?id=_12-create-the-product-details"
+          - listitem [ref=e37]:
+            - link "1.3 Sizes (and colours)" [ref=e38] [cursor=pointer]:
+              - /url: "#/?id=_13-sizes-and-colours"
+          - listitem [ref=e39]:
+            - link "1.4 Organize — Type decides /men or /women" [ref=e40] [cursor=pointer]:
+              - /url: "#/?id=_14-organize-type-decides-men-or-women"
+          - listitem [ref=e41]:
+            - link "1.5 The variants grid — the ticks explained" [ref=e42] [cursor=pointer]:
+              - /url: "#/?id=_15-the-variants-grid-the-ticks-explained"
+          - listitem [ref=e43]:
+            - link "1.6 Adding a colour afterwards" [ref=e44] [cursor=pointer]:
+              - /url: "#/?id=_16-adding-a-colour-afterwards"
+          - listitem [ref=e45]:
+            - link "1.7 The colour swatch" [ref=e46] [cursor=pointer]:
+              - /url: "#/?id=_17-the-colour-swatch"
+          - listitem [ref=e47]:
+            - link "1.8 Price — one box for every size" [ref=e48] [cursor=pointer]:
+              - /url: "#/?id=_18-price-one-box-for-every-size"
+          - listitem [ref=e49]:
+            - link "1.9 Cost price (for profit in Analytics)" [ref=e50] [cursor=pointer]:
+              - /url: "#/?id=_19-cost-price-for-profit-in-analytics"
+          - listitem [ref=e51]:
+            - link "1.10 Photos and colours" [ref=e52] [cursor=pointer]:
+              - /url: "#/?id=_110-photos-and-colours"
+          - listitem [ref=e53]:
+            - link "1.11 Tags" [ref=e54] [cursor=pointer]:
+              - /url: "#/?id=_111-tags"
+          - listitem [ref=e55]:
+            - link "1.12 Complete the look, Other colours, You may also like" [ref=e56] [cursor=pointer]:
+              - /url: "#/?id=_112-complete-the-look-other-colours-you-may-also-like"
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Other colours, step by step" [ref=e59] [cursor=pointer]:
+                - /url: "#/?id=other-colours-step-by-step"
+          - listitem [ref=e60]:
+            - link "1.13 The rest of the product page's boxes" [ref=e61] [cursor=pointer]:
+              - /url: "#/?id=_113-the-rest-of-the-product-page39s-boxes"
+          - listitem [ref=e62]:
+            - link "1.14 Publish" [ref=e63] [cursor=pointer]:
+              - /url: "#/?id=_114-publish"
+        - listitem [ref=e64]:
+          - link "2. Categories" [ref=e65] [cursor=pointer]:
+            - /url: "#/?id=_2-categories"
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "2.1 Create the category" [ref=e68] [cursor=pointer]:
+              - /url: "#/?id=_21-create-the-category"
+          - listitem [ref=e69]:
+            - link "2.2 Put products in it" [ref=e70] [cursor=pointer]:
+              - /url: "#/?id=_22-put-products-in-it"
+          - listitem [ref=e71]:
+            - link "2.3 The tile photo" [ref=e72] [cursor=pointer]:
+              - /url: "#/?id=_23-the-tile-photo"
+          - listitem [ref=e73]:
+            - link "2.4 The category's size chart and search text" [ref=e74] [cursor=pointer]:
+              - /url: "#/?id=_24-the-category39s-size-chart-and-search-text"
+          - listitem [ref=e75]:
+            - link "2.5 Size charts themselves" [ref=e76] [cursor=pointer]:
+              - /url: "#/?id=_25-size-charts-themselves"
+        - listitem [ref=e77]:
+          - link "3. Prices and sales" [ref=e78] [cursor=pointer]:
+            - /url: "#/?id=_3-prices-and-sales"
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "3.1 The base price" [ref=e81] [cursor=pointer]:
+              - /url: "#/?id=_31-the-base-price"
+          - listitem [ref=e82]:
+            - link "3.2 Price lists — sales, and special prices" [ref=e83] [cursor=pointer]:
+              - /url: "#/?id=_32-price-lists-sales-and-special-prices"
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "Create one" [ref=e86] [cursor=pointer]:
+                - /url: "#/?id=create-one"
+            - listitem [ref=e87]:
+              - link "Make the shop show it — Publish changes" [ref=e88] [cursor=pointer]:
+                - /url: "#/?id=make-the-shop-show-it-publish-changes"
+            - listitem [ref=e89]:
+              - link "Change, extend, end, or delete a sale" [ref=e90] [cursor=pointer]:
+                - /url: "#/?id=change-extend-end-or-delete-a-sale"
+          - listitem [ref=e91]:
+            - link "3.3 Which price wins" [ref=e92] [cursor=pointer]:
+              - /url: "#/?id=_33-which-price-wins"
+        - listitem [ref=e93]:
+          - link "4. Discount codes and offers (promotions)" [ref=e94] [cursor=pointer]:
+            - /url: "#/?id=_4-discount-codes-and-offers-promotions"
+        - list [ref=e95]:
+          - listitem [ref=e96]:
+            - link "4.1 The six kinds" [ref=e97] [cursor=pointer]:
+              - /url: "#/?id=_41-the-six-kinds"
+          - listitem [ref=e98]:
+            - link "4.2 The settings every kind shares" [ref=e99] [cursor=pointer]:
+              - /url: "#/?id=_42-the-settings-every-kind-shares"
+          - listitem [ref=e100]:
+            - link "4.3 Value, and which items" [ref=e101] [cursor=pointer]:
+              - /url: "#/?id=_43-value-and-which-items"
+          - listitem [ref=e102]:
+            - link "4.4 Amount off — pick Taka" [ref=e103] [cursor=pointer]:
+              - /url: "#/?id=_44-amount-off-pick-taka"
+          - listitem [ref=e104]:
+            - link "4.5 Buy X Get Y" [ref=e105] [cursor=pointer]:
+              - /url: "#/?id=_45-buy-x-get-y"
+          - listitem [ref=e106]:
+            - link "4.6 Free delivery" [ref=e107] [cursor=pointer]:
+              - /url: "#/?id=_46-free-delivery"
+          - listitem [ref=e108]:
+            - link "4.7 Dates and budgets — campaigns" [ref=e109] [cursor=pointer]:
+              - /url: "#/?id=_47-dates-and-budgets-campaigns"
+          - listitem [ref=e110]:
+            - link "4.8 Pause, change or delete" [ref=e111] [cursor=pointer]:
+              - /url: "#/?id=_48-pause-change-or-delete"
+        - listitem [ref=e112]:
+          - link "5. Delivery charges" [ref=e113] [cursor=pointer]:
+            - /url: "#/?id=_5-delivery-charges"
+        - listitem [ref=e114]:
+          - link "6. Stock" [ref=e115] [cursor=pointer]:
+            - /url: "#/?id=_6-stock"
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - 'link "6.1 Three numbers: in stock, reserved, available" [ref=e118] [cursor=pointer]':
+              - /url: "#/?id=_61-three-numbers-in-stock-reserved-available"
+          - listitem [ref=e119]:
+            - link "6.2 Changing a count" [ref=e120] [cursor=pointer]:
+              - /url: "#/?id=_62-changing-a-count"
+          - listitem [ref=e121]:
+            - link "6.3 When stock really goes down" [ref=e122] [cursor=pointer]:
+              - /url: "#/?id=_63-when-stock-really-goes-down"
+        - listitem [ref=e123]:
+          - link "7. Orders" [ref=e124] [cursor=pointer]:
+            - /url: "#/?id=_7-orders"
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "7.1 What the shopper sees" [ref=e127] [cursor=pointer]:
+              - /url: "#/?id=_71-what-the-shopper-sees"
+          - listitem [ref=e128]:
+            - link "7.2 Finding an order" [ref=e129] [cursor=pointer]:
+              - /url: "#/?id=_72-finding-an-order"
+          - listitem [ref=e130]:
+            - link "7.3 From placed to done — the four steps" [ref=e131] [cursor=pointer]:
+              - /url: "#/?id=_73-from-placed-to-done-the-four-steps"
+          - listitem [ref=e132]:
+            - link "7.4 DM orders — Draft orders" [ref=e133] [cursor=pointer]:
+              - /url: "#/?id=_74-dm-orders-draft-orders"
+          - listitem [ref=e134]:
+            - link "7.5 Orders in a customer's account" [ref=e135] [cursor=pointer]:
+              - /url: "#/?id=_75-orders-in-a-customer39s-account"
+        - listitem [ref=e136]:
+          - link "8. Customers and password resets" [ref=e137] [cursor=pointer]:
+            - /url: "#/?id=_8-customers-and-password-resets"
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "8.1 Customers" [ref=e140] [cursor=pointer]:
+              - /url: "#/?id=_81-customers"
+          - listitem [ref=e141]:
+            - link "8.2 Resetting a customer's password" [ref=e142] [cursor=pointer]:
+              - /url: "#/?id=_82-resetting-a-customer39s-password"
+        - listitem [ref=e143]:
+          - link "9. Shop claims — what the site says about the business" [ref=e144] [cursor=pointer]:
+            - /url: "#/?id=_9-shop-claims-what-the-site-says-about-the-business"
+        - listitem [ref=e145]:
+          - link "10. Sales channels" [ref=e146] [cursor=pointer]:
+            - /url: "#/?id=_10-sales-channels"
+        - listitem [ref=e147]:
+          - link "11. The website's words and photos (Payload)" [ref=e148] [cursor=pointer]:
+            - /url: "#/?id=_11-the-website39s-words-and-photos-payload"
+        - list [ref=e149]:
+          - listitem [ref=e150]:
+            - link "11.1 Three things that surprise people" [ref=e151] [cursor=pointer]:
+              - /url: "#/?id=_111-three-things-that-surprise-people"
+          - listitem [ref=e152]:
+            - link "11.2 The pages" [ref=e153] [cursor=pointer]:
+              - /url: "#/?id=_112-the-pages"
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "Hiding the sale, the offer strip or the timer — and bringing them back" [ref=e156] [cursor=pointer]:
+                - /url: "#/?id=hiding-the-sale-the-offer-strip-or-the-timer-and-bringing-them-back"
+          - listitem [ref=e157]:
+            - link "11.3 The FAQ" [ref=e158] [cursor=pointer]:
+              - /url: "#/?id=_113-the-faq"
+          - listitem [ref=e159]:
+            - link "11.4 The Contact page" [ref=e160] [cursor=pointer]:
+              - /url: "#/?id=_114-the-contact-page"
+          - listitem [ref=e161]:
+            - link "11.5 Adding a page (Shipping, Returns, Size guide…)" [ref=e162] [cursor=pointer]:
+              - /url: "#/?id=_115-adding-a-page-shipping-returns-size-guide"
+          - listitem [ref=e163]:
+            - link "11.6 Privacy policy" [ref=e164] [cursor=pointer]:
+              - /url: "#/?id=_116-privacy-policy"
+          - listitem [ref=e165]:
+            - link "11.7 Photos and logins" [ref=e166] [cursor=pointer]:
+              - /url: "#/?id=_117-photos-and-logins"
+        - listitem [ref=e167]:
+          - link "12. Staff and roles" [ref=e168] [cursor=pointer]:
+            - /url: "#/?id=_12-staff-and-roles"
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - link "12.1 The roles" [ref=e171] [cursor=pointer]:
+              - /url: "#/?id=_121-the-roles"
+          - listitem [ref=e172]:
+            - link "12.2 Adding someone" [ref=e173] [cursor=pointer]:
+              - /url: "#/?id=_122-adding-someone"
+          - listitem [ref=e174]:
+            - link "12.3 Pausing an account, and Trusted" [ref=e175] [cursor=pointer]:
+              - /url: "#/?id=_123-pausing-an-account-and-trusted"
+          - listitem [ref=e176]:
+            - link "12.4 The audit log" [ref=e177] [cursor=pointer]:
+              - /url: "#/?id=_124-the-audit-log"
+        - listitem [ref=e178]:
+          - link "13. Store settings" [ref=e179] [cursor=pointer]:
+            - /url: "#/?id=_13-store-settings"
+        - listitem [ref=e180]:
+          - link "14. Analytics, and visitor numbers in Umami" [ref=e181] [cursor=pointer]:
+            - /url: "#/?id=_14-analytics-and-visitor-numbers-in-umami"
+        - list [ref=e182]:
+          - listitem [ref=e183]:
+            - link "14.1 Analytics (in Medusa)" [ref=e184] [cursor=pointer]:
+              - /url: "#/?id=_141-analytics-in-medusa"
+          - listitem [ref=e185]:
+            - link "14.2 Visitors — Umami" [ref=e186] [cursor=pointer]:
+              - /url: "#/?id=_142-visitors-umami"
+        - listitem [ref=e187]:
+          - link "15. Glossary" [ref=e188] [cursor=pointer]:
+            - /url: "#/?id=_15-glossary"
+  - article [ref=e190]:
+    - heading [level=1] [ref=e191]:
+      - link "Running TuneWear — the admin guide" [ref=e192] [cursor=pointer]:
+        - /url: "#/?id=running-tunewear-the-admin-guide"
+    - paragraph [ref=e193]: "For whoever runs the shop day to day. Every screenshot was taken on the real admin (staging, September 2026). The gold rings and numbers show what to click, in order. Nothing here needs a terminal, code or a deploy: every change reaches the website by itself, most within seconds."
+    - paragraph [ref=e194]:
+      - strong [ref=e195]: "How each section is laid out:"
+      - emphasis [ref=e196]: when
+      - text: you would use it,
+      - emphasis [ref=e197]: what
+      - text: it does,
+      - emphasis [ref=e198]: who
+      - text: may use it, then the clicks, with a worked example.
+    - heading [level=2] [ref=e199]:
+      - link "Contents" [ref=e200] [cursor=pointer]:
+        - /url: "#/?id=contents"
+    - list [ref=e201]:
+      - listitem [ref=e202]: Getting started — the two admins, logging in, the sidebar
+      - listitem [ref=e203]: Products — adding one, sizes and colours, photos, price, the extras
+      - listitem [ref=e204]: Categories — the tiles on /men and /women
+      - listitem [ref=e205]: Prices and sales — the base price, price lists, Publish changes
+      - listitem [ref=e206]: Discount codes and offers (promotions)
+      - listitem [ref=e207]: Delivery charges
+      - listitem [ref=e208]: Stock
+      - listitem [ref=e209]: Orders — from the website, and DM orders you type in
+      - listitem [ref=e210]: Customers and password resets
+      - listitem [ref=e211]: Shop claims — what the site says about the business
+      - listitem [ref=e212]: Sales channels
+      - listitem [ref=e213]: The website's words and photos (Payload)
+      - listitem [ref=e214]: Staff and roles
+      - listitem [ref=e215]: Store settings
+      - listitem [ref=e216]: Analytics, and visitor numbers in Umami
+      - listitem [ref=e217]: Glossary
+    - separator [ref=e218]
+    - heading [level=2] [ref=e219]:
+      - link "0. Getting started" [ref=e220] [cursor=pointer]:
+        - /url: "#/?id=_0-getting-started"
+    - heading [level=3] [ref=e221]:
+      - link "The two admins" [ref=e222] [cursor=pointer]:
+        - /url: "#/?id=the-two-admins"
+    - paragraph [ref=e223]:
+      - text: The shop has
+      - strong [ref=e224]: two separate admin panels
+      - text: ", each with its own address and login. Nothing in one links to the other."
+    - table [ref=e225]:
+      - rowgroup [ref=e226]:
+        - row [ref=e227]:
+          - columnheader "Admin" [ref=e228]
+          - columnheader "Address" [ref=e229]
+          - columnheader "Holds" [ref=e230]
+      - rowgroup [ref=e231]:
+        - row [ref=e232]:
+          - cell [ref=e233]:
+            - strong [ref=e234]: Medusa
+          - cell [ref=e235]:
+            - code [ref=e236]: https://tunewear-admin.<domain>/greenroom
+          - cell "Products, categories, prices, stock, orders, customers, staff" [ref=e237]
+        - row [ref=e238]:
+          - cell [ref=e239]:
+            - strong [ref=e240]: Payload
+          - cell [ref=e241]:
+            - code [ref=e242]: https://tunewear.<domain>/admin
+          - 'cell "The words and photos on the pages: home, about, footer, FAQ…" [ref=e243]'
+        - row [ref=e244]:
+          - cell [ref=e245]:
+            - strong [ref=e246]: Umami
+          - cell [ref=e247]:
+            - code [ref=e248]: https://tunewear-analytics.<domain>
+          - cell "Visitor numbers (chapter 14)" [ref=e249]
+    - blockquote [ref=e250]:
+      - paragraph [ref=e251]:
+        - text: The Medusa address ends in
+        - strong [ref=e252]:
+          - code [ref=e253]: /greenroom
+        - text: ", not"
+        - code [ref=e254]: /app
+        - text: .
+        - code [ref=e255]: /app
+        - text: shows a "not found" page.
+    - paragraph [ref=e256]:
+      - img "Medusa login" [ref=e257]
+    - paragraph [ref=e258]:
+      - img "Payload login" [ref=e259]
+    - heading [level=3] [ref=e260]:
+      - link "The sidebar" [ref=e261] [cursor=pointer]:
+        - /url: "#/?id=the-sidebar"
+    - paragraph [ref=e262]:
+      - img "The Medusa sidebar" [ref=e263]
+    - paragraph [ref=e264]:
+      - text: What you see depends on your role (chapter 12). A Staff login, for example, has no Price Lists, Promotions or Analytics. Two useful pages have
+      - strong [ref=e265]: no sidebar entry
+      - text: "and are reached by address:"
+      - strong [ref=e266]: Draft orders
+      - text: (
+      - code [ref=e267]: /greenroom/draft-orders
+      - text: ", chapter 7) and each product's page."
+    - heading [level=3] [ref=e268]:
+      - link "Where each thing is edited" [ref=e269] [cursor=pointer]:
+        - /url: "#/?id=where-each-thing-is-edited"
+    - table [ref=e270]:
+      - rowgroup [ref=e271]:
+        - row [ref=e272]:
+          - columnheader "I want to change…" [ref=e273]
+          - columnheader "Admin" [ref=e274]
+          - columnheader "Go to" [ref=e275]
+      - rowgroup [ref=e276]:
+        - row [ref=e277]:
+          - cell "A product, its sizes, colours, photos, price, stock" [ref=e278]
+          - cell "Medusa" [ref=e279]
+          - cell [ref=e280]:
+            - strong [ref=e281]: Products
+            - text: (chapter 1)
+        - row [ref=e282]:
+          - cell "The category tiles on /men and /women" [ref=e283]
+          - cell "Medusa" [ref=e284]
+          - cell [ref=e285]:
+            - strong [ref=e286]: Products → Categories
+            - text: (chapter 2)
+        - row [ref=e287]:
+          - cell "Sale prices" [ref=e288]
+          - cell "Medusa" [ref=e289]
+          - cell [ref=e290]:
+            - strong [ref=e291]: Price Lists
+            - text: ", then"
+            - strong [ref=e292]: Publish changes
+            - text: (chapter 3)
+        - row [ref=e293]:
+          - cell "Discount codes, free delivery offers" [ref=e294]
+          - cell "Medusa" [ref=e295]
+          - cell [ref=e296]:
+            - strong [ref=e297]: Promotions
+            - text: (chapter 4)
+        - row [ref=e298]:
+          - cell "Delivery charges (Inside / Outside Dhaka)" [ref=e299]
+          - cell "Medusa" [ref=e300]
+          - cell [ref=e301]:
+            - strong [ref=e302]: Settings → Locations & Shipping
+            - text: (chapter 5)
+        - row [ref=e303]:
+          - cell "Orders, DM orders" [ref=e304]
+          - cell "Medusa" [ref=e305]
+          - cell [ref=e306]:
+            - strong [ref=e307]: Orders
+            - text: ","
+            - strong [ref=e308]: Draft orders
+            - text: (chapter 7)
+        - row [ref=e309]:
+          - cell "Home page hero, the Men/Women/Sale cards, section headings" [ref=e310]
+          - cell "Payload" [ref=e311]
+          - cell [ref=e312]:
+            - strong [ref=e313]: Pages → Home
+        - row [ref=e314]:
+          - cell "The Men or Women page's hero and text" [ref=e315]
+          - cell "Payload" [ref=e316]
+          - cell [ref=e317]:
+            - strong [ref=e318]: Pages → Men
+            - text: /
+            - strong [ref=e319]: Pages → Women
+        - row [ref=e320]:
+          - cell "Sale page (masthead, Mix & Match photo, offer strip)" [ref=e321]
+          - cell "Payload" [ref=e322]
+          - cell [ref=e323]:
+            - strong [ref=e324]: Pages → Sale
+        - row [ref=e325]:
+          - cell "About, Contact, FAQ, and pages you add (Shipping, Returns…)" [ref=e326]
+          - cell "Payload" [ref=e327]
+          - cell [ref=e328]:
+            - strong [ref=e329]: Pages → About, Contact, FAQ & more
+        - row [ref=e330]:
+          - cell "Footer, the trust strip, the scrolling marquee" [ref=e331]
+          - cell "Payload" [ref=e332]
+          - cell [ref=e333]:
+            - strong [ref=e334]: Site content → Footer / Trust Bar / Announcement strip
+    - separator [ref=e335]
+    - heading [level=2] [ref=e336]:
+      - link "1. Products" [ref=e337] [cursor=pointer]:
+        - /url: "#/?id=_1-products"
+    - paragraph [ref=e338]:
+      - strong [ref=e339]: "When:"
+      - text: a new garment arrives, or one changes (new colour, new photo, new price).
+      - strong [ref=e340]: "Who:"
+      - text: Staff and above can add and edit products. Changing a price is also allowed for Staff; cost price is covered in 1.9.
+    - heading [level=3] [ref=e341]:
+      - 'link "1.1 The one idea everything depends on: options and variants" [ref=e342] [cursor=pointer]':
+        - /url: "#/?id=_11-the-one-idea-everything-depends-on-options-and-variants"
+    - paragraph [ref=e343]:
+      - text: A product has
+      - strong [ref=e344]: options
+      - text: — here
+      - strong [ref=e345]: Size
+      - text: ", and"
+      - strong [ref=e346]: Colour
+      - text: if it comes in more than one. Every combination of option values is a
+      - strong [ref=e347]: variant
+      - text: ": the thing a shopper actually buys, with its own stock count."
+    - paragraph [ref=e348]:
+      - emphasis [ref=e349]: "Example:"
+      - text: "a T-shirt in Black and White, sizes S, M and L, has 2 × 3 = 6 variants: Black / S, Black / M, … White / L."
+    - blockquote [ref=e350]:
+      - paragraph [ref=e351]:
+        - strong [ref=e352]: Decide the colours when you create the product.
+        - text: Colours added later do not reach the sizes that already exist, and each size then has to be given its colour by hand (1.6). Name the option
+        - strong [ref=e353]: Colour
+        - text: (or Color); the shop looks for either.
+    - paragraph [ref=e354]:
+      - text: A shop that lists each colour as
+      - strong [ref=e355]: its own product
+      - text: "can do that too: name them"
+      - code [ref=e356]: Solid Summer T-Shirt - White
+      - text: ","
+      - code [ref=e357]: Solid Summer T-Shirt - Blue
+      - text: ", give each a Colour option with its one colour, and the product page shows the others under"
+      - strong [ref=e358]: Other colours
+      - text: by itself (1.12).
+    - paragraph [ref=e359]:
+      - strong [ref=e360]: The colour dots — there is no switch.
+      - text: "The shop decides from how many colours the product's Colour option has:"
+    - table [ref=e361]:
+      - rowgroup [ref=e362]:
+        - row [ref=e363]:
+          - columnheader "Colours on the product" [ref=e364]
+          - columnheader "Card in the shop" [ref=e365]
+          - columnheader "Colour filter" [ref=e366]
+          - columnheader "Product page" [ref=e367]
+      - rowgroup [ref=e368]:
+        - row [ref=e369]:
+          - cell [ref=e370]:
+            - strong [ref=e371]: None
+            - text: (only Size)
+          - cell "No dot" [ref=e372]
+          - cell "Not listed" [ref=e373]
+          - cell "No colour dots" [ref=e374]
+        - row [ref=e375]:
+          - cell [ref=e376]:
+            - strong [ref=e377]: One
+            - text: (e.g.
+            - code [ref=e378]: White
+            - text: )
+          - cell "One dot" [ref=e379]
+          - cell [ref=e380]:
+            - text: Under
+            - strong [ref=e381]: White
+          - cell "Nothing — the colour is already chosen" [ref=e382]
+        - row [ref=e383]:
+          - cell [ref=e384]:
+            - strong [ref=e385]: Two or more
+            - text: (e.g. Black, White, Navy)
+          - cell "A dot for each" [ref=e386]
+          - cell "Under each" [ref=e387]
+          - cell "Colour dots to click; photos follow the colour" [ref=e388]
+    - paragraph [ref=e389]: To get clickable dots, give the product a second colour. To remove them, leave it one colour.
+    - paragraph [ref=e390]:
+      - text: Two or more colours —
+      - code [ref=e391]: Everyday Crew Tee
+      - text: "in White, Navy and Black: the dots to click (1), and the photos change to the colour picked (2). For that, pick each photo's colour (1.10)."
+    - paragraph [ref=e392]:
+      - 'img "Several colours: dots to click" [ref=e393]'
+    - paragraph [ref=e394]:
+      - text: One colour —
+      - code [ref=e395]: Polo Shirt - White
+      - text: ": no colour line at all — there is nothing to choose, so the page picks the colour for the shopper and goes straight to the sizes (1). Its other colour, sold as its own product"
+      - code [ref=e396]: Polo Shirt - Black
+      - text: ", is one click away under"
+      - strong [ref=e397]: Other colours
+      - text: (2; how, in 1.12).
+    - paragraph [ref=e398]:
+      - 'img "One colour: nothing to choose, straight to the sizes" [ref=e399]'
+    - heading [level=3] [ref=e400]:
+      - link "1.2 Create the product — details" [ref=e401] [cursor=pointer]:
+        - /url: "#/?id=_12-create-the-product-details"
+    - paragraph [ref=e402]:
+      - text: Sidebar
+      - strong [ref=e403]: Products
+      - text: →
+      - strong [ref=e404]: Create
+      - text: .
+    - paragraph [ref=e405]:
+      - img "Products list, Create" [ref=e406]
+    - paragraph [ref=e407]:
+      - text: Fill in
+      - strong [ref=e408]: Title
+      - text: (1), a one-line
+      - strong [ref=e409]: Subtitle
+      - text: (2), the
+      - strong [ref=e410]: Description
+      - text: (3) and drop the photos into
+      - strong [ref=e411]: Media
+      - text: (4). Leave
+      - strong [ref=e412]: Handle
+      - text: "empty: Medusa makes the web address from the title."
+    - paragraph [ref=e413]:
+      - img "Details" [ref=e414]
+    - heading [level=3] [ref=e415]:
+      - link "1.3 Sizes (and colours)" [ref=e416] [cursor=pointer]:
+        - /url: "#/?id=_13-sizes-and-colours"
+    - paragraph [ref=e417]:
+      - text: Switch on
+      - strong [ref=e418]: Yes, this is a product with variants
+      - text: ", then add an option. Type the option name —"
+      - strong [ref=e419]: Size
+      - text: "— and the values: type one value, press"
+      - strong [ref=e420]: Enter
+      - text: ", type the next. (The box says so:"
+      - emphasis [ref=e421]: Type a value, then press Enter
+      - text: .) Add
+      - strong [ref=e422]: Colour
+      - text: the same way if the garment has colours.
+    - paragraph [ref=e423]:
+      - img "Variants switch" [ref=e424]
+    - paragraph [ref=e425]:
+      - img "Size option" [ref=e426]
+    - paragraph [ref=e427]:
+      - img "Size values" [ref=e428]
+    - paragraph [ref=e429]: Medusa lists every combination. Leave them all ticked; an unticked row is simply not created.
+    - paragraph [ref=e430]:
+      - img "Variant rows" [ref=e431]
+    - heading [level=3] [ref=e432]:
+      - link "1.4 Organize — Type decides /men or /women" [ref=e433] [cursor=pointer]:
+        - /url: "#/?id=_14-organize-type-decides-men-or-women"
+    - paragraph [ref=e434]:
+      - strong [ref=e435]: Type
+      - text: "is the aisle:"
+      - code [ref=e436]: men
+      - text: shows the product on /men,
+      - code [ref=e437]: women
+      - text: on /women,
+      - code [ref=e438]: unisex
+      - text: on both.
+      - strong [ref=e439]: Categories
+      - text: puts it in a tile (chapter 2).
+      - strong [ref=e440]: Tags
+      - text: are labels such as
+      - code [ref=e441]: new-arrival
+      - text: or
+      - code [ref=e442]: featured
+      - text: ; type a new tag and choose
+      - strong [ref=e443]: Create "…"
+      - text: to make one on the spot (1.11). Leave
+      - strong [ref=e444]: Discountable
+      - text: on unless no discount should ever apply.
+      - strong [ref=e445]: TuneWear Storefront
+      - text: must stay under Sales channels, or the product never appears on the website.
+    - paragraph [ref=e446]:
+      - img "Type" [ref=e447]
+    - paragraph [ref=e448]:
+      - img "Shipping profile" [ref=e449]
+    - paragraph [ref=e450]:
+      - img "Organize done" [ref=e451]
+    - heading [level=3] [ref=e452]:
+      - link "1.5 The variants grid — the ticks explained" [ref=e453] [cursor=pointer]:
+        - /url: "#/?id=_15-the-variants-grid-the-ticks-explained"
+    - paragraph [ref=e454]:
+      - text: The last step of the wizard is a grid with one row per size. The same three switches appear when you add one size later (
+      - strong [ref=e455]: Variants → Create
+      - text: "):"
+    - paragraph [ref=e456]:
+      - img "Manage inventory starts on" [ref=e457]
+    - paragraph [ref=e458]:
+      - img "One price column, in Taka" [ref=e459]
+    - table [ref=e460]:
+      - rowgroup [ref=e461]:
+        - row [ref=e462]:
+          - columnheader "Column" [ref=e463]
+          - columnheader "Meaning" [ref=e464]
+          - columnheader "Leave it" [ref=e465]
+      - rowgroup [ref=e466]:
+        - row [ref=e467]:
+          - cell [ref=e468]:
+            - strong [ref=e469]: Managed inventory
+          - cell "The shop counts stock for this size and stops selling at zero." [ref=e470]
+          - cell [ref=e471]:
+            - strong [ref=e472]: "On"
+            - text: (it starts on)
+        - row [ref=e473]:
+          - cell [ref=e474]:
+            - strong [ref=e475]: Allow backorder
+          - cell "Keep selling after stock reaches zero. Only for made-to-order pieces." [ref=e476]
+          - cell "Off" [ref=e477]
+        - row [ref=e478]:
+          - cell [ref=e479]:
+            - strong [ref=e480]: Has inventory kit
+          - cell "This size is made of several stocked parts (a set sold as one). Not for normal garments." [ref=e481]
+          - cell "Off" [ref=e482]
+        - row [ref=e483]:
+          - cell [ref=e484]:
+            - strong [ref=e485]: Price BDT
+          - cell "The price. You can leave it empty here and set it for every size at once afterwards (1.8)." [ref=e486]
+          - cell "—" [ref=e487]
+    - blockquote [ref=e488]:
+      - paragraph [ref=e489]:
+        - text: The wizard
+        - strong [ref=e490]: does not insist on a price
+        - text: . A product without one cannot be bought; set it straight after (1.8).
+    - paragraph [ref=e491]:
+      - strong [ref=e492]: Save
+      - text: (as draft) or
+      - strong [ref=e493]: Publish
+      - text: . A draft is invisible on the website.
+    - paragraph [ref=e494]:
+      - img "Created as draft" [ref=e495]
+    - heading [level=3] [ref=e496]:
+      - link "1.6 Adding a colour afterwards" [ref=e497] [cursor=pointer]:
+        - /url: "#/?id=_16-adding-a-colour-afterwards"
+    - paragraph [ref=e498]:
+      - text: If the product was created with sizes only, add the colour under
+      - strong [ref=e499]: Options
+      - text: (type it, press Enter), then give
+      - strong [ref=e500]: each existing size
+      - text: "its colour: in"
+      - strong [ref=e501]: Variants
+      - text: ","
+      - strong [ref=e502]: ⋯
+      - text: →
+      - strong [ref=e503]: Edit
+      - text: →
+      - strong [ref=e504]: Colour
+      - text: → pick →
+      - strong [ref=e505]: Save
+      - text: ". A new colour also needs new sizes:"
+      - strong [ref=e506]: Variants → Create
+      - text: ", choose the size and the colour,"
+      - strong [ref=e507]: Continue
+      - text: ", give it a price,"
+      - strong [ref=e508]: Save
+      - text: "— then add stock (chapter 6). Sizes, then price, then stock: until all three exist the colour shows on the website crossed out as sold out."
+    - paragraph [ref=e509]:
+      - img "Colour option" [ref=e510]
+    - paragraph [ref=e511]:
+      - img "Colour value" [ref=e512]
+    - paragraph [ref=e513]:
+      - img "The Colours box says the colour has no sizes yet" [ref=e514]
+    - paragraph [ref=e515]:
+      - img "Variant menu" [ref=e516]
+    - paragraph [ref=e517]:
+      - img "Edit variant" [ref=e518]
+    - paragraph [ref=e519]:
+      - img "Pick the colour" [ref=e520]
+    - paragraph [ref=e521]:
+      - img "Save" [ref=e522]
+    - paragraph [ref=e523]:
+      - img "Colour set" [ref=e524]
+    - paragraph [ref=e525]:
+      - text: The
+      - strong [ref=e526]: Add or rename a colourway
+      - text: button in the Colours box opens the same Options screen.
+    - heading [level=3] [ref=e527]:
+      - link "1.7 The colour swatch" [ref=e528] [cursor=pointer]:
+        - /url: "#/?id=_17-the-colour-swatch"
+    - paragraph [ref=e529]:
+      - text: The
+      - strong [ref=e530]: Colours
+      - text: box on the product page sets the dot shoppers tap. Pick the colour or type its code (
+      - code [ref=e531]: "#1a1a1a"
+      - text: ) →
+      - strong [ref=e532]: Save colours
+      - text: .
+    - paragraph [ref=e533]:
+      - img "Swatch" [ref=e534]
+    - paragraph [ref=e535]:
+      - img "Swatch saved" [ref=e536]
+    - heading [level=3] [ref=e537]:
+      - link "1.8 Price — one box for every size" [ref=e538] [cursor=pointer]:
+        - /url: "#/?id=_18-price-one-box-for-every-size"
+    - paragraph [ref=e539]:
+      - text: The
+      - strong [ref=e540]: Price
+      - text: "box sets one price for every size and colour: type it →"
+      - strong [ref=e541]: Apply to all
+      - text: . Sale prices are separate (chapter 3).
+    - paragraph [ref=e542]:
+      - img "Price" [ref=e543]
+    - paragraph [ref=e544]:
+      - img "Price saved" [ref=e545]
+    - heading [level=3] [ref=e546]:
+      - link "1.9 Cost price (for profit in Analytics)" [ref=e547] [cursor=pointer]:
+        - /url: "#/?id=_19-cost-price-for-profit-in-analytics"
+    - paragraph [ref=e548]: What the garment costs you, per piece. Never shown to shoppers; Analytics uses it to show real profit. Leave it empty if you do not know it — empty means "unknown", never zero.
+    - paragraph [ref=e549]:
+      - img "Cost" [ref=e550]
+    - paragraph [ref=e551]:
+      - img "Cost saved" [ref=e552]
+    - heading [level=3] [ref=e553]:
+      - link "1.10 Photos and colours" [ref=e554] [cursor=pointer]:
+        - /url: "#/?id=_110-photos-and-colours"
+    - paragraph [ref=e555]:
+      - strong [ref=e556]: The shape of a photo.
+      - text: Product cards in the shop show every photo tall, at
+      - strong [ref=e557]: "2 : 3"
+      - text: "(for example 1200 × 1800 pixels); the product page shows it a little shorter (4 : 5). Shoot or crop tall, with some space around the garment, so nothing important sits at the very top or bottom edge — the shop trims whatever does not fit the frame."
+    - paragraph [ref=e558]:
+      - text: The
+      - strong [ref=e559]: Photographs & image SEO
+      - text: "box: for each photo, pick which colour it shows (or"
+      - strong [ref=e560]: Shows every colour
+      - text: ). A shopper who picks that colour is taken to that photo. The description underneath is read by screen readers and Google Images; it is pre-written for you.
+    - paragraph [ref=e561]:
+      - img "Photo colour" [ref=e562]
+    - paragraph [ref=e563]:
+      - img "Photo colour saved" [ref=e564]
+    - heading [level=3] [ref=e565]:
+      - link "1.11 Tags" [ref=e566] [cursor=pointer]:
+        - /url: "#/?id=_111-tags"
+    - paragraph [ref=e567]:
+      - strong [ref=e568]: Organize
+      - text: box →
+      - strong [ref=e569]: ⋯ → Edit
+      - text: →
+      - strong [ref=e570]: Tags
+      - text: ": pick an existing tag, or type a new one and choose"
+      - strong [ref=e571]: Create "…"
+      - text: .
+      - strong [ref=e572]: Save.
+      - text: (If the tag already exists, Create is greyed out — pick it from the list.) Tags show as labels on the product;
+      - code [ref=e573]: featured
+      - text: also puts it on the home page's rail.
+    - paragraph [ref=e574]:
+      - img "Create a tag" [ref=e575]
+    - heading [level=3] [ref=e576]:
+      - link "1.12 Complete the look, Other colours, You may also like" [ref=e577] [cursor=pointer]:
+        - /url: "#/?id=_112-complete-the-look-other-colours-you-may-also-like"
+    - paragraph [ref=e578]: Three sections under the details on every product page.
+    - list [ref=e579]:
+      - listitem [ref=e580]:
+        - strong [ref=e581]: Complete the look
+        - text: — up to two pieces
+        - strong [ref=e582]: you
+        - text: choose. On the product's admin page,
+        - strong [ref=e583]: Complete the look
+        - text: "box: type a name in the search box, click the product. It saves at once."
+        - strong [ref=e584]: Remove
+        - text: takes one off. With nothing picked, the section does not show.
+      - listitem [ref=e585]:
+        - strong [ref=e586]: Other colours
+        - text: — turned on by the product names. Steps just below.
+      - listitem [ref=e587]:
+        - strong [ref=e588]: You may also like
+        - text: — automatic. Same category, in stock, best seller first.
+    - paragraph [ref=e589]:
+      - img "Complete the look — admin" [ref=e590]
+    - paragraph [ref=e591]:
+      - img "Two pieces picked" [ref=e592]
+    - paragraph [ref=e593]:
+      - img "On the website" [ref=e594]
+    - heading [level=4] [ref=e595]:
+      - link "Other colours, step by step" [ref=e596] [cursor=pointer]:
+        - /url: "#/?id=other-colours-step-by-step"
+    - paragraph [ref=e597]:
+      - text: This is for a garment you list
+      - strong [ref=e598]: as one product per colour
+      - text: ". There is no switch to turn on:"
+      - strong [ref=e599]: the product names are the switch.
+    - list [ref=e600]:
+      - listitem [ref=e601]:
+        - paragraph [ref=e602]: Make each colour its own product (1.2), with its own sizes, stock and photos.
+      - listitem [ref=e603]:
+        - paragraph [ref=e604]:
+          - text: Give every one the
+          - strong [ref=e605]: same garment name
+          - text: ", then a space, a dash, a space, and the colour:"
+        - list [ref=e606]:
+          - listitem [ref=e607]:
+            - code [ref=e608]: Solid Summer T-Shirt - Blue
+          - listitem [ref=e609]:
+            - code [ref=e610]: Solid Summer T-Shirt - White
+        - paragraph [ref=e611]:
+          - text: "Any garment works the same way:"
+          - code [ref=e612]: Polo Shirt - White
+          - text: ","
+          - code [ref=e613]: Polo Shirt - Black
+          - text: .
+      - listitem [ref=e614]:
+        - paragraph [ref=e615]:
+          - strong [ref=e616]: Give each one its colour
+          - text: — one
+          - strong [ref=e617]: Colour
+          - text: option with
+          - strong [ref=e618]: one
+          - text: "value, next to Size, when you create it (1.3):"
+          - code [ref=e619]: Colour
+          - text: →
+          - code [ref=e620]: Blue
+          - text: . This is what puts the product under
+          - strong [ref=e621]: Blue
+          - text: "in the shop's colour filter and the blue dot on its card. The product page names it — \"Color: Blue\" with its dot — but there is nothing to click: switching colour is what the tiles below are for."
+      - listitem [ref=e622]:
+        - paragraph [ref=e623]:
+          - text: In
+          - strong [ref=e624]: Media
+          - text: ", put the photo you want on the small tile"
+          - strong [ref=e625]: first
+          - text: . The tile shows each product's first photo.
+      - listitem [ref=e626]:
+        - paragraph [ref=e627]: Publish them. Within seconds every one of their pages shows all the colours, the one being looked at outlined in gold. Click a tile and the shopper is on that colour's page.
+    - paragraph [ref=e628]:
+      - img "Other colours" [ref=e629]
+    - paragraph [ref=e630]: "Which names join the group:"
+    - table [ref=e631]:
+      - rowgroup [ref=e632]:
+        - row [ref=e633]:
+          - columnheader "Title" [ref=e634]
+          - columnheader "Joins?" [ref=e635]
+      - rowgroup [ref=e636]:
+        - row [ref=e637]:
+          - cell [ref=e638]:
+            - code [ref=e639]: Solid Summer T-Shirt - Green
+          - cell "Yes" [ref=e640]
+        - row [ref=e641]:
+          - cell [ref=e642]:
+            - code [ref=e643]: solid summer t-shirt - Green
+          - cell "Yes — capital letters do not matter" [ref=e644]
+        - row [ref=e645]:
+          - cell [ref=e646]:
+            - code [ref=e647]: Solid Summer T-Shirt Green
+          - cell "No — there is no dash" [ref=e648]
+        - row [ref=e649]:
+          - cell [ref=e650]:
+            - code [ref=e651]: Solid Summer T-Shirt-Green
+          - cell "No — the dash needs a space either side" [ref=e652]
+        - row [ref=e653]:
+          - cell [ref=e654]:
+            - code [ref=e655]: Solid Summer Tee - Green
+          - cell "No — the garment words are different" [ref=e656]
+    - list [ref=e657]:
+      - listitem [ref=e658]:
+        - strong [ref=e659]: A new colour
+        - text: joins by being named the same way. Nothing else to do.
+      - listitem [ref=e660]:
+        - strong [ref=e661]: To take a product out
+        - text: ", rename it so the garment words differ."
+      - listitem [ref=e662]:
+        - strong [ref=e663]: Sold out
+        - text: — the colour stays, faded and crossed out, so shoppers see it exists.
+      - listitem [ref=e664]:
+        - strong [ref=e665]: Only one product with that name
+        - text: — the section does not show.
+      - listitem [ref=e666]:
+        - strong [ref=e667]: Skipped step 3?
+        - text: The tiles still work, using the colour from the name, but the product is missing from the colour filter.
+    - blockquote [ref=e668]:
+      - paragraph [ref=e669]:
+        - text: A garment sold as
+        - strong [ref=e670]: one product with several colours
+        - text: (1.1) shows them as colour dots beside the sizes instead. Use one way or the other for a garment, not both.
+    - heading [level=3] [ref=e671]:
+      - link "1.13 The rest of the product page's boxes" [ref=e672] [cursor=pointer]:
+        - /url: "#/?id=_113-the-rest-of-the-product-page39s-boxes"
+    - list [ref=e673]:
+      - listitem [ref=e674]:
+        - paragraph [ref=e675]:
+          - strong [ref=e676]: What this garment's page claims
+          - text: — this product's own rating and customer count; empty uses the shop's (chapter 9).
+        - paragraph [ref=e677]:
+          - img "Claims" [ref=e678]
+        - paragraph [ref=e679]:
+          - img "Claims saved" [ref=e680]
+      - listitem [ref=e681]:
+        - paragraph [ref=e682]:
+          - strong [ref=e683]: SEO
+          - text: — the title and text Google and WhatsApp previews show. Leave empty to use the product's own.
+        - paragraph [ref=e684]:
+          - img "SEO" [ref=e685]
+      - listitem [ref=e686]:
+        - paragraph [ref=e687]:
+          - strong [ref=e688]: Size chart
+          - text: — comes from the category; pick another only for an exception.
+        - paragraph [ref=e689]:
+          - img "Size chart missing" [ref=e690]
+        - paragraph [ref=e691]:
+          - img "Size chart from the category" [ref=e692]
+      - listitem [ref=e693]:
+        - paragraph [ref=e694]:
+          - strong [ref=e695]: Fit and weight
+          - text: — the Fit and GSM rows under the description.
+        - paragraph [ref=e696]:
+          - img "Fit and weight" [ref=e697]
+        - paragraph [ref=e698]:
+          - img "Saved" [ref=e699]
+      - listitem [ref=e700]:
+        - paragraph [ref=e701]:
+          - strong [ref=e702]: Material
+          - text: — in the product's main edit form (
+          - strong [ref=e703]: ⋯ → Edit
+          - text: ).
+        - paragraph [ref=e704]:
+          - img "Edit menu" [ref=e705]
+        - paragraph [ref=e706]:
+          - img "Material" [ref=e707]
+    - heading [level=3] [ref=e708]:
+      - link "1.14 Publish" [ref=e709] [cursor=pointer]:
+        - /url: "#/?id=_114-publish"
+    - paragraph [ref=e710]:
+      - text: "Top of the product:"
+      - strong [ref=e711]: ⋯ → Edit
+      - text: →
+      - strong [ref=e712]: "Status: Published"
+      - text: →
+      - strong [ref=e713]: Save
+      - text: . The product is on the website within seconds.
+    - paragraph [ref=e714]:
+      - img "Status" [ref=e715]
+    - paragraph [ref=e716]:
+      - img "Save" [ref=e717]
+    - paragraph [ref=e718]:
+      - img "Published" [ref=e719]
+    - paragraph [ref=e720]:
+      - img "On the website" [ref=e721]
+    - paragraph [ref=e722]:
+      - strong [ref=e723]: Not showing?
+      - text: "In order: it is Draft; it is not in the TuneWear Storefront sales channel; it has no price; every size is out of stock (it shows, but crossed out)."
+    - separator [ref=e724]
+    - heading [level=2] [ref=e725]:
+      - link "2. Categories" [ref=e726] [cursor=pointer]:
+        - /url: "#/?id=_2-categories"
+    - paragraph [ref=e727]:
+      - strong [ref=e728]: "When:"
+      - text: a new kind of garment (Hoodies, Jackets) needs its own tile on /men and /women.
+      - strong [ref=e729]: "Who:"
+      - text: Admin and above. Staff can put products into existing categories from the product, but not create or change categories.
+    - paragraph [ref=e730]:
+      - strong [ref=e731]: "The one thing to understand first:"
+      - text: you never choose "men" or "women" on the category. A category appears on
+      - strong [ref=e732]: /men
+      - text: as soon as it holds at least one product whose
+      - strong [ref=e733]: Type
+      - text: is
+      - code [ref=e734]: men
+      - text: or
+      - code [ref=e735]: unisex
+      - text: ", and on"
+      - strong [ref=e736]: /women
+      - text: when it holds a
+      - code [ref=e737]: women
+      - text: or
+      - code [ref=e738]: unisex
+      - text: "product. A category with both shows on both pages. Example: Polos holds one"
+      - code [ref=e739]: men
+      - text: product, so it shows on /men only; Sweaters holds all three types, so it shows on both.
+    - heading [level=3] [ref=e740]:
+      - link "2.1 Create the category" [ref=e741] [cursor=pointer]:
+        - /url: "#/?id=_21-create-the-category"
+    - list [ref=e742]:
+      - listitem [ref=e743]:
+        - text: Sidebar
+        - strong [ref=e744]: Products → Categories
+        - text: →
+        - strong [ref=e745]: Create
+        - text: .
+      - listitem [ref=e746]:
+        - strong [ref=e747]: Title
+        - text: — the name on the tile, e.g.
+        - code [ref=e748]: Hoodies
+        - text: . Leave
+        - strong [ref=e749]: Handle
+        - text: empty (Medusa makes
+        - code [ref=e750]: hoodies
+        - text: ; it is only the end of the web address — the tile links to
+        - code [ref=e751]: /men/hoodies
+        - text: and
+        - code [ref=e752]: /women/hoodies
+        - text: ).
+      - listitem [ref=e753]:
+        - strong [ref=e754]: Description
+        - text: — the short line under the name on the tile.
+        - strong [ref=e755]: Status
+        - code [ref=e756]: Active
+        - text: ","
+        - strong [ref=e757]: Visibility
+        - code [ref=e758]: Public
+        - text: are already chosen.
+      - listitem [ref=e759]:
+        - strong [ref=e760]: Continue
+        - text: →
+        - strong [ref=e761]: Organize Ranking
+        - text: ": drag it to its place in the list →"
+        - strong [ref=e762]: Save
+        - text: .
+    - paragraph [ref=e763]:
+      - img "Categories" [ref=e764]
+    - paragraph [ref=e765]:
+      - img "Details" [ref=e766]
+    - paragraph [ref=e767]:
+      - img "Ranking" [ref=e768]
+    - paragraph [ref=e769]:
+      - img "Created" [ref=e770]
+    - heading [level=3] [ref=e771]:
+      - link "2.2 Put products in it" [ref=e772] [cursor=pointer]:
+        - /url: "#/?id=_22-put-products-in-it"
+    - paragraph [ref=e773]:
+      - text: On the category's page,
+      - strong [ref=e774]: Products
+      - text: box →
+      - strong [ref=e775]: Add
+      - text: "→ tick the products → save. (Or from each product:"
+      - strong [ref=e776]: Organize → ⋯ → Edit → Categories
+      - text: .) Each product must also be Published, in the TuneWear Storefront channel, and have the right Type.
+    - paragraph [ref=e777]:
+      - img "Add products" [ref=e778]
+    - paragraph [ref=e779]:
+      - img "Has a product" [ref=e780]
+    - heading [level=3] [ref=e781]:
+      - link "2.3 The tile photo" [ref=e782] [cursor=pointer]:
+        - /url: "#/?id=_23-the-tile-photo"
+    - paragraph [ref=e783]:
+      - strong [ref=e784]: Tile photograph
+      - text: box →
+      - strong [ref=e785]: Upload photo
+      - text: (up to 8 MB). Your upload always wins over the photo the site came with.
+    - paragraph [ref=e786]:
+      - img "Tile photo" [ref=e787]
+    - paragraph [ref=e788]:
+      - img "Saved" [ref=e789]
+    - paragraph [ref=e790]:
+      - img "On /men" [ref=e791]
+    - heading [level=3] [ref=e792]:
+      - link "2.4 The category's size chart and search text" [ref=e793] [cursor=pointer]:
+        - /url: "#/?id=_24-the-category39s-size-chart-and-search-text"
+    - paragraph [ref=e794]:
+      - strong [ref=e795]: Default size chart
+      - text: — every product in the category shows this chart unless the product picks another (1.13).
+      - strong [ref=e796]: SEO
+      - text: — the Google title and text for the category page.
+    - paragraph [ref=e797]:
+      - img "Size chart" [ref=e798]
+    - paragraph [ref=e799]:
+      - img "Save" [ref=e800]
+    - paragraph [ref=e801]:
+      - img "Saved" [ref=e802]
+    - paragraph [ref=e803]:
+      - img "SEO" [ref=e804]
+    - paragraph [ref=e805]:
+      - img "Saved" [ref=e806]
+    - heading [level=3] [ref=e807]:
+      - link "2.5 Size charts themselves" [ref=e808] [cursor=pointer]:
+        - /url: "#/?id=_25-size-charts-themselves"
+    - paragraph [ref=e809]:
+      - text: Sidebar
+      - strong [ref=e810]: Size charts
+      - text: →
+      - strong [ref=e811]: Create
+      - text: ": a title, the unit, the measurement columns (Chest, Length…) and one row per size. A category then uses it (2.4)."
+    - paragraph [ref=e812]:
+      - img "Size charts" [ref=e813]
+    - paragraph [ref=e814]:
+      - img "New chart" [ref=e815]
+    - paragraph [ref=e816]:
+      - img "Created" [ref=e817]
+    - paragraph [ref=e818]:
+      - strong [ref=e819]: A tile not showing?
+      - text: "In order: the category has no products; none of them has Type"
+      - code [ref=e820]: men
+      - text: /
+      - code [ref=e821]: unisex
+      - text: (or
+      - code [ref=e822]: women
+      - text: /
+      - code [ref=e823]: unisex
+      - text: ); they are Draft or not in the TuneWear Storefront channel; the category is Inactive or Internal.
+    - separator [ref=e824]
+    - heading [level=2] [ref=e825]:
+      - link "3. Prices and sales" [ref=e826] [cursor=pointer]:
+        - /url: "#/?id=_3-prices-and-sales"
+    - heading [level=3] [ref=e827]:
+      - link "3.1 The base price" [ref=e828] [cursor=pointer]:
+        - /url: "#/?id=_31-the-base-price"
+    - paragraph [ref=e829]:
+      - text: "What a garment normally costs: the product's"
+      - strong [ref=e830]: Price
+      - text: box (1.8). Staff and above.
+    - heading [level=3] [ref=e831]:
+      - link "3.2 Price lists — sales, and special prices" [ref=e832] [cursor=pointer]:
+        - /url: "#/?id=_32-price-lists-sales-and-special-prices"
+    - paragraph [ref=e833]:
+      - strong [ref=e834]: "When:"
+      - text: a sale ("Eid sale — 20% off the logo tee"), or a special price for a group of customers (wholesale).
+      - strong [ref=e835]: "Who:"
+      - text: Admin and above.
+    - paragraph [ref=e836]:
+      - text: A
+      - strong [ref=e837]: price list
+      - text: holds different prices for some products. While it is active, the shop shows those prices — a sale price shows the normal price struck through beside it, and the gold
+      - code [ref=e838]: "-N%"
+      - text: badge on the photo.
+    - table [ref=e839]:
+      - rowgroup [ref=e840]:
+        - row [ref=e841]:
+          - columnheader "Setting" [ref=e842]
+          - columnheader "What it means" [ref=e843]
+      - rowgroup [ref=e844]:
+        - row [ref=e845]:
+          - cell [ref=e846]:
+            - strong [ref=e847]: "Type: Sale"
+          - cell [ref=e848]:
+            - text: A temporary lower price. The shop shows it as a sale (struck-through price,
+            - code [ref=e849]: "-N%"
+            - text: ).
+        - row [ref=e850]:
+          - cell [ref=e851]:
+            - strong [ref=e852]: "Type: Override"
+          - cell "A different price with no \"sale\" look — for a customer group, e.g. wholesale buyers." [ref=e853]
+        - row [ref=e854]:
+          - cell [ref=e855]:
+            - strong [ref=e856]: Status
+          - cell "Active = in use (within its dates). Draft = switched off." [ref=e857]
+        - row [ref=e858]:
+          - cell [ref=e859]:
+            - strong [ref=e860]: Start date / Expiry date
+          - cell "Optional. The list switches itself on and off at those times — a scheduled sale." [ref=e861]
+        - row [ref=e862]:
+          - cell [ref=e863]:
+            - strong [ref=e864]: Customer availability
+          - cell [ref=e865]:
+            - text: Optional. Only customers in the chosen
+            - strong [ref=e866]: customer groups
+            - text: get these prices (they must be logged in).
+    - heading [level=4] [ref=e867]:
+      - link "Create one" [ref=e868] [cursor=pointer]:
+        - /url: "#/?id=create-one"
+    - paragraph [ref=e869]:
+      - text: Sidebar
+      - strong [ref=e870]: Price Lists
+      - text: →
+      - strong [ref=e871]: Create
+      - text: .
+    - paragraph [ref=e872]:
+      - img "Price lists" [ref=e873]
+    - list [ref=e874]:
+      - listitem [ref=e875]:
+        - paragraph [ref=e876]:
+          - strong [ref=e877]: "Details:"
+          - text: type, title, status, and optionally dates and customer groups.
+        - paragraph [ref=e878]:
+          - img "Details" [ref=e879]
+        - paragraph [ref=e880]:
+          - img "Dates" [ref=e881]
+        - paragraph [ref=e882]:
+          - img "Customer groups" [ref=e883]
+      - listitem [ref=e884]:
+        - paragraph [ref=e885]:
+          - strong [ref=e886]: "Products:"
+          - text: tick the products the list covers — one, several, or all of a category (search, then tick).
+        - paragraph [ref=e887]:
+          - img "Products" [ref=e888]
+      - listitem [ref=e889]:
+        - paragraph [ref=e890]:
+          - strong [ref=e891]: "Prices:"
+          - text: type the price for each size in the
+          - strong [ref=e892]: Price BDT
+          - text: "column. Tip: type it in the first row, then drag the cell's corner down to copy it to every size."
+        - paragraph [ref=e893]:
+          - img "Prices" [ref=e894]
+      - listitem [ref=e895]:
+        - paragraph [ref=e896]:
+          - strong [ref=e897]: Save.
+    - heading [level=4] [ref=e898]:
+      - link "Make the shop show it — Publish changes" [ref=e899] [cursor=pointer]:
+        - /url: "#/?id=make-the-shop-show-it-publish-changes"
+    - paragraph [ref=e900]:
+      - strong [ref=e901]: Price lists are the one change that does not reach the shop by itself.
+      - text: After creating, editing or ending a price list, press
+      - strong [ref=e902]: Publish changes
+      - text: "on the Price Lists page. Worked example: a sale price of ৳990 on the logo tee — before Publish changes the shop still shows ৳1,290; after, it shows"
+      - deletion [ref=e903]: ৳1,290
+      - strong [ref=e904]: ৳990 −23%
+      - text: .
+    - paragraph [ref=e905]:
+      - img "Publish changes" [ref=e906]
+    - paragraph [ref=e907]:
+      - img "Done" [ref=e908]
+    - paragraph [ref=e909]:
+      - img "On the shop" [ref=e910]
+    - heading [level=4] [ref=e911]:
+      - link "Change, extend, end, or delete a sale" [ref=e912] [cursor=pointer]:
+        - /url: "#/?id=change-extend-end-or-delete-a-sale"
+    - paragraph [ref=e913]: "Open the list:"
+    - paragraph [ref=e914]:
+      - img "A price list" [ref=e915]
+    - list [ref=e916]:
+      - listitem [ref=e917]:
+        - paragraph [ref=e918]:
+          - strong [ref=e919]: Edit prices
+          - text: "(3): the same grid — change any price,"
+          - strong [ref=e920]: Save
+          - text: .
+      - listitem [ref=e921]:
+        - paragraph [ref=e922]:
+          - strong [ref=e923]: Add products
+          - text: "(2): add more products to the sale."
+      - listitem [ref=e924]:
+        - paragraph [ref=e925]:
+          - strong [ref=e926]: End it now or change its dates
+          - text: ":"
+          - strong [ref=e927]: Configuration
+          - text: (4) →
+          - strong [ref=e928]: ⋯ → Edit
+          - text: → set the expiry date to now (or move it later to extend) →
+          - strong [ref=e929]: Save
+          - text: .
+        - paragraph [ref=e930]:
+          - img "Configuration" [ref=e931]
+        - paragraph [ref=e932]:
+          - img "Dates" [ref=e933]
+      - listitem [ref=e934]:
+        - paragraph [ref=e935]:
+          - strong [ref=e936]: Pause it
+          - text: ": ⋯ (1) →"
+          - strong [ref=e937]: Edit
+          - text: → Status
+          - strong [ref=e938]: Draft
+          - text: .
+      - listitem [ref=e939]:
+        - paragraph [ref=e940]:
+          - strong [ref=e941]: Delete it
+          - text: ": ⋯ (1) →"
+          - strong [ref=e942]: Delete
+          - text: . Prices go back to normal.
+        - paragraph [ref=e943]:
+          - img "Menu" [ref=e944]
+    - paragraph [ref=e945]:
+      - text: After any of these, press
+      - strong [ref=e946]: Publish changes
+      - text: .
+    - heading [level=3] [ref=e947]:
+      - link "3.3 Which price wins" [ref=e948] [cursor=pointer]:
+        - /url: "#/?id=_33-which-price-wins"
+    - list [ref=e949]:
+      - listitem [ref=e950]:
+        - strong [ref=e951]: "Sale:"
+        - text: the shopper pays the lower of the normal price and the sale price. A sale can never make something dearer.
+      - listitem [ref=e952]:
+        - strong [ref=e953]: "Override:"
+        - text: for the customers it covers, it simply replaces the normal price — even if it is higher. Use it deliberately (a wholesale price).
+      - listitem [ref=e954]: "Two sales on the same product: the lower one wins."
+    - separator [ref=e955]
+    - heading [level=2] [ref=e956]:
+      - link "4. Discount codes and offers (promotions)" [ref=e957] [cursor=pointer]:
+        - /url: "#/?id=_4-discount-codes-and-offers-promotions"
+    - paragraph [ref=e958]:
+      - strong [ref=e959]: "When:"
+      - text: a code you hand out ("
+      - code [ref=e960]: EID20
+      - text: for 20% off"), or an offer that applies by itself ("free delivery", "buy 2 get 1").
+      - strong [ref=e961]: "Who:"
+      - text: Admin and above.
+    - paragraph [ref=e962]:
+      - text: Shoppers type codes in the
+      - strong [ref=e963]: Discount code
+      - text: "box in the checkout summary. One code per order: a second code replaces the first. The discount shows as its own line at checkout, on the confirmation page and on the customer's order page."
+    - paragraph [ref=e964]:
+      - img "A code applied at checkout" [ref=e965]
+    - paragraph [ref=e966]:
+      - text: "If a code is refused, the box says why:"
+      - strong [ref=e967]: "\"That code isn't valid\""
+      - text: (no such code, or it is switched off),
+      - strong [ref=e968]: "\"This code can't be used on this bag\""
+      - text: (its conditions are not met), or
+      - strong [ref=e969]: "\"Choose your district first\""
+      - text: (a free-delivery code, before a district is chosen).
+    - heading [level=3] [ref=e970]:
+      - link "4.1 The six kinds" [ref=e971] [cursor=pointer]:
+        - /url: "#/?id=_41-the-six-kinds"
+    - paragraph [ref=e972]:
+      - text: Sidebar
+      - strong [ref=e973]: Promotions → Create
+      - text: → choose the kind →
+      - strong [ref=e974]: Continue
+      - text: .
+    - paragraph [ref=e975]:
+      - img "Promotions" [ref=e976]
+    - paragraph [ref=e977]:
+      - img "Kinds" [ref=e978]
+    - table [ref=e979]:
+      - rowgroup [ref=e980]:
+        - row [ref=e981]:
+          - columnheader "Kind" [ref=e982]
+          - columnheader "Example" [ref=e983]
+      - rowgroup [ref=e984]:
+        - row [ref=e985]:
+          - cell [ref=e986]:
+            - strong [ref=e987]: Amount off products
+          - cell "৳200 off the logo tee" [ref=e988]
+        - row [ref=e989]:
+          - cell [ref=e990]:
+            - strong [ref=e991]: Amount off order
+          - cell "৳300 off any order" [ref=e992]
+        - row [ref=e993]:
+          - cell [ref=e994]:
+            - strong [ref=e995]: Percentage off product
+          - cell "20% off everything in Sweaters" [ref=e996]
+        - row [ref=e997]:
+          - cell [ref=e998]:
+            - strong [ref=e999]: Percentage off order
+          - cell [ref=e1000]:
+            - text: 10% off the whole order (
+            - code [ref=e1001]: TUNE10
+            - text: )
+        - row [ref=e1002]:
+          - cell [ref=e1003]:
+            - strong [ref=e1004]: Buy X Get Y
+          - cell "Buy 2 T-shirts, get 1 free" [ref=e1005]
+        - row [ref=e1006]:
+          - cell [ref=e1007]:
+            - strong [ref=e1008]: Free shipping
+          - cell [ref=e1009]:
+            - text: Free delivery (
+            - code [ref=e1010]: FREESHIP
+            - text: ), for everyone or a group
+    - heading [level=3] [ref=e1011]:
+      - link "4.2 The settings every kind shares" [ref=e1012] [cursor=pointer]:
+        - /url: "#/?id=_42-the-settings-every-kind-shares"
+    - paragraph [ref=e1013]:
+      - img "Method and status" [ref=e1014]
+    - list [ref=e1015]:
+      - listitem [ref=e1016]:
+        - strong [ref=e1017]: Method — Promotion code
+        - text: "(1): shoppers must type the code."
+        - strong [ref=e1018]: Automatic
+        - text: "(2): applies by itself to every bag that qualifies — no code."
+      - listitem [ref=e1019]:
+        - strong [ref=e1020]: Status — Active
+        - text: (3) to use it now;
+        - strong [ref=e1021]: Draft
+        - text: keeps it switched off.
+      - listitem [ref=e1022]:
+        - strong [ref=e1023]: Code
+        - text: — what shoppers type, e.g.
+        - code [ref=e1024]: EID20
+        - text: (capitals; shoppers can type it in any case).
+      - listitem [ref=e1025]:
+        - strong [ref=e1026]: Who can use this code?
+        - text: — leave empty for everyone, or
+        - strong [ref=e1027]: Add condition
+        - text: →
+        - strong [ref=e1028]: Customer group
+        - text: to limit it (e.g. VIP customers).
+      - listitem [ref=e1029]:
+        - strong [ref=e1030]: Usage Limit
+        - text: — how many times it can be used across all orders, e.g. 100 for "first 100 orders". Empty = unlimited.
+    - heading [level=3] [ref=e1031]:
+      - link "4.3 Value, and which items" [ref=e1032] [cursor=pointer]:
+        - /url: "#/?id=_43-value-and-which-items"
+    - paragraph [ref=e1033]:
+      - img "Value and allocation" [ref=e1034]
+    - list [ref=e1035]:
+      - listitem [ref=e1036]:
+        - strong [ref=e1037]: Promotion Value
+        - text: (1) — the percentage or the amount.
+      - listitem [ref=e1038]:
+        - strong [ref=e1039]: Maximum Quantity
+        - text: — how many pieces in one bag get the discount.
+      - listitem [ref=e1040]:
+        - strong [ref=e1041]: Allocation
+        - text: (2) —
+        - strong [ref=e1042]: Each
+        - text: ": every matching piece is discounted;"
+        - strong [ref=e1043]: Once
+        - text: ": only up to the maximum quantity."
+      - listitem [ref=e1044]:
+        - strong [ref=e1045]: What items will the promotion be applied to?
+        - text: —
+        - strong [ref=e1046]: Add condition
+        - text: →
+        - strong [ref=e1047]: Select Attribute
+        - text: (1) → Product, Category, Type or Tag → the values. "20% off Sweaters" = Category
+        - strong [ref=e1048]: In
+        - text: Sweaters.
+    - paragraph [ref=e1049]:
+      - img "Item conditions" [ref=e1050]
+    - heading [level=3] [ref=e1051]:
+      - link "4.4 Amount off — pick Taka" [ref=e1052] [cursor=pointer]:
+        - /url: "#/?id=_44-amount-off-pick-taka"
+    - paragraph [ref=e1053]:
+      - text: For
+      - strong [ref=e1054]: Amount off order
+      - text: ", the"
+      - strong [ref=e1055]: Currency Code
+      - text: (1) condition starts empty and the amount box shows
+      - strong [ref=e1056]: USD $
+      - text: . Choose
+      - strong [ref=e1057]: BDT
+      - text: in the currency condition, then type the amount in Taka (2). Without BDT the code does nothing on a Taka order.
+    - paragraph [ref=e1058]:
+      - img "Currency" [ref=e1059]
+    - heading [level=3] [ref=e1060]:
+      - link "4.5 Buy X Get Y" [ref=e1061] [cursor=pointer]:
+        - /url: "#/?id=_45-buy-x-get-y"
+    - paragraph [ref=e1062]: "\"What needs to be in the cart to unlock the promotion?\" — the minimum quantity and the product(s) that must be bought. \"What items will the promotion be applied to?\" — the free (or discounted) piece(s)."
+    - paragraph [ref=e1063]:
+      - img "Buy X Get Y" [ref=e1064]
+    - heading [level=3] [ref=e1065]:
+      - link "4.6 Free delivery" [ref=e1066] [cursor=pointer]:
+        - /url: "#/?id=_46-free-delivery"
+    - paragraph [ref=e1067]:
+      - text: Choose
+      - strong [ref=e1068]: Free shipping
+      - text: . Leave "What shipping methods…" empty for every delivery, or limit it to one delivery type (e.g. Inside Dhaka). Make it
+      - strong [ref=e1069]: Automatic
+      - text: for "free delivery for everyone this week", or give it a code. The shopper sees the delivery charge and then a Discount line taking it off, as soon as they pick their district.
+    - blockquote [ref=e1070]:
+      - paragraph [ref=e1071]:
+        - strong [ref=e1072]: "Not possible here: \"free delivery over ৳3,000\"."
+        - text: Medusa's conditions are customer group, region, country, sales channel and currency — there is no minimum order amount. A minimum-spend offer needs a developer.
+    - paragraph [ref=e1073]:
+      - img "Free shipping" [ref=e1074]
+    - heading [level=3] [ref=e1075]:
+      - link "4.7 Dates and budgets — campaigns" [ref=e1076] [cursor=pointer]:
+        - /url: "#/?id=_47-dates-and-budgets-campaigns"
+    - paragraph [ref=e1077]:
+      - text: The last step,
+      - strong [ref=e1078]: Campaign
+      - text: ", groups promotions with a"
+      - strong [ref=e1079]: start and end date
+      - text: and a
+      - strong [ref=e1080]: budget
+      - text: (a total number of uses, or a total amount of discount). When the end date passes or the budget runs out, the promotion stops by itself. Choose
+      - strong [ref=e1081]: Without campaign
+      - text: for an open-ended code.
+    - paragraph [ref=e1082]:
+      - img "Campaign" [ref=e1083]
+    - paragraph [ref=e1084]:
+      - img "Created" [ref=e1085]
+    - paragraph [ref=e1086]:
+      - img "Details" [ref=e1087]
+    - heading [level=3] [ref=e1088]:
+      - link "4.8 Pause, change or delete" [ref=e1089] [cursor=pointer]:
+        - /url: "#/?id=_48-pause-change-or-delete"
+    - paragraph [ref=e1090]:
+      - text: Open the promotion →
+      - strong [ref=e1091]: ⋯
+      - text: →
+      - strong [ref=e1092]: Edit
+      - text: (set Status to
+      - strong [ref=e1093]: Draft
+      - text: to pause it, or change the value) or
+      - strong [ref=e1094]: Delete
+      - text: .
+    - paragraph [ref=e1095]:
+      - img "Promotion menu" [ref=e1096]
+    - separator [ref=e1097]
+    - heading [level=2] [ref=e1098]:
+      - link "5. Delivery charges" [ref=e1099] [cursor=pointer]:
+        - /url: "#/?id=_5-delivery-charges"
+    - paragraph [ref=e1100]:
+      - strong [ref=e1101]: "When:"
+      - text: the courier's rate changes, or you want a different charge inside or outside Dhaka.
+      - strong [ref=e1102]: "Who:"
+      - text: Admin and above.
+    - paragraph [ref=e1103]: "Checkout charges by district:"
+    - table [ref=e1104]:
+      - rowgroup [ref=e1105]:
+        - row [ref=e1106]:
+          - columnheader "Delivery" [ref=e1107]
+          - columnheader "For" [ref=e1108]
+          - columnheader "Staging price" [ref=e1109]
+      - rowgroup [ref=e1110]:
+        - row [ref=e1111]:
+          - cell [ref=e1112]:
+            - strong [ref=e1113]: Inside Dhaka
+          - cell [ref=e1114]:
+            - text: the
+            - strong [ref=e1115]: Dhaka district
+            - text: only
+          - cell "৳60" [ref=e1116]
+        - row [ref=e1117]:
+          - cell [ref=e1118]:
+            - strong [ref=e1119]: Outside Dhaka
+          - cell "every other district" [ref=e1120]
+          - cell "৳160" [ref=e1121]
+        - row [ref=e1122]:
+          - cell [ref=e1123]:
+            - strong [ref=e1124]: Express (Inside Dhaka)
+          - cell "not offered at checkout yet" [ref=e1125]
+          - cell "৳180" [ref=e1126]
+    - paragraph [ref=e1127]: The shopper sees the charge the moment they pick their district, and the order is charged exactly that. Change a price here and checkout shows the new one straight away — no code, no deploy.
+    - list [ref=e1128]:
+      - listitem [ref=e1129]:
+        - paragraph [ref=e1130]:
+          - strong [ref=e1131]: Settings
+          - text: (bottom of the sidebar) →
+          - strong [ref=e1132]: Locations & Shipping
+          - text: (1) →
+          - strong [ref=e1133]: Dhaka Warehouse
+          - text: (2).
+        - paragraph [ref=e1134]:
+          - img "Locations" [ref=e1135]
+      - listitem [ref=e1136]:
+        - paragraph [ref=e1137]:
+          - text: Under
+          - strong [ref=e1138]: Shipping options
+          - text: ", the"
+          - strong [ref=e1139]: ⋯
+          - text: (1) beside the delivery to change.
+        - paragraph [ref=e1140]:
+          - img "Shipping options" [ref=e1141]
+      - listitem [ref=e1142]:
+        - paragraph [ref=e1143]:
+          - strong [ref=e1144]: Edit prices
+          - text: (1).
+        - paragraph [ref=e1145]:
+          - img "Edit prices" [ref=e1146]
+      - listitem [ref=e1147]:
+        - paragraph [ref=e1148]:
+          - text: Click the price (1), type the new amount,
+          - strong [ref=e1149]: Save
+          - text: (2).
+        - paragraph [ref=e1150]:
+          - img "Price" [ref=e1151]
+        - paragraph [ref=e1152]:
+          - img "Saved" [ref=e1153]
+    - blockquote [ref=e1154]:
+      - paragraph [ref=e1155]:
+        - strong [ref=e1156]: Free delivery is a promotion
+        - text: (4.6), not a ৳0 price here — a ৳0 price would make delivery free for everyone, always.
+    - separator [ref=e1157]
+    - heading [level=2] [ref=e1158]:
+      - link "6. Stock" [ref=e1159] [cursor=pointer]:
+        - /url: "#/?id=_6-stock"
+    - paragraph [ref=e1160]:
+      - strong [ref=e1161]: "When:"
+      - text: new stock arrives, a count is wrong, a size sells out.
+      - strong [ref=e1162]: "Who:"
+      - text: Staff and above.
+    - heading [level=3] [ref=e1163]:
+      - 'link "6.1 Three numbers: in stock, reserved, available" [ref=e1164] [cursor=pointer]':
+        - /url: "#/?id=_61-three-numbers-in-stock-reserved-available"
+    - table [ref=e1165]:
+      - rowgroup [ref=e1166]:
+        - row [ref=e1167]:
+          - columnheader "Number" [ref=e1168]
+          - columnheader "Means" [ref=e1169]
+      - rowgroup [ref=e1170]:
+        - row [ref=e1171]:
+          - cell [ref=e1172]:
+            - strong [ref=e1173]: In stock
+          - cell "Pieces on the shelf (Medusa calls it Stocked quantity)." [ref=e1174]
+        - row [ref=e1175]:
+          - cell [ref=e1176]:
+            - strong [ref=e1177]: Reserved
+          - cell [ref=e1178]:
+            - text: Pieces promised to orders that are placed but
+            - strong [ref=e1179]: not yet fulfilled
+            - text: (packed).
+        - row [ref=e1180]:
+          - cell [ref=e1181]:
+            - strong [ref=e1182]: Available
+          - cell "In stock minus reserved — what the website can still sell." [ref=e1183]
+    - paragraph [ref=e1184]:
+      - text: The website sells only what is
+      - strong [ref=e1185]: available
+      - text: ". Worked example from the staging shop: Cable Knit Turtleneck, size S — in stock 20, reserved 3 (three orders not packed yet), available 17. Size M shows 19 in stock because one order was already fulfilled (6.3)."
+    - paragraph [ref=e1186]:
+      - img "Inventory" [ref=e1187]
+    - paragraph [ref=e1188]:
+      - img "One size" [ref=e1189]
+    - heading [level=3] [ref=e1190]:
+      - link "6.2 Changing a count" [ref=e1191] [cursor=pointer]:
+        - /url: "#/?id=_62-changing-a-count"
+    - paragraph [ref=e1192]:
+      - text: "From the product:"
+      - strong [ref=e1193]: Variants
+      - text: → the size's
+      - strong [ref=e1194]: ⋯
+      - text: →
+      - strong [ref=e1195]: Edit stock
+      - text: → type the new count →
+      - strong [ref=e1196]: Save
+      - text: . (From the
+      - strong [ref=e1197]: Inventory
+      - text: page the same box opens from each row.)
+    - paragraph [ref=e1198]:
+      - img "Edit stock" [ref=e1199]
+    - paragraph [ref=e1200]:
+      - img "Stock grid" [ref=e1201]
+    - paragraph [ref=e1202]:
+      - img "Saved" [ref=e1203]
+    - paragraph [ref=e1204]:
+      - text: Type the number
+      - strong [ref=e1205]: on the shelf
+      - text: — do not subtract reserved pieces yourself; Medusa does that.
+    - heading [level=3] [ref=e1206]:
+      - link "6.3 When stock really goes down" [ref=e1207] [cursor=pointer]:
+        - /url: "#/?id=_63-when-stock-really-goes-down"
+    - list [ref=e1208]:
+      - listitem [ref=e1209]:
+        - strong [ref=e1210]: Order placed
+        - text: → the pieces are
+        - strong [ref=e1211]: reserved
+        - text: . In stock stays the same; available drops at once, so nobody else can buy the last one.
+      - listitem [ref=e1212]:
+        - strong [ref=e1213]: Order fulfilled
+        - text: (packed, chapter 7) → in stock goes down and the reservation disappears. Available does not change again.
+      - listitem [ref=e1214]:
+        - strong [ref=e1215]: Order cancelled before fulfilling
+        - text: → the reservation is released and the piece is available again.
+    - separator [ref=e1216]
+    - heading [level=2] [ref=e1217]:
+      - link "7. Orders" [ref=e1218] [cursor=pointer]:
+        - /url: "#/?id=_7-orders"
+    - paragraph [ref=e1219]:
+      - strong [ref=e1220]: "Who:"
+      - text: Staff and above.
+    - heading [level=3] [ref=e1221]:
+      - link "7.1 What the shopper sees" [ref=e1222] [cursor=pointer]:
+        - /url: "#/?id=_71-what-the-shopper-sees"
+    - paragraph [ref=e1223]:
+      - text: At checkout the shopper picks
+      - strong [ref=e1224]: Cash on Delivery
+      - text: or
+      - strong [ref=e1225]: Online Payment
+      - text: "(card, bKash, Nagad through SSLCommerz):"
+    - paragraph [ref=e1226]:
+      - img "Checkout" [ref=e1227]
+    - paragraph [ref=e1228]:
+      - text: After placing an order the shopper gets this page, with an order reference like
+      - strong [ref=e1229]: TW-Q2NG7A
+      - text: . That is what they will quote on WhatsApp.
+    - paragraph [ref=e1230]:
+      - img "Order confirmed" [ref=e1231]
+    - heading [level=3] [ref=e1232]:
+      - link "7.2 Finding an order" [ref=e1233] [cursor=pointer]:
+        - /url: "#/?id=_72-finding-an-order"
+    - paragraph [ref=e1234]:
+      - text: Sidebar
+      - strong [ref=e1235]: Orders
+      - text: . Paste the shopper's
+      - code [ref=e1236]: TW-…
+      - text: reference into the search box to find it.
+    - paragraph [ref=e1237]:
+      - img "Orders" [ref=e1238]
+    - paragraph [ref=e1239]:
+      - img "Search by reference" [ref=e1240]
+    - heading [level=3] [ref=e1241]:
+      - link "7.3 From placed to done — the four steps" [ref=e1242] [cursor=pointer]:
+        - /url: "#/?id=_73-from-placed-to-done-the-four-steps"
+    - table [ref=e1243]:
+      - rowgroup [ref=e1244]:
+        - row [ref=e1245]:
+          - columnheader "Step" [ref=e1246]
+          - columnheader "What it means" [ref=e1247]
+          - columnheader "What happens to stock and money" [ref=e1248]
+      - rowgroup [ref=e1249]:
+        - row [ref=e1250]:
+          - cell [ref=e1251]:
+            - strong [ref=e1252]: Fulfill
+          - cell "You picked and packed the items — \"ready for the courier\"." [ref=e1253]
+          - cell "Stock goes down for real (6.3)." [ref=e1254]
+        - row [ref=e1255]:
+          - cell [ref=e1256]:
+            - strong [ref=e1257]: Mark as shipped
+          - cell "Handed to the courier. Add the tracking number." [ref=e1258]
+          - cell "—" [ref=e1259]
+        - row [ref=e1260]:
+          - cell [ref=e1261]:
+            - strong [ref=e1262]: Mark as delivered
+          - cell "The customer has it." [ref=e1263]
+          - cell "—" [ref=e1264]
+        - row [ref=e1265]:
+          - cell [ref=e1266]:
+            - strong [ref=e1267]: Capture payment
+          - 'cell "For Cash on Delivery: the rider handed over the cash." [ref=e1268]'
+          - cell "The order counts as paid." [ref=e1269]
+    - paragraph [ref=e1270]:
+      - strong [ref=e1271]: Fulfill
+      - text: — order page →
+      - strong [ref=e1272]: ⋯
+      - text: →
+      - strong [ref=e1273]: Fulfill items
+      - text: . The number beside each item is
+      - strong [ref=e1274]: how many of it go in this package
+      - text: (not stock) — send part of an order now and the rest later if one piece is late. It also shows which location the stock leaves from.
+    - paragraph [ref=e1275]:
+      - img "Fulfill" [ref=e1276]
+    - paragraph [ref=e1277]:
+      - img "Fulfill form" [ref=e1278]
+    - paragraph [ref=e1279]:
+      - img "Fulfilled" [ref=e1280]
+    - paragraph [ref=e1281]:
+      - strong [ref=e1282]: Mark as shipped
+      - text: → type the courier's tracking number in the
+      - strong [ref=e1283]: Tracking number
+      - text: field.
+    - paragraph [ref=e1284]:
+      - img "Mark as shipped" [ref=e1285]
+    - paragraph [ref=e1286]:
+      - img "Tracking" [ref=e1287]
+    - paragraph [ref=e1288]:
+      - img "Shipped" [ref=e1289]
+    - paragraph [ref=e1290]:
+      - strong [ref=e1291]: Mark as delivered.
+    - paragraph [ref=e1292]:
+      - img "Mark as delivered" [ref=e1293]
+    - paragraph [ref=e1294]:
+      - img "Confirm" [ref=e1295]
+    - paragraph [ref=e1296]:
+      - strong [ref=e1297]: Capture payment
+      - text: "— for Cash on Delivery, once the cash is in. Online payments (SSLCommerz: card, bKash, Nagad) are captured already."
+    - paragraph [ref=e1298]:
+      - img "Capture" [ref=e1299]
+    - paragraph [ref=e1300]:
+      - img "Confirm" [ref=e1301]
+    - paragraph [ref=e1302]:
+      - img "Done" [ref=e1303]
+    - heading [level=3] [ref=e1304]:
+      - link "7.4 DM orders — Draft orders" [ref=e1305] [cursor=pointer]:
+        - /url: "#/?id=_74-dm-orders-draft-orders"
+    - paragraph [ref=e1306]:
+      - strong [ref=e1307]: "When:"
+      - text: someone orders on Instagram, Facebook or WhatsApp. Type the order in so stock, sales and Analytics include it.
+    - paragraph [ref=e1308]:
+      - text: Draft orders have
+      - strong [ref=e1309]: no sidebar entry
+      - text: ": go to"
+      - code [ref=e1310]: https://tunewear-admin.<domain>/greenroom/draft-orders
+      - text: .
+    - paragraph [ref=e1311]:
+      - img "Draft orders" [ref=e1312]
+    - list [ref=e1313]:
+      - listitem [ref=e1314]:
+        - paragraph [ref=e1315]:
+          - strong [ref=e1316]: Create
+          - text: "→ the customer (search, or new: name, email, phone) and the address."
+          - strong [ref=e1317]: Postal code is optional
+          - text: — Bangladeshi addresses go by thana.
+        - paragraph [ref=e1318]:
+          - img "Draft form" [ref=e1319]
+      - listitem [ref=e1320]:
+        - paragraph [ref=e1321]:
+          - strong [ref=e1322]: Items
+          - text: →
+          - strong [ref=e1323]: Edit
+          - text: →
+          - strong [ref=e1324]: +
+          - text: →
+          - strong [ref=e1325]: Add items
+          - text: → pick the size →
+          - strong [ref=e1326]: Save
+          - text: .
+        - paragraph [ref=e1327]:
+          - img "Edit items" [ref=e1328]
+        - paragraph [ref=e1329]:
+          - img "Plus" [ref=e1330]
+        - paragraph [ref=e1331]:
+          - img "Add items" [ref=e1332]
+        - paragraph [ref=e1333]:
+          - img "Pick size" [ref=e1334]
+        - paragraph [ref=e1335]:
+          - img "Save" [ref=e1336]
+      - listitem [ref=e1337]:
+        - paragraph [ref=e1338]:
+          - strong [ref=e1339]: Shipping
+          - text: → add the delivery that matches the address (Inside Dhaka for the Dhaka district) →
+          - strong [ref=e1340]: Save
+          - text: .
+        - paragraph [ref=e1341]:
+          - img "Add shipping" [ref=e1342]
+        - paragraph [ref=e1343]:
+          - img "Option" [ref=e1344]
+        - paragraph [ref=e1345]:
+          - img "Add" [ref=e1346]
+        - paragraph [ref=e1347]:
+          - img "Save" [ref=e1348]
+      - listitem [ref=e1349]:
+        - paragraph [ref=e1350]:
+          - strong [ref=e1351]: Convert to order
+          - text: → confirm. It is now a normal order (7.3).
+        - paragraph [ref=e1352]:
+          - img "Convert" [ref=e1353]
+        - paragraph [ref=e1354]:
+          - img "Confirm" [ref=e1355]
+        - paragraph [ref=e1356]:
+          - img "Converted" [ref=e1357]
+    - heading [level=3] [ref=e1358]:
+      - link "7.5 Orders in a customer's account" [ref=e1359] [cursor=pointer]:
+        - /url: "#/?id=_75-orders-in-a-customer39s-account"
+    - paragraph [ref=e1360]:
+      - text: An order placed while the customer is
+      - strong [ref=e1361]: logged in
+      - text: appears in their account (/account and /account/orders). An order placed
+      - strong [ref=e1362]: as a guest
+      - text: stays a guest order — it does not move into an account later, even with the same email. At checkout a logged-in customer's email is locked to their account's.
+    - separator [ref=e1363]
+    - heading [level=2] [ref=e1364]:
+      - link "8. Customers and password resets" [ref=e1365] [cursor=pointer]:
+        - /url: "#/?id=_8-customers-and-password-resets"
+    - heading [level=3] [ref=e1366]:
+      - link "8.1 Customers" [ref=e1367] [cursor=pointer]:
+        - /url: "#/?id=_81-customers"
+    - paragraph [ref=e1368]:
+      - text: Sidebar
+      - strong [ref=e1369]: Customers
+      - text: .
+      - strong [ref=e1370]: Has Account
+      - text: "(1) says whether the person registered on the website (Yes) or only ordered as a guest (No). The same email can appear twice: once as a guest, once registered."
+    - paragraph [ref=e1371]:
+      - img "Customers" [ref=e1372]
+    - paragraph [ref=e1373]: Open one to see their orders, addresses and details.
+    - paragraph [ref=e1374]:
+      - img "A customer" [ref=e1375]
+    - paragraph [ref=e1376]:
+      - strong [ref=e1377]: Customer groups
+      - text: (sidebar
+      - strong [ref=e1378]: Customers → Customer Groups → Create
+      - text: ) collect customers for a special price list (3.2) or a promotion (4.2), for example "Wholesale" or "VIP".
+    - paragraph [ref=e1379]:
+      - img "Customer groups" [ref=e1380]
+    - heading [level=3] [ref=e1381]:
+      - link "8.2 Resetting a customer's password" [ref=e1382] [cursor=pointer]:
+        - /url: "#/?id=_82-resetting-a-customer39s-password"
+    - paragraph [ref=e1383]:
+      - strong [ref=e1384]: "When:"
+      - text: a customer cannot log in and asks for help.
+      - strong [ref=e1385]: "Who:"
+      - text: Super Admin, or an Admin marked
+      - strong [ref=e1386]: Trusted
+      - text: (12.3). Never Staff.
+    - paragraph [ref=e1387]: The shop does not send emails yet, so you make the link and send it yourself (WhatsApp, SMS). You never see or type their password.
+    - list [ref=e1388]:
+      - listitem [ref=e1389]:
+        - paragraph [ref=e1390]:
+          - text: Sidebar
+          - strong [ref=e1391]: Password resets
+          - text: → type their name or email (1) →
+          - strong [ref=e1392]: Search
+          - text: (2).
+        - paragraph [ref=e1393]:
+          - img "Search" [ref=e1394]
+      - listitem [ref=e1395]:
+        - paragraph [ref=e1396]:
+          - strong [ref=e1397]: Generate reset link
+          - text: (1) on the right person.
+        - paragraph [ref=e1398]:
+          - img "Result" [ref=e1399]
+      - listitem [ref=e1400]:
+        - paragraph [ref=e1401]:
+          - strong [ref=e1402]: Copy
+          - text: (1) and send it to them. It works once, for 7 days; the page will not show it again.
+        - paragraph [ref=e1403]:
+          - img "The link" [ref=e1404]
+    - separator [ref=e1405]
+    - heading [level=2] [ref=e1406]:
+      - link "9. Shop claims — what the site says about the business" [ref=e1407] [cursor=pointer]:
+        - /url: "#/?id=_9-shop-claims-what-the-site-says-about-the-business"
+    - paragraph [ref=e1408]:
+      - strong [ref=e1409]: "When:"
+      - text: to set the three tiles under every product photo — happy customers, rating, and a quality claim.
+      - strong [ref=e1410]: "Who:"
+      - text: Admin and above.
+    - paragraph [ref=e1411]:
+      - text: Sidebar
+      - strong [ref=e1412]: Shop claims
+      - text: . Anything left empty is left off the site — an unsaid claim is better than an untrue one.
+    - list [ref=e1413]:
+      - listitem [ref=e1414]:
+        - strong [ref=e1415]: Happy customers
+        - text: — a number you type, or
+        - strong [ref=e1416]: Use real
+        - text: to show the real count of customers who ordered. "From real orders at 10" means the real number takes over once the shop has 10.
+      - listitem [ref=e1417]:
+        - strong [ref=e1418]: Product rating
+        - text: — used by every garment without its own. Leave it empty if no one has rated your products.
+      - listitem [ref=e1419]:
+        - strong [ref=e1420]: Third tile
+        - text: — your own wording and icon, for example "100% Premium quality".
+      - listitem [ref=e1421]:
+        - strong [ref=e1422]: One garment at a time
+        - text: — a product's own rating or customer count, where it differs. A faded number means it is using the shop's.
+    - paragraph [ref=e1423]:
+      - img "Shop claims" [ref=e1424]
+    - paragraph [ref=e1425]: A rating tells shoppers other customers scored the piece. Only enter one you can stand behind.
+    - separator [ref=e1426]
+    - heading [level=2] [ref=e1427]:
+      - link "10. Sales channels" [ref=e1428] [cursor=pointer]:
+        - /url: "#/?id=_10-sales-channels"
+    - paragraph [ref=e1429]:
+      - text: Sidebar
+      - strong [ref=e1430]: Settings → Sales Channels
+      - text: ". There is one:"
+      - strong [ref=e1431]: TuneWear Storefront
+      - text: ", the website. Every product must be in it to appear on the site. There is"
+      - strong [ref=e1432]: no Facebook or Instagram shop connected
+      - text: — DM orders are typed in as Draft orders (7.4).
+    - paragraph [ref=e1433]:
+      - img "Sales channels" [ref=e1434]
+    - separator [ref=e1435]
+    - heading [level=2] [ref=e1436]:
+      - link "11. The website's words and photos (Payload)" [ref=e1437] [cursor=pointer]:
+        - /url: "#/?id=_11-the-website39s-words-and-photos-payload"
+    - paragraph [ref=e1438]:
+      - strong [ref=e1439]: "Where:"
+      - code [ref=e1440]: https://tunewear.<domain>/admin
+      - text: — a different login from Medusa.
+      - strong [ref=e1441]: "Who:"
+      - text: "anyone with a Payload login. Payload has its own two roles:"
+      - strong [ref=e1442]: Super Admin
+      - text: (can add and remove Payload logins) and
+      - strong [ref=e1443]: Admin
+      - text: (edits everything else). Medusa's roles do not apply here.
+    - paragraph [ref=e1444]:
+      - img "Payload" [ref=e1445]
+    - heading [level=3] [ref=e1446]:
+      - link "11.1 Three things that surprise people" [ref=e1447] [cursor=pointer]:
+        - /url: "#/?id=_111-three-things-that-surprise-people"
+    - list [ref=e1448]:
+      - listitem [ref=e1449]:
+        - strong [ref=e1450]: Save publishes immediately.
+        - text: "There is no draft: the live page shows the change within about 2 seconds."
+      - listitem [ref=e1451]:
+        - strong [ref=e1452]: Live Preview
+        - text: — the eye button beside Save (1) opens the real page beside the form. It refreshes
+        - strong [ref=e1453]: when you press Save
+        - text: ", not as you type."
+      - listitem [ref=e1454]:
+        - strong [ref=e1455]: Sale prices are not here
+        - text: — they are Medusa's (chapter 3).
+    - paragraph [ref=e1456]:
+      - img "Footer, with Live Preview open" [ref=e1457]
+    - heading [level=3] [ref=e1458]:
+      - link "11.2 The pages" [ref=e1459] [cursor=pointer]:
+        - /url: "#/?id=_112-the-pages"
+    - table [ref=e1460]:
+      - rowgroup [ref=e1461]:
+        - row [ref=e1462]:
+          - columnheader "Sidebar entry" [ref=e1463]
+          - columnheader "What it edits" [ref=e1464]
+      - rowgroup [ref=e1465]:
+        - row [ref=e1466]:
+          - cell [ref=e1467]:
+            - strong [ref=e1468]: Pages → Home
+          - cell "Hero, the Men / Women / Sale cards, the sale section on/off, section headings, brand story" [ref=e1469]
+        - row [ref=e1470]:
+          - cell [ref=e1471]:
+            - strong [ref=e1472]: Pages → Men
+            - text: ","
+            - strong [ref=e1473]: Women
+          - cell "Each aisle's hero and text (the category tiles are Medusa's, chapter 2)" [ref=e1474]
+        - row [ref=e1475]:
+          - cell [ref=e1476]:
+            - strong [ref=e1477]: Pages → Sale
+          - cell "Masthead, Mix & Match photo, the prepaid-offer strip (strip on/off, countdown on/off, end date)" [ref=e1478]
+        - row [ref=e1479]:
+          - cell [ref=e1480]:
+            - strong [ref=e1481]: Pages → New arrivals
+            - text: ","
+            - strong [ref=e1482]: Shop all
+          - cell "Page headings" [ref=e1483]
+        - row [ref=e1484]:
+          - cell [ref=e1485]:
+            - strong [ref=e1486]: Pages → About, Contact, FAQ & more
+          - cell "About, Contact, FAQ, Shipping, Returns, Size guide, Privacy policy, your pages" [ref=e1487]
+        - row [ref=e1488]:
+          - cell [ref=e1489]:
+            - strong [ref=e1490]: Site content → Footer
+          - cell "Footer columns and links, the newsletter box on/off" [ref=e1491]
+        - row [ref=e1492]:
+          - cell [ref=e1493]:
+            - strong [ref=e1494]: Site content → Trust Bar
+          - cell "The reassurance strip (delivery, returns, secure payment)" [ref=e1495]
+        - row [ref=e1496]:
+          - cell [ref=e1497]:
+            - strong [ref=e1498]: Site content → Announcement strip
+          - cell "The scrolling words under the header — one list for home, one for other pages" [ref=e1499]
+        - row [ref=e1500]:
+          - cell [ref=e1501]:
+            - strong [ref=e1502]: Media
+          - cell "Every uploaded photo, with a focal point (what stays in frame when cropped)" [ref=e1503]
+    - paragraph [ref=e1504]:
+      - text: "Example — the Home page: open"
+      - strong [ref=e1505]: Pages → Home
+      - text: ", change a heading,"
+      - strong [ref=e1506]: Save
+      - text: .
+    - paragraph [ref=e1507]:
+      - img "About, Contact, FAQ & more" [ref=e1508]
+    - paragraph [ref=e1509]:
+      - img "Home tabs" [ref=e1510]
+    - paragraph [ref=e1511]:
+      - img "Before saving" [ref=e1512]
+    - paragraph [ref=e1513]:
+      - img "After saving" [ref=e1514]
+    - paragraph [ref=e1515]:
+      - img "Trust Bar" [ref=e1516]
+    - paragraph [ref=e1517]:
+      - img "Announcement strip" [ref=e1518]
+    - heading [level=4] [ref=e1519]:
+      - link "Hiding the sale, the offer strip or the timer — and bringing them back" [ref=e1520] [cursor=pointer]:
+        - /url: "#/?id=hiding-the-sale-the-offer-strip-or-the-timer-and-bringing-them-back"
+    - paragraph [ref=e1521]:
+      - text: Three switches. Untick to hide, tick to show again, then
+      - strong [ref=e1522]: Save
+      - text: . What you typed is kept while hidden; nothing has to be retyped.
+    - table [ref=e1523]:
+      - rowgroup [ref=e1524]:
+        - row [ref=e1525]:
+          - columnheader "To hide…" [ref=e1526]
+          - columnheader "Go to" [ref=e1527]
+          - columnheader "Switch" [ref=e1528]
+      - rowgroup [ref=e1529]:
+        - row [ref=e1530]:
+          - cell "Just the countdown timer" [ref=e1531]
+          - cell [ref=e1532]:
+            - strong [ref=e1533]: Pages → Sale
+            - text: →
+            - strong [ref=e1534]: Prepaid offer strip
+          - cell [ref=e1535]:
+            - strong [ref=e1536]: Show the countdown
+        - row [ref=e1537]:
+          - cell "The whole offer strip (\"Extra 10% off…\"), on the home page and Sale page" [ref=e1538]
+          - cell [ref=e1539]:
+            - strong [ref=e1540]: Pages → Sale
+            - text: →
+            - strong [ref=e1541]: Prepaid offer strip
+          - cell [ref=e1542]:
+            - strong [ref=e1543]: Show this strip
+        - row [ref=e1544]:
+          - cell "The sale section on the home page (Sale masthead, best-deals row, strip)" [ref=e1545]
+          - cell [ref=e1546]:
+            - strong [ref=e1547]: Pages → Home
+            - text: →
+            - strong [ref=e1548]: Sale section
+          - cell [ref=e1549]:
+            - strong [ref=e1550]: Show the sale section
+    - paragraph [ref=e1551]:
+      - text: The last one only changes the home page;
+      - code [ref=e1552]: /sale
+      - text: itself stays. The change is live within seconds of
+      - strong [ref=e1553]: Save
+      - text: .
+    - heading [level=3] [ref=e1554]:
+      - link "11.3 The FAQ" [ref=e1555] [cursor=pointer]:
+        - /url: "#/?id=_113-the-faq"
+    - paragraph [ref=e1556]:
+      - strong [ref=e1557]: Pages → About, Contact, FAQ & more → FAQ
+      - text: "→ the FAQ block → one row per question:"
+      - strong [ref=e1558]: Question
+      - text: (1),
+      - strong [ref=e1559]: Topic
+      - text: (2),
+      - strong [ref=e1560]: Answer
+      - text: →
+      - strong [ref=e1561]: Save
+      - text: .
+    - list [ref=e1562]:
+      - listitem [ref=e1563]:
+        - strong [ref=e1564]: Topic
+        - text: groups questions under headings. One topic only = a plain list.
+      - listitem [ref=e1565]: Topic buttons appear with two or more topics; a search box with six or more questions.
+      - listitem [ref=e1566]: The "Still have a question?" card uses the WhatsApp number from Contact.
+      - listitem [ref=e1567]:
+        - text: The questions on staging are
+        - strong [ref=e1568]: demo text
+        - text: — replace them before launch.
+    - paragraph [ref=e1569]:
+      - img "FAQ" [ref=e1570]
+    - heading [level=3] [ref=e1571]:
+      - link "11.4 The Contact page" [ref=e1572] [cursor=pointer]:
+        - /url: "#/?id=_114-the-contact-page"
+    - paragraph [ref=e1573]:
+      - text: WhatsApp, phone, email, address, hours and social links live in the Contact block. A field left empty (or still
+      - code [ref=e1574]: "[Add …]"
+      - text: ) never becomes a dead link. There is no message form on purpose — customers message you directly.
+    - paragraph [ref=e1575]:
+      - img "Contact" [ref=e1576]
+    - heading [level=3] [ref=e1577]:
+      - link "11.5 Adding a page (Shipping, Returns, Size guide…)" [ref=e1578] [cursor=pointer]:
+        - /url: "#/?id=_115-adding-a-page-shipping-returns-size-guide"
+    - paragraph [ref=e1579]:
+      - strong [ref=e1580]: Pages → About, Contact, FAQ & more → Create New
+      - text: →
+      - strong [ref=e1581]: Title
+      - text: (1, only shown in this list),
+      - strong [ref=e1582]: Slug
+      - text: "(2, the address:"
+      - code [ref=e1583]: shipping
+      - text: →
+      - code [ref=e1584]: /shipping
+      - text: ) →
+      - strong [ref=e1585]: Add Block
+      - text: (3) →
+      - strong [ref=e1586]: Save
+      - text: . Then link it from
+      - strong [ref=e1587]: Site content → Footer
+      - text: . Addresses the site already uses (
+      - code [ref=e1588]: men
+      - text: ","
+      - code [ref=e1589]: sale
+      - text: ","
+      - code [ref=e1590]: checkout
+      - text: …) are refused with a message saying where that page is edited.
+    - paragraph [ref=e1591]:
+      - img "Add a page" [ref=e1592]
+    - paragraph [ref=e1593]:
+      - img "Blocks" [ref=e1594]
+    - paragraph [ref=e1595]:
+      - text: A
+      - strong [ref=e1596]: Section (columns)
+      - text: block puts other blocks side by side, with its own tablet and phone layouts ("Reverse the column order when stacked" puts the photo first on phones).
+    - heading [level=3] [ref=e1597]:
+      - link "11.6 Privacy policy" [ref=e1598] [cursor=pointer]:
+        - /url: "#/?id=_116-privacy-policy"
+    - paragraph [ref=e1599]:
+      - strong [ref=e1600]: Pages → About, Contact, FAQ & more → Privacy policy
+      - text: (
+      - code [ref=e1601]: /privacy-policy
+      - text: ", linked from the footer). It arrives as a draft written from how the site works. Replace every part in"
+      - strong [ref=e1602]: "[square brackets]"
+      - text: — business name and address, courier, how long you keep records, your WhatsApp and email — have it checked, delete the first "[Draft …]" line, and
+      - strong [ref=e1603]: Save
+      - text: .
+    - heading [level=3] [ref=e1604]:
+      - link "11.7 Photos and logins" [ref=e1605] [cursor=pointer]:
+        - /url: "#/?id=_117-photos-and-logins"
+    - paragraph [ref=e1606]:
+      - img "Media" [ref=e1607]
+    - paragraph [ref=e1608]:
+      - img "Payload users" [ref=e1609]
+    - separator [ref=e1610]
+    - heading [level=2] [ref=e1611]:
+      - link "12. Staff and roles" [ref=e1612] [cursor=pointer]:
+        - /url: "#/?id=_12-staff-and-roles"
+    - paragraph [ref=e1613]:
+      - strong [ref=e1614]: "Who:"
+      - text: Super Admin only.
+    - heading [level=3] [ref=e1615]:
+      - link "12.1 The roles" [ref=e1616] [cursor=pointer]:
+        - /url: "#/?id=_121-the-roles"
+    - table [ref=e1617]:
+      - rowgroup [ref=e1618]:
+        - row [ref=e1619]:
+          - columnheader "Role" [ref=e1620]
+          - columnheader "Can" [ref=e1621]
+          - columnheader "Cannot" [ref=e1622]
+      - rowgroup [ref=e1623]:
+        - row [ref=e1624]:
+          - cell [ref=e1625]:
+            - strong [ref=e1626]: Super Admin
+          - cell "Everything, including staff accounts and roles" [ref=e1627]
+          - cell "—" [ref=e1628]
+        - row [ref=e1629]:
+          - cell [ref=e1630]:
+            - strong [ref=e1631]: Admin
+          - cell "Products, categories, orders, prices, promotions, customers, settings, analytics" [ref=e1632]
+          - cell [ref=e1633]:
+            - text: Manage staff; see the audit log or make reset links unless
+            - strong [ref=e1634]: Trusted
+        - row [ref=e1635]:
+          - cell [ref=e1636]:
+            - strong [ref=e1637]: Admin + Trusted
+          - cell "Everything Admin can, plus the audit log and password reset links" [ref=e1638]
+          - cell "Manage staff" [ref=e1639]
+        - row [ref=e1640]:
+          - cell [ref=e1641]:
+            - strong [ref=e1642]: Staff
+          - cell "Orders end to end, customers, products and variants, stock" [ref=e1643]
+          - cell "Price lists, promotions, analytics, audit log, categories, staff" [ref=e1644]
+    - paragraph [ref=e1645]:
+      - img "Roles" [ref=e1646]
+    - heading [level=3] [ref=e1647]:
+      - link "12.2 Adding someone" [ref=e1648] [cursor=pointer]:
+        - /url: "#/?id=_122-adding-someone"
+    - list [ref=e1649]:
+      - listitem [ref=e1650]:
+        - paragraph [ref=e1651]:
+          - strong [ref=e1652]: Settings → Users → Invite
+          - text: (1) → their email → send them the invite link.
+        - paragraph [ref=e1653]:
+          - img "Users" [ref=e1654]
+        - paragraph [ref=e1655]:
+          - img "Invite" [ref=e1656]
+      - listitem [ref=e1657]:
+        - paragraph [ref=e1658]:
+          - text: "Give them a role:"
+          - strong [ref=e1659]: Settings → Roles
+          - text: → the role →
+          - strong [ref=e1660]: Users → Add
+          - text: .
+        - paragraph [ref=e1661]:
+          - img "Role page" [ref=e1662]
+    - heading [level=3] [ref=e1663]:
+      - link "12.3 Pausing an account, and Trusted" [ref=e1664] [cursor=pointer]:
+        - /url: "#/?id=_123-pausing-an-account-and-trusted"
+    - paragraph [ref=e1665]:
+      - text: On the person's page (
+      - strong [ref=e1666]: Settings → Users
+      - text: "→ them):"
+    - list [ref=e1667]:
+      - listitem [ref=e1668]:
+        - strong [ref=e1669]: Pause account
+        - text: — blocks them at once, even mid-session, without deleting anything. Resume the same way.
+      - listitem [ref=e1670]:
+        - strong [ref=e1671]: Trusted admin → Grant access
+        - text: — lets an
+        - strong [ref=e1672]: Admin
+        - text: see the audit log and make password reset links. It has no effect on Staff.
+    - paragraph [ref=e1673]:
+      - img "A user" [ref=e1674]
+    - heading [level=3] [ref=e1675]:
+      - link "12.4 The audit log" [ref=e1676] [cursor=pointer]:
+        - /url: "#/?id=_124-the-audit-log"
+    - paragraph [ref=e1677]:
+      - text: Sidebar
+      - strong [ref=e1678]: Audit log
+      - text: ": every change made in the dashboard — who, what, when — in plain sentences. Super Admin, or a Trusted Admin."
+    - paragraph [ref=e1679]:
+      - img "Audit log" [ref=e1680]
+    - separator [ref=e1681]
+    - heading [level=2] [ref=e1682]:
+      - link "13. Store settings" [ref=e1683] [cursor=pointer]:
+        - /url: "#/?id=_13-store-settings"
+    - paragraph [ref=e1684]:
+      - strong [ref=e1685]: "Who:"
+      - text: Admin and above.
+    - list [ref=e1686]:
+      - listitem [ref=e1687]:
+        - paragraph [ref=e1688]:
+          - strong [ref=e1689]: Settings → Store
+          - text: — the shop's name and currency (BDT).
+        - paragraph [ref=e1690]:
+          - img "Store" [ref=e1691]
+      - listitem [ref=e1692]:
+        - paragraph [ref=e1693]:
+          - strong [ref=e1694]: Settings → Product Types
+          - text: —
+          - code [ref=e1695]: men
+          - text: ","
+          - code [ref=e1696]: women
+          - text: ","
+          - code [ref=e1697]: unisex
+          - text: .
+          - strong [ref=e1698]: Do not rename or add types
+          - text: ": the website reads exactly these three to decide /men and /women. Any other type shows on both aisles."
+        - paragraph [ref=e1699]:
+          - img "Product types" [ref=e1700]
+      - listitem [ref=e1701]:
+        - paragraph [ref=e1702]:
+          - strong [ref=e1703]: Settings → Locations & Shipping
+          - text: — delivery charges (chapter 5).
+      - listitem [ref=e1704]:
+        - paragraph [ref=e1705]:
+          - strong [ref=e1706]: Settings → Publishable API Keys
+          - text: —
+          - strong [ref=e1707]: do not touch.
+          - text: The website uses this key to load products; revoking or deleting it takes every product off the site.
+        - paragraph [ref=e1708]:
+          - img "API keys" [ref=e1709]
+    - separator [ref=e1710]
+    - heading [level=2] [ref=e1711]:
+      - link "14. Analytics, and visitor numbers in Umami" [ref=e1712] [cursor=pointer]:
+        - /url: "#/?id=_14-analytics-and-visitor-numbers-in-umami"
+    - heading [level=3] [ref=e1713]:
+      - link "14.1 Analytics (in Medusa)" [ref=e1714] [cursor=pointer]:
+        - /url: "#/?id=_141-analytics-in-medusa"
+    - paragraph [ref=e1715]:
+      - text: Sidebar
+      - strong [ref=e1716]: Analytics
+      - text: (Admin and above). Pick the period at the top right.
+    - table [ref=e1717]:
+      - rowgroup [ref=e1718]:
+        - row [ref=e1719]:
+          - columnheader "Number" [ref=e1720]
+          - columnheader "Means" [ref=e1721]
+      - rowgroup [ref=e1722]:
+        - row [ref=e1723]:
+          - cell [ref=e1724]:
+            - strong [ref=e1725]: Orders
+          - cell "Orders placed in the period" [ref=e1726]
+        - row [ref=e1727]:
+          - cell [ref=e1728]:
+            - strong [ref=e1729]: Revenue
+          - cell "What those orders came to" [ref=e1730]
+        - row [ref=e1731]:
+          - cell [ref=e1732]:
+            - strong [ref=e1733]: Average order value
+          - cell "Revenue divided by orders" [ref=e1734]
+        - row [ref=e1735]:
+          - cell [ref=e1736]:
+            - strong [ref=e1737]: Profit
+          - cell "Revenue minus cost price — only for products with a cost price (1.9); it says how many" [ref=e1738]
+    - paragraph [ref=e1739]: "Below them: the revenue trend, orders per day, best sellers (with stock left) and revenue by product."
+    - paragraph [ref=e1740]:
+      - img "Analytics" [ref=e1741]
+    - heading [level=3] [ref=e1742]:
+      - link "14.2 Visitors — Umami" [ref=e1743] [cursor=pointer]:
+        - /url: "#/?id=_142-visitors-umami"
+    - paragraph [ref=e1744]:
+      - code [ref=e1745]: https://tunewear-analytics.<domain>
+      - text: — its own login.
+    - paragraph [ref=e1746]:
+      - img "Umami login" [ref=e1747]
+    - paragraph [ref=e1748]:
+      - text: Open
+      - strong [ref=e1749]: Websites → TuneWear
+      - text: for visitors, page views, where they came from and which pages they read.
+    - paragraph [ref=e1750]:
+      - img "Umami" [ref=e1751]
+    - separator [ref=e1752]
+    - heading [level=2] [ref=e1753]:
+      - link "15. Glossary" [ref=e1754] [cursor=pointer]:
+        - /url: "#/?id=_15-glossary"
+    - table [ref=e1755]:
+      - rowgroup [ref=e1756]:
+        - row [ref=e1757]:
+          - columnheader "Word" [ref=e1758]
+          - columnheader "Plain meaning" [ref=e1759]
+      - rowgroup [ref=e1760]:
+        - row [ref=e1761]:
+          - cell [ref=e1762]:
+            - strong [ref=e1763]: Option
+          - 'cell "A way a garment varies: Size, Colour." [ref=e1764]'
+        - row [ref=e1765]:
+          - cell [ref=e1766]:
+            - strong [ref=e1767]: Variant
+          - cell "One combination a shopper buys — Black / M. Has its own stock." [ref=e1768]
+        - row [ref=e1769]:
+          - cell [ref=e1770]:
+            - strong [ref=e1771]: SKU
+          - cell "A product code for one variant (optional)." [ref=e1772]
+        - row [ref=e1773]:
+          - cell [ref=e1774]:
+            - strong [ref=e1775]: Type
+          - cell [ref=e1776]:
+            - code [ref=e1777]: men
+            - text: ","
+            - code [ref=e1778]: women
+            - text: or
+            - code [ref=e1779]: unisex
+            - text: — which aisle the product shows in.
+        - row [ref=e1780]:
+          - cell [ref=e1781]:
+            - strong [ref=e1782]: Category
+          - cell "A tile on /men and /women (Sweaters, Polos)." [ref=e1783]
+        - row [ref=e1784]:
+          - cell [ref=e1785]:
+            - strong [ref=e1786]: Tag
+          - cell [ref=e1787]:
+            - text: A label on a product (
+            - code [ref=e1788]: featured
+            - text: ","
+            - code [ref=e1789]: new-arrival
+            - text: ).
+        - row [ref=e1790]:
+          - cell [ref=e1791]:
+            - strong [ref=e1792]: Price list
+          - cell "A set of different prices — a sale, or prices for a customer group." [ref=e1793]
+        - row [ref=e1794]:
+          - cell [ref=e1795]:
+            - strong [ref=e1796]: Promotion
+          - cell "A discount code or an automatic offer." [ref=e1797]
+        - row [ref=e1798]:
+          - cell [ref=e1799]:
+            - strong [ref=e1800]: Campaign
+          - cell "Dates and a budget shared by promotions." [ref=e1801]
+        - row [ref=e1802]:
+          - cell [ref=e1803]:
+            - strong [ref=e1804]: Customer group
+          - cell "Customers collected for a special price or offer." [ref=e1805]
+        - row [ref=e1806]:
+          - cell [ref=e1807]:
+            - strong [ref=e1808]: Reserved
+          - cell "Stock promised to orders not yet fulfilled." [ref=e1809]
+        - row [ref=e1810]:
+          - cell [ref=e1811]:
+            - strong [ref=e1812]: Fulfill
+          - cell "Pick and pack an order; stock goes down." [ref=e1813]
+        - row [ref=e1814]:
+          - cell [ref=e1815]:
+            - strong [ref=e1816]: Capture
+          - cell "Record that the money came in (Cash on Delivery)." [ref=e1817]
+        - row [ref=e1818]:
+          - cell [ref=e1819]:
+            - strong [ref=e1820]: Draft order
+          - cell "An order you type in yourself (DM orders)." [ref=e1821]
+        - row [ref=e1822]:
+          - cell [ref=e1823]:
+            - strong [ref=e1824]: Sales channel
+          - cell "Where products are sold — here only the website." [ref=e1825]
+        - row [ref=e1826]:
+          - cell [ref=e1827]:
+            - strong [ref=e1828]: Trusted admin
+          - cell "An Admin allowed to see the audit log and make reset links." [ref=e1829]
+        - row [ref=e1830]:
+          - cell [ref=e1831]:
+            - strong [ref=e1832]: Publish changes
+          - cell "The button that sends price-list changes to the website." [ref=e1833]
+        - row [ref=e1834]:
+          - cell [ref=e1835]:
+            - strong [ref=e1836]: Live Preview
+          - cell "Payload's side-by-side view of the real page, refreshed on Save." [ref=e1837]
