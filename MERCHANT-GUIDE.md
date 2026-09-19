@@ -1134,18 +1134,18 @@ point (below) works for that photo.
 | ----- | ----------- | ------------ | ----------- |
 | Product photo | 1200 × 1800 px | **2 : 3** (tall) | No |
 | Category tile | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No |
-| Home page hero | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
+| Home page hero | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
 | Men and Women page heroes | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
 | Men / Women / Sale cards (home) | 1600 × 900 px | 16 : 9 (wide strip) | Yes |
 | Sale page banner | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
 | Mix & Match photo (Sale) | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
 | Brand story (home) | 1600 × 1000 px | 16 : 10 | No |
-| Photograph block, **Wide** | 1600 × 900 px | 16 : 9 | No |
-| Photograph block, **Square** | 1200 × 1200 px | 1 : 1 | No |
-| Photograph block, **Tall** | 1200 × 1500 px | 4 : 5 | No |
-| Carousel block | 1200 × 1500 px | 4 : 5 | No |
-| Gallery block | 1200 × 1200 px | 1 : 1 | No |
-| Photo with text block | 1600 × 1200 px | 4 : 3 | No |
+| Photograph block, **Wide** | 1600 × 900 px | 16 : 9 | Yes |
+| Photograph block, **Square** | 1200 × 1200 px | 1 : 1 | Yes |
+| Photograph block, **Tall** | 1200 × 1500 px | 4 : 5 | Yes |
+| Carousel block | 1200 × 1500 px | 4 : 5 | Yes |
+| Gallery block | 1200 × 1200 px | 1 : 1 | Yes |
+| Photo with text block | 1600 × 1200 px | 4 : 3 | Yes |
 | Section (columns) background | 1845 × 900 px | About 2 : 1 | Yes |
 
 The rest of this section explains each one.
@@ -1206,13 +1206,14 @@ the garment and every trimmed version stays centred on that.
 
 ![The focal point, the round + on the photo](assets/merchant-guide/11-12-media-focal.webp)
 
-**Where the focal point is used.** It is used for the **Men and Women
-page heroes**, the **Men / Women / Sale cards** on the home page, the
-**Mix & Match** photo on the Sale page, and the **Section (columns)** and
-**Hero** blocks. It is **not** used for the home page hero, the Sale
-banner, the Brand story, the **Photograph**, **Carousel**, **Gallery** and
-**Photo with text** blocks, product photos or category tiles; those always
-trim from the middle, so crop those photos to shape before you upload.
+**Where the focal point is used.** It works for the **home page hero**,
+the **Men and Women page heroes**, the **Men / Women / Sale cards**, the
+**Mix & Match** photo, and the **Section (columns)**, **Hero**,
+**Photograph**, **Carousel**, **Gallery** and **Photo with text** blocks.
+It does **not** work for the **Sale banner**, the **Brand story**, product
+photos or category tiles: those are framed by hand or managed in Medusa
+and always trim from the middle, so crop those photos to shape before you
+upload.
 
 The focal point belongs to the **photo**, not to the place it is used, so
 a photo used in two places is framed the same in both. It only changes
