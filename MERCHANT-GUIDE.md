@@ -1,7 +1,7 @@
 # Running TuneWear — the admin guide
 
 For whoever runs the shop day to day. Every screenshot was taken on the
-real admin (staging, September 2026). The gold rings and numbers show what
+real admin (staging, September 2026; the photo guide, 11.7, from the live site). The gold rings and numbers show what
 to click, in order. Nothing here needs a terminal, code or a deploy: every
 change reaches the website by itself, most within seconds.
 
@@ -21,7 +21,7 @@ _who_ may use it, then the clicks, with a worked example.
 8. Customers and password resets
 9. Shop claims — what the site says about the business
 10. Sales channels
-11. The website's words and photos (Payload)
+11. The website's words and photos (Payload), and the photo guide — the right size and shape for every photo
 12. Staff and roles
 13. Store settings
 14. Analytics, and visitor numbers in Umami
@@ -255,11 +255,16 @@ means "unknown", never zero.
 
 ### 1.10 Photos and colours
 
-**The shape of a photo.** Product cards in the shop show every photo tall,
-at **2 : 3** (for example 1200 × 1800 pixels); the product page shows it a
-little shorter (4 : 5). Shoot or crop tall, with some space around the
-garment, so nothing important sits at the very top or bottom edge — the
-shop trims whatever does not fit the frame.
+**The shape of a photo — shoot every product photo tall, at 2 : 3** (for
+example 1200 × 1800 pixels; 1365 × 2048 is fine too). That one shape is
+what the shop is built around: the product cards and the small pictures
+under the main photo show the whole 2 : 3 photo, and the big photo on the
+product page is a little shorter (4 : 5 on a phone and on a computer,
+square on a tablet), so it trims a thin strip off the top and bottom.
+Leave some space above and below the garment so nothing important sits
+on those edges. Use the same framing for every colour of a product, so
+the photos look like one set when a shopper switches colours. More on
+sizes and file types in the photo guide, section 11.7.
 
 The **Photographs & image SEO** box: for each photo, pick which colour it
 shows (or **Shows every colour**). A shopper who picks that colour is taken
@@ -447,7 +452,11 @@ have the right Type.
 ### 2.3 The tile photo
 
 **Tile photograph** box → **Upload photo** (up to 8 MB). Your upload always
-wins over the photo the site came with.
+wins over the photo the site came with. The tile is close to square (a bit
+taller on phones, a bit wider on computers), so upload a photo about
+**1200 × 1200** with the person in the middle and their head well below
+the top edge. There is no focal-point setting here, so what you see in
+the middle is what stays. See the photo guide, section 11.7.
 
 ![Tile photo](assets/merchant-guide/02-10-tile-photo.webp)
 
@@ -1109,7 +1118,108 @@ works. Replace every part in **[square brackets]** — business name and
 address, courier, how long you keep records, your WhatsApp and email —
 have it checked, delete the first "[Draft …]" line, and **Save**.
 
-### 11.7 Photos and logins
+### 11.7 Photo guide — sizes, shapes, and the focal point
+
+**When you need this:** every time you upload a photo, anywhere. The
+website crops each photo to fit a frame, and a photo in the wrong shape
+loses its head or its garment to the crop. Get the shape right before you
+upload and it always looks right.
+
+**Quick reference — size and aspect ratio of every photo**
+
+Aspect ratio is width : height. The last column says whether the focal
+point (below) works for that photo.
+
+| Photo | Upload size | Aspect ratio | Focal point |
+| ----- | ----------- | ------------ | ----------- |
+| Product photo | 1200 × 1800 px | **2 : 3** (tall) | No |
+| Category tile | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No |
+| Home page hero | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
+| Men and Women page heroes | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
+| Men / Women / Sale cards (home) | 1600 × 900 px | 16 : 9 (wide strip) | Yes |
+| Sale page banner | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
+| Mix & Match photo (Sale) | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
+| Brand story (home) | 1600 × 1000 px | 16 : 10 | No |
+| Photograph block, **Wide** | 1600 × 900 px | 16 : 9 | No |
+| Photograph block, **Square** | 1200 × 1200 px | 1 : 1 | No |
+| Photograph block, **Tall** | 1200 × 1500 px | 4 : 5 | No |
+| Carousel block | 1200 × 1500 px | 4 : 5 | No |
+| Gallery block | 1200 × 1200 px | 1 : 1 | No |
+| Photo with text block | 1600 × 1200 px | 4 : 3 | No |
+| Section (columns) background | 1845 × 900 px | About 2 : 1 | Yes |
+
+The rest of this section explains each one.
+
+**The four rules**
+
+1. **Crop to the frame's shape before you upload** — the table below says
+   which. This is more reliable than anything the website can do for you.
+2. **Keep the person or garment in the middle**, with space around them.
+3. **Bigger is fine, smaller is not.** A photo smaller than the size in the
+   table looks soft. Keep each file under 2 MB where you can (JPEG or WebP;
+   the website makes it lighter for phones by itself).
+4. **Give every photo a description** in the **Alt** box. It is read to
+   people who cannot see the photo, and it is required.
+
+**Where each photo goes**
+
+| Photo | Where you upload it | Shape | Upload about | Keep in mind |
+| ----- | ------------------- | ----- | ------------ | ------------ |
+| **Product photos** | Medusa → the product → Media (1.10) | Tall, **2 : 3** | 1200 × 1800 px | The big photo on the product page trims a little off the top and bottom (4 : 5) |
+| **Category tile** (the pictures on /men and /women) | Medusa → the category → Tile photograph (2.3) | Nearly square | 1200 × 1200 px | Head well below the top edge; no focal point here |
+| **Home page hero** and the **Men / Women** page heroes | Payload → Pages → Home, Men, Women | A wide band | 1845 × 560 px | On a phone the band is almost square, so only the **middle third** of the width shows — keep the person in the middle |
+| **Men / Women / Sale cards** under the home hero | Payload → Pages → Home | Wide strip | 1600 × 900 px | The words sit over the left side, so put the person on the **right** |
+| **Sale page banner** and the **Mix & Match** photo | Payload → Pages → Sale | Wide band | 1845 × 560 px | Darkened so the words stay readable |
+| **Photograph** block, a page you add (11.5) | Payload → the page → Photograph | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick |
+| **Carousel** and **Gallery** blocks | Payload → the page | Carousel tall (4 : 5), Gallery square | 1200 × 1500 px / 1200 × 1200 px | Use photos of one shape in the same block |
+| **Photo with text** block | Payload → the page | Landscape (4 : 3) | 1600 × 1200 px | |
+| **Brand story** (home) | Payload → Pages → Home | Landscape (16 : 10) | 1600 × 1000 px | |
+| **Section (columns)** background photo | Payload → the page → Section | Fills the whole section | 1845 × 900 px | Darkened; keep the subject in the middle |
+
+If you are unsure, upload the **biggest, cleanest** version you have, with
+the person in the middle. The website never stretches a photo; it trims.
+
+**One photo for computers and another for phones**
+
+Payload has no "phone photo" box: a photo you upload is used on every
+screen. If a picture needs to look different on a phone, do it in two
+steps: build the part as **two Section (columns) blocks**, one with the
+computer photo and one with the phone photo, and set **Show on** in each
+(**Computers only** for one, **Phones and tablets only** for the other).
+Only one of them shows on any screen. Use this for the odd banner, not
+for every photo; one well-framed photo is easier to look after.
+
+**The focal point — choosing what stays in the picture**
+
+When a photo has to be trimmed, the website keeps the part around its
+**focal point**, which starts in the middle. Move it onto the face or
+the garment and every trimmed version stays centred on that.
+
+1. **Media** (sidebar) → click the photo.
+2. Click **Edit Image** (1).
+3. In the **Focal Point** box drag the **+** on the picture onto what
+   matters most, or type the **X %** (left to right) and **Y %** (top to
+   bottom) numbers. **50** and **50** is the middle.
+4. **Apply Changes**, then **Save**. The change is live within seconds.
+
+![Edit Image on a photo](assets/merchant-guide/11-11-media-edit.webp)
+
+![The focal point, the round + on the photo](assets/merchant-guide/11-12-media-focal.webp)
+
+**Where the focal point is used.** It is used for the **Men and Women
+page heroes**, the **Men / Women / Sale cards** on the home page, the
+**Mix & Match** photo on the Sale page, and the **Section (columns)** and
+**Hero** blocks. It is **not** used for the home page hero, the Sale
+banner, the Brand story, the **Photograph**, **Carousel**, **Gallery** and
+**Photo with text** blocks, product photos or category tiles; those always
+trim from the middle, so crop those photos to shape before you upload.
+
+The focal point belongs to the **photo**, not to the place it is used, so
+a photo used in two places is framed the same in both. It only changes
+how a photo is trimmed: a photo already in the right shape shows the same
+either way.
+
+### 11.8 Photos and logins
 
 ![Media](assets/merchant-guide/11-09-media.webp)
 
