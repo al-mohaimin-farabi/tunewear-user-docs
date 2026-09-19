@@ -1130,25 +1130,28 @@ upload and it always looks right.
 Aspect ratio is width : height. The last column says whether the focal
 point (below) works for that photo.
 
-| Photo | Upload size | Aspect ratio | Focal point |
-| ----- | ----------- | ------------ | ----------- |
-| Product photo | 1200 × 1800 px | **2 : 3** (tall) | No |
-| Category tile | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No |
-| Home page hero | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Men and Women page heroes | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Men / Women / Sale cards (home) | 1600 × 900 px | 16 : 9 (wide strip) | Yes |
-| Sale page banner | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
-| Mix & Match photo (Sale) | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Brand story (home) | 1600 × 1000 px | 16 : 10 | No |
-| Photograph block, **Wide** | 1600 × 900 px | 16 : 9 | Yes |
-| Photograph block, **Square** | 1200 × 1200 px | 1 : 1 | Yes |
-| Photograph block, **Tall** | 1200 × 1500 px | 4 : 5 | Yes |
-| Carousel block | 1200 × 1500 px | 4 : 5 | Yes |
-| Gallery block | 1200 × 1200 px | 1 : 1 | Yes |
-| Photo with text block | 1600 × 1200 px | 4 : 3 | Yes |
-| Section (columns) background | 1845 × 900 px | About 2 : 1 | Yes |
+| Photo | What it does | Upload size | Aspect ratio | Focal point |
+| ----- | ------------ | ----------- | ------------ | ----------- |
+| Product photo | The pictures you add to a product. Shown on the shop cards and the product page. | 1200 × 1800 px | **2 : 3** (tall) | No |
+| Category tile | The picture on each tile on /men and /women. | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No |
+| Home page hero | The big banner photos that slide at the top of the home page. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
+| Men and Women page heroes | The banner at the top of /men and /women. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
+| Men / Women / Sale cards (home) | The three photo cards under the home page hero. | 1600 × 900 px | 16 : 9 (wide strip) | Yes |
+| Sale page banner | The banner at the top of /sale. | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
+| Mix & Match photo (Sale) | The photo behind the Mix & Match strip on the Sale page. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
+| Brand story (home) | The photo beside the "Made in Dhaka" story on the home page. | 1600 × 1000 px | 16 : 10 | No |
+| Photograph block, **Wide** | One photo with a caption, in a wide shape. | 1600 × 900 px | 16 : 9 | Yes |
+| Photograph block, **Square** | The same block, in a square shape. | 1200 × 1200 px | 1 : 1 | Yes |
+| Photograph block, **Tall** | The same block, in a tall shape. | 1200 × 1500 px | 4 : 5 | Yes |
+| Photo slider block | A sideways-scrolling row of tall photos with captions. | 1200 × 1500 px | 4 : 5 | Yes |
+| Gallery block (called **Photo grid** in Add Block) | Shows several photos as square tiles, 2 to 4 across, so a set of photos reads as one grid. | 1200 × 1200 px | 1 : 1 | Yes |
+| Image Text block | A photo beside a paragraph and a button, like "Built for the cold snap" on About. | 1600 × 1200 px | 4 : 3 | Yes |
+| Section (columns) background | The photo behind a whole Section (columns) block. | 1845 × 900 px | About 2 : 1 | Yes |
 
-The rest of this section explains each one.
+The **blocks** in this table (Photograph, Photo slider, Photo grid, Image
+Text, Section) are the pieces you add to a page with **Add Block** (section
+11.5). Each has its own photo box, so each has its own shape. The rest of
+this section explains each one.
 
 **The four rules**
 
@@ -1171,8 +1174,8 @@ The rest of this section explains each one.
 | **Men / Women / Sale cards** under the home hero | Payload → Pages → Home | Wide strip | 1600 × 900 px | The words sit over the left side, so put the person on the **right** |
 | **Sale page banner** and the **Mix & Match** photo | Payload → Pages → Sale | Wide band | 1845 × 560 px | Darkened so the words stay readable |
 | **Photograph** block, a page you add (11.5) | Payload → the page → Photograph | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick |
-| **Carousel** and **Gallery** blocks | Payload → the page | Carousel tall (4 : 5), Gallery square | 1200 × 1500 px / 1200 × 1200 px | Use photos of one shape in the same block |
-| **Photo with text** block | Payload → the page | Landscape (4 : 3) | 1600 × 1200 px | |
+| **Photo slider** and **Photo grid** blocks | Payload → the page | Slider tall (4 : 5), grid square | 1200 × 1500 px / 1200 × 1200 px | Use photos of one shape in the same block |
+| **Image Text** block | Payload → the page | Landscape (4 : 3) | 1600 × 1200 px | |
 | **Brand story** (home) | Payload → Pages → Home | Landscape (16 : 10) | 1600 × 1000 px | |
 | **Section (columns)** background photo | Payload → the page → Section | Fills the whole section | 1845 × 900 px | Darkened; keep the subject in the middle |
 
@@ -1209,7 +1212,7 @@ the garment and every trimmed version stays centred on that.
 **Where the focal point is used.** It works for the **home page hero**,
 the **Men and Women page heroes**, the **Men / Women / Sale cards**, the
 **Mix & Match** photo, and the **Section (columns)**, **Hero**,
-**Photograph**, **Carousel**, **Gallery** and **Photo with text** blocks.
+**Photograph**, **Photo slider**, **Photo grid** and **Image Text** blocks.
 It does **not** work for the **Sale banner**, the **Brand story**, product
 photos or category tiles: those are framed by hand or managed in Medusa
 and always trim from the middle, so crop those photos to shape before you
