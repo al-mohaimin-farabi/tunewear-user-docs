@@ -279,10 +279,25 @@ Google Images; it is pre-written for you.
 
 **Organize** box → **⋯ → Edit** → **Tags**: pick an existing tag, or type a
 new one and choose **Create "…"**. **Save.** (If the tag already exists,
-Create is greyed out — pick it from the list.) Tags show as labels on the
-product; `featured` also puts it on the home page's rail.
+Create is greyed out — pick it from the list.)
 
 ![Create a tag](assets/merchant-guide/01-41-tag-create.webp)
+
+What each tag does on the website:
+
+| Tag            | What it does                                                                                                                                                                                                                         |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `new-arrival`  | A **New** label on the product, and the product is listed on the **New arrivals** page. That page shows **only** tagged products: take the tag off and the product leaves the page. With none tagged, the page shows an empty shelf. |
+| `featured`     | A **Featured** label; puts the product on the home page's rail, and first on the shop pages.                                                                                                                                         |
+| `bestseller`   | A **Bestseller** label.                                                                                                                                                                                                              |
+| A tag you made | Shown as a label on the product.                                                                                                                                                                                                     |
+
+Worked example: a new hoodie arrives — add `new-arrival` and it appears on
+New arrivals. A month later, remove the tag and it leaves the page; it is
+still in the shop everywhere else.
+
+A photo card has room for two labels, so it shows the two tags added most
+recently; the product page shows them all.
 
 ### 1.12 Complete the look, Other colours, You may also like
 
@@ -564,6 +579,25 @@ tee — before Publish changes the shop still shows ৳1,290; after, it shows
 ![Done](assets/merchant-guide/03-07-publish-toast.webp)
 
 ![On the shop](assets/merchant-guide/03-08-sale-price-live.webp)
+
+#### Where a sale shows on the website
+
+Once published, every product in an active **Sale** list:
+
+- shows the sale price, the normal price struck through, and the gold
+  `-N%` badge — on its photo card and on its product page;
+- is listed in the **Best deals for you** row on the **Sale** page (and the
+  best-deals row in the home page's sale section);
+- is found by the **On sale** tick, the first box in the filter on every
+  shop page — Shop all, Men, Women, each category, New arrivals.
+
+**View all** beside the Sale page's row opens **Shop all** with **On sale**
+already ticked: every product on sale, ready to narrow by size, colour or
+price.
+
+You never pick the Sale page's products by hand — the price lists decide
+them. With no sale running, the row shows an empty shelf. An **Override**
+list has no sale look (3.2), so its products are not listed there.
 
 #### Change, extend, end, or delete a sale
 
@@ -1086,6 +1120,11 @@ everything else). Medusa's roles do not apply here.
 | **Site content → Trust Bar**           | The reassurance strip (delivery, returns, secure payment)                                       |
 | **Site content → Announcement strip**  | The scrolling words under the header — one list for home, one for other pages                   |
 | **Media**                              | Every uploaded photo, with a focal point (what stays in frame when cropped)                     |
+
+**Which products appear is not set here.** Payload holds the words and
+photos; the products come from Medusa. New arrivals lists the products
+tagged `new-arrival` (1.11). The Sale page's row lists the products in a
+sale price list (3.2).
 
 Example — the Home page: open **Pages → Home**, change a heading, **Save**.
 
