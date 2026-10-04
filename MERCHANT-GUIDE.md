@@ -17,7 +17,7 @@ _who_ may use it, then the clicks, with a worked example.
 4. Discount codes and offers (promotions)
 5. Delivery charges
 6. Stock
-7. Orders — from the website, and DM orders you type in
+7. Orders — from the website, what to do when one arrives, and DM orders you type in
 8. Customers and password resets
 9. Shop claims — what the site says about the business
 10. Sales channels
@@ -927,6 +927,46 @@ stays a guest order — it does not move into an account later, even with
 the same email. At checkout a logged-in customer's email is locked to
 their account's.
 
+### 7.6 When a new order arrives — what to do, in order
+
+**The shop does not email or text you about new orders yet.** Open
+**Orders** at least every morning and evening; the newest is at the top.
+
+1. **See how it was paid.** Open the order and look at **Payment**:
+
+   | Payment shows  | Means                                                           |
+   | -------------- | --------------------------------------------------------------- |
+   | **Captured**   | Paid online (card, bKash, Nagad). The money is with SSLCommerz. |
+   | **Authorized** | Cash on Delivery. Nothing paid yet — the rider collects it.     |
+
+   An online order only appears here **after** SSLCommerz has confirmed the
+   money, so an online order you can see is a paid one.
+
+2. **Cash on Delivery: call the customer first.** Ring the phone number on
+   the order and confirm the size, the address and that they want it.
+   Pack only after they say yes. A number that never answers is the usual
+   sign of a fake order — cancel it (step 5) so the pieces go back on sale.
+3. **Fulfill** (pack) → **Mark as shipped** with the courier's tracking
+   number → **Mark as delivered** — the steps in 7.3.
+4. **Cash on Delivery: Capture payment** once the courier hands you the
+   cash. Online orders skip this.
+5. **Cancelling.** Order page → **⋯** (top right) → **Cancel** →
+   **Continue**. Do this **before** fulfilling: the reserved pieces go back
+   on sale at once (6.3). A fulfilled order refuses to cancel — cancel its
+   fulfilment first, or, if it already went to the courier, create a
+   return.
+
+**Refunding an online payment.** The admin has no refund button for
+SSLCommerz yet. Refund it in the **SSLCommerz merchant panel** — find the
+payment by its amount and date — then cancel or return the order here so
+stock is right.
+
+**"I paid but there is no order."** If a customer says this, look the
+payment up in the SSLCommerz merchant panel. If SSLCommerz shows it paid
+and there is no order here, refund it there or type the order in as a
+Draft order (7.4) — tell your developer either way, because it should not
+happen.
+
 ---
 
 ## 8. Customers and password resets
@@ -1130,23 +1170,23 @@ upload and it always looks right.
 Aspect ratio is width : height. The last column says whether the focal
 point (below) works for that photo.
 
-| Photo | What it does | Upload size | Aspect ratio | Focal point |
-| ----- | ------------ | ----------- | ------------ | ----------- |
-| Product photo | The pictures you add to a product. Shown on the shop cards and the product page. | 1200 × 1800 px | **2 : 3** (tall) | No |
-| Category tile | The picture on each tile on /men and /women. | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No |
-| Home page hero | The big banner photos that slide at the top of the home page. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Men and Women page heroes | The banner at the top of /men and /women. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Men / Women / Sale cards (home) | The three photo cards under the home page hero. | 1600 × 900 px | 16 : 9 (wide strip) | Yes |
-| Sale page banner | The banner at the top of /sale. | 1845 × 560 px | About 3.3 : 1 (wide band) | No |
-| Mix & Match photo (Sale) | The photo behind the Mix & Match strip on the Sale page. | 1845 × 560 px | About 3.3 : 1 (wide band) | Yes |
-| Brand story (home) | The photo beside the "Made in Dhaka" story on the home page. | 1600 × 1000 px | 16 : 10 | No |
-| Photograph block, **Wide** | One photo with a caption, in a wide shape. | 1600 × 900 px | 16 : 9 | Yes |
-| Photograph block, **Square** | The same block, in a square shape. | 1200 × 1200 px | 1 : 1 | Yes |
-| Photograph block, **Tall** | The same block, in a tall shape. | 1200 × 1500 px | 4 : 5 | Yes |
-| Photo slider block | A sideways-scrolling row of tall photos with captions. | 1200 × 1500 px | 4 : 5 | Yes |
-| Gallery block (called **Photo grid** in Add Block) | Shows several photos as square tiles, 2 to 4 across, so a set of photos reads as one grid. | 1200 × 1200 px | 1 : 1 | Yes |
-| Image Text block | A photo beside a paragraph and a button, like "Built for the cold snap" on About. | 1600 × 1200 px | 4 : 3 | Yes |
-| Section (columns) background | The photo behind a whole Section (columns) block. | 1845 × 900 px | About 2 : 1 | Yes |
+| Photo                                              | What it does                                                                               | Upload size    | Aspect ratio                                      | Focal point |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ------------------------------------------------- | ----------- |
+| Product photo                                      | The pictures you add to a product. Shown on the shop cards and the product page.           | 1200 × 1800 px | **2 : 3** (tall)                                  | No          |
+| Category tile                                      | The picture on each tile on /men and /women.                                               | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No          |
+| Home page hero                                     | The big banner photos that slide at the top of the home page.                              | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
+| Men and Women page heroes                          | The banner at the top of /men and /women.                                                  | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
+| Men / Women / Sale cards (home)                    | The three photo cards under the home page hero.                                            | 1600 × 900 px  | 16 : 9 (wide strip)                               | Yes         |
+| Sale page banner                                   | The banner at the top of /sale.                                                            | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | No          |
+| Mix & Match photo (Sale)                           | The photo behind the Mix & Match strip on the Sale page.                                   | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
+| Brand story (home)                                 | The photo beside the "Made in Dhaka" story on the home page.                               | 1600 × 1000 px | 16 : 10                                           | No          |
+| Photograph block, **Wide**                         | One photo with a caption, in a wide shape.                                                 | 1600 × 900 px  | 16 : 9                                            | Yes         |
+| Photograph block, **Square**                       | The same block, in a square shape.                                                         | 1200 × 1200 px | 1 : 1                                             | Yes         |
+| Photograph block, **Tall**                         | The same block, in a tall shape.                                                           | 1200 × 1500 px | 4 : 5                                             | Yes         |
+| Photo slider block                                 | A sideways-scrolling row of tall photos with captions.                                     | 1200 × 1500 px | 4 : 5                                             | Yes         |
+| Gallery block (called **Photo grid** in Add Block) | Shows several photos as square tiles, 2 to 4 across, so a set of photos reads as one grid. | 1200 × 1200 px | 1 : 1                                             | Yes         |
+| Image Text block                                   | A photo beside a paragraph and a button, like "Built for the cold snap" on About.          | 1600 × 1200 px | 4 : 3                                             | Yes         |
+| Section (columns) background                       | The photo behind a whole Section (columns) block.                                          | 1845 × 900 px  | About 2 : 1                                       | Yes         |
 
 The **blocks** in this table (Photograph, Photo slider, Photo grid, Image
 Text, Section) are the pieces you add to a page with **Add Block** (section
@@ -1166,18 +1206,18 @@ this section explains each one.
 
 **Where each photo goes**
 
-| Photo | Where you upload it | Shape | Upload about | Keep in mind |
-| ----- | ------------------- | ----- | ------------ | ------------ |
-| **Product photos** | Medusa → the product → Media (1.10) | Tall, **2 : 3** | 1200 × 1800 px | The big photo on the product page trims a little off the top and bottom (4 : 5) |
-| **Category tile** (the pictures on /men and /women) | Medusa → the category → Tile photograph (2.3) | Nearly square | 1200 × 1200 px | Head well below the top edge; no focal point here |
-| **Home page hero** and the **Men / Women** page heroes | Payload → Pages → Home, Men, Women | A wide band | 1845 × 560 px | On a phone the band is almost square, so only the **middle third** of the width shows — keep the person in the middle |
-| **Men / Women / Sale cards** under the home hero | Payload → Pages → Home | Wide strip | 1600 × 900 px | The words sit over the left side, so put the person on the **right** |
-| **Sale page banner** and the **Mix & Match** photo | Payload → Pages → Sale | Wide band | 1845 × 560 px | Darkened so the words stay readable |
-| **Photograph** block, a page you add (11.5) | Payload → the page → Photograph | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick |
-| **Photo slider** and **Photo grid** blocks | Payload → the page | Slider tall (4 : 5), grid square | 1200 × 1500 px / 1200 × 1200 px | Use photos of one shape in the same block |
-| **Image Text** block | Payload → the page | Landscape (4 : 3) | 1600 × 1200 px | |
-| **Brand story** (home) | Payload → Pages → Home | Landscape (16 : 10) | 1600 × 1000 px | |
-| **Section (columns)** background photo | Payload → the page → Section | Fills the whole section | 1845 × 900 px | Darkened; keep the subject in the middle |
+| Photo                                                  | Where you upload it                           | Shape                                      | Upload about                                             | Keep in mind                                                                                                          |
+| ------------------------------------------------------ | --------------------------------------------- | ------------------------------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Product photos**                                     | Medusa → the product → Media (1.10)           | Tall, **2 : 3**                            | 1200 × 1800 px                                           | The big photo on the product page trims a little off the top and bottom (4 : 5)                                       |
+| **Category tile** (the pictures on /men and /women)    | Medusa → the category → Tile photograph (2.3) | Nearly square                              | 1200 × 1200 px                                           | Head well below the top edge; no focal point here                                                                     |
+| **Home page hero** and the **Men / Women** page heroes | Payload → Pages → Home, Men, Women            | A wide band                                | 1845 × 560 px                                            | On a phone the band is almost square, so only the **middle third** of the width shows — keep the person in the middle |
+| **Men / Women / Sale cards** under the home hero       | Payload → Pages → Home                        | Wide strip                                 | 1600 × 900 px                                            | The words sit over the left side, so put the person on the **right**                                                  |
+| **Sale page banner** and the **Mix & Match** photo     | Payload → Pages → Sale                        | Wide band                                  | 1845 × 560 px                                            | Darkened so the words stay readable                                                                                   |
+| **Photograph** block, a page you add (11.5)            | Payload → the page → Photograph               | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick                                                                            |
+| **Photo slider** and **Photo grid** blocks             | Payload → the page                            | Slider tall (4 : 5), grid square           | 1200 × 1500 px / 1200 × 1200 px                          | Use photos of one shape in the same block                                                                             |
+| **Image Text** block                                   | Payload → the page                            | Landscape (4 : 3)                          | 1600 × 1200 px                                           |                                                                                                                       |
+| **Brand story** (home)                                 | Payload → Pages → Home                        | Landscape (16 : 10)                        | 1600 × 1000 px                                           |                                                                                                                       |
+| **Section (columns)** background photo                 | Payload → the page → Section                  | Fills the whole section                    | 1845 × 900 px                                            | Darkened; keep the subject in the middle                                                                              |
 
 If you are unsure, upload the **biggest, cleanest** version you have, with
 the person in the middle. The website never stretches a photo; it trims.
