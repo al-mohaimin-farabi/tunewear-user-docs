@@ -930,7 +930,8 @@ their account's.
 ### 7.6 When a new order arrives — what to do, in order
 
 **The shop does not email or text you about new orders yet.** Open
-**Orders** at least every morning and evening. While the page is open it
+**Orders** at least every morning and evening — the newest order is always
+at the top. While the page is open it
 checks for new orders every 2 minutes on its own, and again whenever you
 come back to it; the **Refresh** button at the top checks straight away.
 
