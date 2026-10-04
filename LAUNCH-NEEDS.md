@@ -13,30 +13,45 @@ Send passwords privately — never in a group chat.
 
 When the live account is approved, send us:
 
-| What                           | Note                                                                                     |
-| ------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Store ID**                   | The shop's account name at SSLCommerz.                                                   |
-| **Store Password**             | Also called the API password. **It is shown only once** — copy it the moment you see it. |
-| **Merchant panel** link        | Where payments and refunds are seen.                                                     |
-| Merchant panel username        |                                                                                          |
-| Merchant panel password        |                                                                                          |
-| The website address registered | Must be the shop's final website address.                                                |
+| What                    | Note                                                                                     |
+| ----------------------- | ---------------------------------------------------------------------------------------- |
+| **Store ID**            | The shop's account name at SSLCommerz.                                                   |
+| **Store Password**      | Also called the API password. **It is shown only once** — copy it the moment you see it. |
+| Merchant panel link     | Where you see payments and make refunds.                                                 |
+| Merchant panel username |                                                                                          |
+| Merchant panel password |                                                                                          |
 
 If the welcome email holds these, forward that email. **Never reset the
 Store Password without telling us** — online payment stops until we update
 it on the server.
 
+**The website address on your SSLCommerz form.** SSLCommerz asks which
+website will take payments. Give the address your customers will type —
+for example **tunewearbynh.com** — not an admin address such as
+admin.tunewearbynh.com. We will agree the exact address with you; tell us
+what you wrote on the form so we can check it matches.
+
 ## Staff
 
-For each person who will use the admin: **a name and an access level.**
-We create their logins.
+Tell us **who will use the admin** and **what each person should do**.
+We create their logins — you do not need their email addresses.
 
-- **Owner** — everything, including adding and removing staff.
-- **Full access** — products, prices, offers, orders, settings.
-- **Day-to-day** — orders, customers, products and stock; no prices,
-  offers or settings.
+Write it like this:
 
-Need someone who sees **orders only**? Tell us and we will add that level.
+| Name  | Should be able to                    |
+| ----- | ------------------------------------ |
+| Nabil | Everything (owner)                   |
+| Rafi  | Run the shop                         |
+| Sumi  | Pack orders and update stock         |
+| Tania | Orders only                          |
+
+What each choice means:
+
+- **Everything (owner)** — all of the below, plus adding and removing staff.
+- **Run the shop** — products, prices, offers, orders and settings.
+- **Pack orders and update stock** — orders, customers, products and
+  stock, but cannot change prices or offers.
+- **Orders only** — sees and handles orders, nothing else.
 
 ## Products
 
@@ -46,30 +61,21 @@ Need someone who sees **orders only**? Tell us and we will add that level.
 
 ## Photos
 
-**Needed for launch:**
-
-| Photo                              | How many                               | Size           | Shape              |
-| ---------------------------------- | -------------------------------------- | -------------- | ------------------ |
-| Product photos                     | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
-| Category tiles (on /men, /women)   | 1 per category                         | 1200 × 1200 px | Square             |
-| Home page banner                   | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Men page banner, Women page banner | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Men / Women / Sale cards (home)    | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
-| Brand story (home)                 | 1                                      | 1600 × 1000 px | 16 : 10            |
-| Sale page banner                   | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Mix & Match (Sale page)            | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-
-**Only if you use these page sections** (About page, extra pages):
-
-| Photo              | Size           | Shape       |
-| ------------------ | -------------- | ----------- |
-| Photograph, wide   | 1600 × 900 px  | 16 : 9      |
-| Photograph, square | 1200 × 1200 px | 1 : 1       |
-| Photograph, tall   | 1200 × 1500 px | 4 : 5       |
-| Photo slider       | 1200 × 1500 px | 4 : 5       |
-| Photo grid         | 1200 × 1200 px | 1 : 1       |
-| Photo with text    | 1600 × 1200 px | 4 : 3       |
-| Section background | 1845 × 900 px  | About 2 : 1 |
+| Photo                                | How many                               | Size           | Shape              |
+| ------------------------------------ | -------------------------------------- | -------------- | ------------------ |
+| Product photos                       | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
+| Category tiles (on /men, /women)     | 1 per category                         | 1200 × 1200 px | Square             |
+| Home page banner                     | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Men / Women / Sale cards (home page) | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
+| Brand story (home page)              | 1                                      | 1600 × 1000 px | 16 : 10            |
+| Men page banner, Women page banner   | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Sale page banner                     | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Mix & Match (Sale page)              | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page banner                    | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page photo beside the text     | 1                                      | 1600 × 1200 px | 4 : 3              |
+| Extra photos on any page — wide      | Only if you want them                  | 1600 × 900 px  | Wide, 16 : 9       |
+| Extra photos on any page — square    | Only if you want them                  | 1200 × 1200 px | Square             |
+| Extra photos on any page — tall      | Only if you want them                  | 1200 × 1500 px | Tall, 4 : 5        |
 
 Bigger is fine if the shape is the same. More detail: Merchant guide,
 section 11.7.
