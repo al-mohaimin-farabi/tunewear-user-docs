@@ -7,7 +7,12 @@ Send passwords privately — never in a group chat.
 
 - **Domain** — the website name, and a login to where it is registered.
 - **Server** — a login to your hosting account.
-- **Cloudflare** — a free account in your business name; invite us to it.
+- **Cloudflare** — a free account in your business name; invite us to it
+  or give us the main account login.
+
+**Create every account with an email and a password — not "Sign in with
+Google", Facebook or any other social login.** Then we can log in when
+needed without your phone or your Google account.
 
 ## SSLCommerz (through BRAC Bank)
 
@@ -38,12 +43,12 @@ We create their logins — you do not need their email addresses.
 
 Write it like this:
 
-| Name  | Should be able to                    |
-| ----- | ------------------------------------ |
-| Nabil | Everything (owner)                   |
-| Rafi  | Run the shop                         |
-| Sumi  | Pack orders and update stock         |
-| Tania | Orders only                          |
+| Name  | Should be able to            |
+| ----- | ---------------------------- |
+| Nabil | Everything (owner)           |
+| Rafi  | Run the shop                 |
+| Sumi  | Pack orders and update stock |
+| Tania | Orders only                  |
 
 What each choice means:
 
