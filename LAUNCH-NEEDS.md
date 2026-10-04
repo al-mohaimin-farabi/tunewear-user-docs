@@ -30,11 +30,10 @@ If the welcome email holds these, forward that email. **Never reset the
 Store Password without telling us** — online payment stops until we update
 it on the server.
 
-**The website address on your SSLCommerz form.** SSLCommerz asks which
-website will take payments. Give the address your customers will type —
-for example **tunewearbynh.com** — not an admin address such as
-admin.tunewearbynh.com. We will agree the exact address with you; tell us
-what you wrote on the form so we can check it matches.
+**The website address on your SSLCommerz form.** SSLCommerz asks for your
+website. Write your shop's website address — for example
+**tunewearbynh.com** — and tell us what you wrote, so we can check it
+matches.
 
 ## Staff
 
