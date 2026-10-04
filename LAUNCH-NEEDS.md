@@ -37,25 +37,29 @@ matches.
 
 ## Staff
 
-Tell us **who will use the admin** and **what each person should do**.
+Tell us **who will use the admin** and **which role** each person gets.
 We create their logins — you do not need their email addresses.
 
-Write it like this:
+**The roles:**
 
-| Name  | Should be able to            |
-| ----- | ---------------------------- |
-| Nabil | Everything (owner)           |
-| Rafi  | Run the shop                 |
-| Sumi  | Pack orders and update stock |
-| Tania | Orders only                  |
+| Role                | Can                                                                                                                                                                           | Cannot                                                                                                 |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Super Admin**     | Everything — including adding and removing staff and choosing their roles                                                                                                     | —                                                                                                      |
+| **Admin**           | Products, normal prices, sale prices, discount codes, categories, size charts, delivery charges, orders, customers, sales numbers, store settings, bulk product import/export | Add or remove staff, change roles                                                                      |
+| **Admin + Trusted** | Everything Admin can, plus the activity log (who changed what) and password-reset links for customers                                                                         | Add or remove staff, change roles                                                                      |
+| **Staff**           | Orders from start to finish (pack, ship, returns), customers, add and edit products — including their normal price and cost price — and stock counts                          | Sale prices, discount codes, categories, size charts, delivery charges, sales numbers, settings, staff |
 
-What each choice means:
+**Orders only** — someone who only handles orders — is not set up yet.
+Tell us if you need it and we will add it.
 
-- **Everything (owner)** — all of the below, plus adding and removing staff.
-- **Run the shop** — products, prices, offers, orders and settings.
-- **Pack orders and update stock** — orders, customers, products and
-  stock, but cannot change prices or offers.
-- **Orders only** — sees and handles orders, nothing else.
+**Write it like this:**
+
+| Name    | Role            |
+| ------- | --------------- |
+| Farabi  | Super Admin     |
+| Nahid   | Admin + Trusted |
+| Salman  | Staff           |
+| Israfil | Orders only     |
 
 ## Products
 
@@ -65,21 +69,21 @@ What each choice means:
 
 ## Photos
 
-| Photo                                | How many                               | Size           | Shape              |
-| ------------------------------------ | -------------------------------------- | -------------- | ------------------ |
-| Product photos                       | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
-| Category tiles (on /men, /women)     | 1 per category                         | 1200 × 1200 px | Square             |
-| Home page banner                     | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Men / Women / Sale cards (home page) | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
-| Brand story (home page)              | 1                                      | 1600 × 1000 px | 16 : 10            |
-| Men page banner, Women page banner   | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Sale page banner                     | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Mix & Match (Sale page)              | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page banner                    | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page photo beside the text     | 1                                      | 1600 × 1200 px | 4 : 3              |
-| Extra photos on any page — wide      | Only if you want them                  | 1600 × 900 px  | Wide, 16 : 9       |
-| Extra photos on any page — square    | Only if you want them                  | 1200 × 1200 px | Square             |
-| Extra photos on any page — tall      | Only if you want them                  | 1200 × 1500 px | Tall, 4 : 5        |
+| Photo                                                                             | How many                               | Size           | Shape              |
+| --------------------------------------------------------------------------------- | -------------------------------------- | -------------- | ------------------ |
+| Product photos                                                                    | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
+| Category tiles (on /men, /women)                                                  | 1 per category                         | 1200 × 1200 px | Square             |
+| Home page banner                                                                  | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Men / Women / Sale cards (home page)                                              | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
+| Brand story (home page)                                                           | 1                                      | 1600 × 1000 px | 16 : 10            |
+| Men page banner, Women page banner                                                | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Sale page banner                                                                  | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Mix & Match (Sale page)                                                           | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page banner                                                                 | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page photo beside the text                                                  | 1                                      | 1600 × 1200 px | 4 : 3              |
+| Optional: a wide photo added to a page — e.g. your shop front on the Contact page | Only if you want them                  | 1600 × 900 px  | Wide, 16 : 9       |
+| Optional: square photos added to a page — e.g. a lookbook grid on the About page  | Only if you want them                  | 1200 × 1200 px | Square             |
+| Optional: tall photos added to a page — e.g. a sliding row of outfits             | Only if you want them                  | 1200 × 1500 px | Tall, 4 : 5        |
 
 Bigger is fine if the shape is the same. More detail: Merchant guide,
 section 11.7.
