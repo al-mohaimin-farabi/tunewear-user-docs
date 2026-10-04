@@ -66,21 +66,18 @@ We create their logins — you do not need their email addresses.
 
 ## Photos
 
-| Photo                                                                             | How many                               | Size           | Shape              |
-| --------------------------------------------------------------------------------- | -------------------------------------- | -------------- | ------------------ |
-| Product photos                                                                    | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
-| Category tiles (on /men, /women)                                                  | 1 per category                         | 1200 × 1200 px | Square             |
-| Home page banner                                                                  | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Men / Women / Sale cards (home page)                                              | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
-| Brand story (home page)                                                           | 1                                      | 1600 × 1000 px | 16 : 10            |
-| Men page banner, Women page banner                                                | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Sale page banner                                                                  | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Mix & Match (Sale page)                                                           | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page banner                                                                 | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page photo beside the text                                                  | 1                                      | 1600 × 1200 px | 4 : 3              |
-| Optional: a wide photo added to a page — e.g. your shop front on the Contact page | Only if you want them                  | 1600 × 900 px  | Wide, 16 : 9       |
-| Optional: square photos added to a page — e.g. a lookbook grid on the About page  | Only if you want them                  | 1200 × 1200 px | Square             |
-| Optional: tall photos added to a page — e.g. a sliding row of outfits             | Only if you want them                  | 1200 × 1500 px | Tall, 4 : 5        |
+| Photo                                | How many                               | Size           | Shape              |
+| ------------------------------------ | -------------------------------------- | -------------- | ------------------ |
+| Product photos                       | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
+| Category tiles (on /men, /women)     | 1 per category                         | 1200 × 1200 px | Square             |
+| Home page banner                     | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Men / Women / Sale cards (home page) | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
+| Brand story (home page)              | 1                                      | 1600 × 1000 px | 16 : 10            |
+| Men page banner, Women page banner   | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Sale page banner                     | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| Mix & Match (Sale page)              | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page banner                    | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
+| About page photo beside the text     | 1                                      | 1600 × 1200 px | 4 : 3              |
 
 Bigger is fine if the shape is the same. More detail: Merchant guide,
 section 11.7.
