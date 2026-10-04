@@ -58,9 +58,6 @@ We create their logins — you do not need their email addresses.
 | Salman  | Admin           |
 | Israfil | Staff           |
 
-Need someone who handles **orders only** — no adding products, no
-changing stock? That role is not set up yet; tell us and we will add it.
-
 ## Products
 
 - **Categories** you sell — for example Bodycon, Cardigan, Hoodie.
