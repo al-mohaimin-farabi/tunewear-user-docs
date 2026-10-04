@@ -42,24 +42,24 @@ We create their logins — you do not need their email addresses.
 
 **The roles:**
 
-| Role                | Can                                                                                                                                                                           | Cannot                                                                                                 |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Super Admin**     | Everything — including adding and removing staff and choosing their roles                                                                                                     | —                                                                                                      |
-| **Admin**           | Products, normal prices, sale prices, discount codes, categories, size charts, delivery charges, orders, customers, sales numbers, store settings, bulk product import/export | Add or remove staff, change roles                                                                      |
-| **Admin + Trusted** | Everything Admin can, plus the activity log (who changed what) and password-reset links for customers                                                                         | Add or remove staff, change roles                                                                      |
-| **Staff**           | Orders from start to finish (pack, ship, returns), customers, add and edit products — including their normal price and cost price — and stock counts                          | Sale prices, discount codes, categories, size charts, delivery charges, sales numbers, settings, staff |
-
-**Orders only** — someone who only handles orders — is not set up yet.
-Tell us if you need it and we will add it.
+| Role                    | Can                                                                                                                                                                           | Cannot                                                                                                 |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Super Admin / Owner** | Everything — including adding and removing staff and choosing their roles                                                                                                     | —                                                                                                      |
+| **Admin**               | Products, normal prices, sale prices, discount codes, categories, size charts, delivery charges, orders, customers, sales numbers, store settings, bulk product import/export | Add or remove staff, change roles                                                                      |
+| **Admin + Trusted**     | Everything Admin can, plus the activity log (who changed what) and password-reset links for customers                                                                         | Add or remove staff, change roles                                                                      |
+| **Staff**               | Orders from start to finish (pack, ship, returns), customers, add and edit products — including their normal price and cost price — and stock counts                          | Sale prices, discount codes, categories, size charts, delivery charges, sales numbers, settings, staff |
 
 **Write it like this:**
 
-| Name    | Role            |
-| ------- | --------------- |
-| Farabi  | Super Admin     |
-| Nahid   | Admin + Trusted |
-| Salman  | Staff           |
-| Israfil | Orders only     |
+| Name    | Role                |
+| ------- | ------------------- |
+| Farabi  | Super Admin / Owner |
+| Nahid   | Admin + Trusted     |
+| Salman  | Admin               |
+| Israfil | Staff               |
+
+Need someone who handles **orders only** — no adding products, no
+changing stock? That role is not set up yet; tell us and we will add it.
 
 ## Products
 
