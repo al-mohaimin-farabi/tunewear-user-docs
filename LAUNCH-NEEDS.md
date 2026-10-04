@@ -51,12 +51,12 @@ We create their logins — you do not need their email addresses.
 
 **Write it like this:**
 
-| Name    | Role                |
-| ------- | ------------------- |
-| Farabi  | Super Admin / Owner |
-| Nahid   | Admin + Trusted     |
-| Salman  | Admin               |
-| Israfil | Staff               |
+| Name    | Role            |
+| ------- | --------------- |
+| Farabi  | Super Admin     |
+| Nahid   | Admin + Trusted |
+| Salman  | Admin           |
+| Israfil | Staff           |
 
 Need someone who handles **orders only** — no adding products, no
 changing stock? That role is not set up yet; tell us and we will add it.
