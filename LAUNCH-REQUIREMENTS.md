@@ -1,4 +1,4 @@
-# What we need from you
+# Launch Requirements
 
 For the launch on 13–14 October. Please send everything by **10 October**.
 Send passwords privately — never in a group chat.

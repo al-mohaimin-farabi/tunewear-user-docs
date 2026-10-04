@@ -1,2 +1,2 @@
 * [Merchant guide](/)
-* [What we need from you](LAUNCH-NEEDS.md)
+* [Launch Requirements](LAUNCH-REQUIREMENTS.md)
