@@ -512,6 +512,13 @@ Sidebar **Size charts** → **Create**: a title, the unit, the measurement
 columns (Chest, Length…) and one row per size. A category then uses it
 (2.4).
 
+**The website's Size guide page shows these charts by itself** — one card
+per chart, named after the categories that use it (for example
+"Sweaters · Cardigans"), with every size. Change a chart here, or give a
+category a different one, and the Size guide and the product pages change
+together within seconds. There is nothing to copy into Payload; the words
+above the charts are edited in Payload → **Size guide** (11.5).
+
 ![Size charts](assets/merchant-guide/03-01-size-charts-page.webp)
 
 ![New chart](assets/merchant-guide/03-02-new-chart.webp)
@@ -773,7 +780,9 @@ Checkout charges by district:
 
 The shopper sees the charge the moment they pick their district, and the
 order is charged exactly that. Change a price here and checkout shows the
-new one straight away — no code, no deploy.
+new one straight away — no code, no deploy. The website's **Shipping**
+page lists the same deliveries and prices, read from here, so it changes
+too within a few seconds; there is nothing to edit in Payload.
 
 > **Only change prices — never add or delete a delivery.** Checkout picks
 > the delivery by a hidden setting, not by its name, so a second delivery
@@ -1495,6 +1504,22 @@ refused with a message saying where that page is edited.
 A **Section (columns)** block puts other blocks side by side, with its own
 tablet and phone layouts ("Reverse the column order when stacked" puts the
 photo first on phones).
+
+A **Text** block has three widths: **Narrow** (short lines at the left),
+**Centred column** (wider, in the middle of the page — use it for every
+section of a long page like Shipping, Returns or the Privacy policy) and
+**Full width** (short lines only).
+
+The **Shipping** and **Returns** pages are filled in from what the shop
+already says (delivery time, payment, exchanges). The delivery charges on
+Shipping are the **Delivery charges (from Medusa)** block: they always
+match checkout, and change only in Medusa (chapter 5). The line in
+[square brackets] on Returns — how many days a return can be asked for,
+what cannot be returned, how refunds are paid — is yours to write.
+
+The **Size charts (from Medusa)** block shows every category's size chart
+(2.5). It is already on the **Size guide** page; it has only an optional
+heading, because the charts themselves are edited in Medusa.
 
 ### 11.6 Privacy policy
 
