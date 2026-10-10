@@ -270,6 +270,13 @@ on those edges. Use the same framing for every colour of a product, so
 the photos look like one set when a shopper switches colours. More on
 sizes and file types in the photo guide, section 11.7.
 
+**Each photo must be under 2 MB, as JPEG or WebP.** The upload box says so
+(1). A bigger photo is refused with its name; drop it into **tinypng.com**
+(free), download the smaller copy, and add that instead. PNG is only for
+logos and graphics — a PNG photo is several times bigger.
+
+![The upload box states the rule, and names a photo that is too big](assets/merchant-guide/01-28b-media-upload-rules.webp)
+
 The **Photographs & image SEO** box: for each photo, pick which colour it
 shows (or **Shows every colour**). A shopper who picks that colour is taken
 to that photo. The description underneath is read by screen readers and
@@ -1406,17 +1413,17 @@ everything else). Medusa's roles do not apply here.
 
 ### 11.2 The pages
 
-| Sidebar entry                          | What it edits                                                                                   |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Pages → Home**                       | Hero, the Men / Women / Sale cards, the sale section on/off, section headings, brand story      |
-| **Pages → Men**, **Women**             | Each aisle's hero and text (the category tiles are Medusa's, chapter 2)                         |
-| **Pages → Sale**                       | Masthead, Mix & Match photo, the prepaid-offer strip (strip on/off, countdown on/off, end date) |
-| **Pages → New arrivals**, **Shop all** | Page headings                                                                                   |
-| **Pages → About, Contact, FAQ & more** | About, Contact, FAQ, Shipping, Returns, Size guide, Privacy policy, your pages                  |
-| **Site content → Footer**              | Footer columns and links, the newsletter box on/off                                             |
-| **Site content → Trust Bar**           | The reassurance strip (delivery, returns, secure payment)                                       |
-| **Site content → Announcement strip**  | The scrolling words under the header — one list for home, one for other pages                   |
-| **Media**                              | Every uploaded photo, with a focal point (what stays in frame when cropped)                     |
+| Sidebar entry                          | What it edits                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Pages → Home**                       | Hero, the Men / Women / Sale cards, the sale section on/off, section headings, brand story       |
+| **Pages → Men**, **Women**             | Each aisle's hero and text (the category tiles are Medusa's, chapter 2)                          |
+| **Pages → Sale**                       | Masthead, Mix & Match photo, the prepaid-offer strip (strip on/off, countdown on/off, end date)  |
+| **Pages → New arrivals**, **Shop all** | Page headings                                                                                    |
+| **Pages → About, Contact, FAQ & more** | About, Contact, FAQ, Shipping, Returns, Size guide, Privacy policy, your pages                   |
+| **Site content → Footer**              | Footer columns and links, the newsletter box on/off                                              |
+| **Site content → Trust Bar**           | The reassurance strip (delivery, returns, secure payment)                                        |
+| **Site content → Announcement strip**  | The scrolling words under the header — one list for home, one for other pages                    |
+| **Media**                              | Every uploaded photo and video, with a focal point for photos (what stays in frame when cropped) |
 
 **Which products appear is not set here.** Payload holds the words and
 photos; the products come from Medusa. New arrivals lists the products
@@ -1509,23 +1516,25 @@ upload and it always looks right.
 Aspect ratio is width : height. The last column says whether the focal
 point (below) works for that photo.
 
-| Photo                                              | What it does                                                                               | Upload size    | Aspect ratio                                      | Focal point |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ------------------------------------------------- | ----------- |
-| Product photo                                      | The pictures you add to a product. Shown on the shop cards and the product page.           | 1200 × 1800 px | **2 : 3** (tall)                                  | No          |
-| Category tile                                      | The picture on each tile on /men and /women.                                               | 1200 × 1200 px | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No          |
-| Home page hero                                     | The big banner photos that slide at the top of the home page.                              | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
-| Men and Women page heroes                          | The banner at the top of /men and /women.                                                  | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
-| Men / Women / Sale cards (home)                    | The three photo cards under the home page hero.                                            | 1600 × 900 px  | 16 : 9 (wide strip)                               | Yes         |
-| Sale page banner                                   | The banner at the top of /sale.                                                            | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | No          |
-| Mix & Match photo (Sale)                           | The photo behind the Mix & Match strip on the Sale page.                                   | 1845 × 560 px  | About 3.3 : 1 (wide band)                         | Yes         |
-| Brand story (home)                                 | The photo beside the "Made in Dhaka" story on the home page.                               | 1600 × 1000 px | 16 : 10                                           | No          |
-| Photograph block, **Wide**                         | One photo with a caption, in a wide shape.                                                 | 1600 × 900 px  | 16 : 9                                            | Yes         |
-| Photograph block, **Square**                       | The same block, in a square shape.                                                         | 1200 × 1200 px | 1 : 1                                             | Yes         |
-| Photograph block, **Tall**                         | The same block, in a tall shape.                                                           | 1200 × 1500 px | 4 : 5                                             | Yes         |
-| Photo slider block                                 | A sideways-scrolling row of tall photos with captions.                                     | 1200 × 1500 px | 4 : 5                                             | Yes         |
-| Gallery block (called **Photo grid** in Add Block) | Shows several photos as square tiles, 2 to 4 across, so a set of photos reads as one grid. | 1200 × 1200 px | 1 : 1                                             | Yes         |
-| Image Text block                                   | A photo beside a paragraph and a button, like "Built for the cold snap" on About.          | 1600 × 1200 px | 4 : 3                                             | Yes         |
-| Section (columns) background                       | The photo behind a whole Section (columns) block.                                          | 1845 × 900 px  | About 2 : 1                                       | Yes         |
+| Photo                                              | What it does                                                                                 | Upload size                                    | Aspect ratio                                      | Focal point |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------- | ----------- |
+| Product photo                                      | The pictures you add to a product. Shown on the shop cards and the product page.             | 1200 × 1800 px                                 | **2 : 3** (tall)                                  | No          |
+| Category tile                                      | The picture on each tile on /men and /women.                                                 | 1200 × 1200 px                                 | About 1 : 1 (4 : 5 on phones, 5 : 4 on computers) | No          |
+| Home page hero                                     | The big banner photos that slide at the top of the home page.                                | 1845 × 560 px                                  | About 3.3 : 1 (wide band)                         | Yes         |
+| Home page hero **video**                           | Plays instead of the sliding photos when Background is **Video** (11.9). Silent, loops.      | 1920 × 1080 px · MP4 · under 6 MB · up to 20 s | 16 : 9 (trimmed to the wide band)                 | No          |
+| Home page hero **phone video** (optional)          | The same clip cut tall for phones. Recommended: phones download less and see the whole shot. | 1080 × 1350 px · MP4 · under 4 MB · up to 20 s | 4 : 5 (tall)                                      | No          |
+| Men and Women page heroes                          | The banner at the top of /men and /women.                                                    | 1845 × 560 px                                  | About 3.3 : 1 (wide band)                         | Yes         |
+| Men / Women / Sale cards (home)                    | The three photo cards under the home page hero.                                              | 1600 × 900 px                                  | 16 : 9 (wide strip)                               | Yes         |
+| Sale page banner                                   | The banner at the top of /sale.                                                              | 1845 × 560 px                                  | About 3.3 : 1 (wide band)                         | No          |
+| Mix & Match photo (Sale)                           | The photo behind the Mix & Match strip on the Sale page.                                     | 1845 × 560 px                                  | About 3.3 : 1 (wide band)                         | Yes         |
+| Brand story (home)                                 | The photo beside the "Made in Dhaka" story on the home page.                                 | 1600 × 1000 px                                 | 16 : 10                                           | No          |
+| Photograph block, **Wide**                         | One photo with a caption, in a wide shape.                                                   | 1600 × 900 px                                  | 16 : 9                                            | Yes         |
+| Photograph block, **Square**                       | The same block, in a square shape.                                                           | 1200 × 1200 px                                 | 1 : 1                                             | Yes         |
+| Photograph block, **Tall**                         | The same block, in a tall shape.                                                             | 1200 × 1500 px                                 | 4 : 5                                             | Yes         |
+| Photo slider block                                 | A sideways-scrolling row of tall photos with captions.                                       | 1200 × 1500 px                                 | 4 : 5                                             | Yes         |
+| Gallery block (called **Photo grid** in Add Block) | Shows several photos as square tiles, 2 to 4 across, so a set of photos reads as one grid.   | 1200 × 1200 px                                 | 1 : 1                                             | Yes         |
+| Image Text block                                   | A photo beside a paragraph and a button, like "Built for the cold snap" on About.            | 1600 × 1200 px                                 | 4 : 3                                             | Yes         |
+| Section (columns) background                       | The photo behind a whole Section (columns) block.                                            | 1845 × 900 px                                  | About 2 : 1                                       | Yes         |
 
 The **blocks** in this table (Photograph, Photo slider, Photo grid, Image
 Text, Section) are the pieces you add to a page with **Add Block** (section
@@ -1537,26 +1546,34 @@ this section explains each one.
 1. **Crop to the frame's shape before you upload** — the table below says
    which. This is more reliable than anything the website can do for you.
 2. **Keep the person or garment in the middle**, with space around them.
-3. **Bigger is fine, smaller is not.** A photo smaller than the size in the
-   table looks soft. Keep each file under 2 MB where you can (JPEG or WebP;
-   the website makes it lighter for phones by itself).
+3. **Bigger in pixels is fine, smaller is not — but every file must be
+   under 2 MB.** A photo smaller than the size in the table looks soft.
+   Save it as JPEG or WebP; a file over 2 MB is refused with a message.
+   Too big? Drop it into **tinypng.com** (free), download the smaller copy
+   and upload that. The website still makes it lighter for phones by
+   itself. Every upload box says the size it wants (1):
+
+   ![Each photo box says its size and the file rule](assets/merchant-guide/11-16-photo-field-size.webp)
+
 4. **Give every photo a description** in the **Alt** box. It is read to
    people who cannot see the photo, and it is required.
 
 **Where each photo goes**
 
-| Photo                                                  | Where you upload it                           | Shape                                      | Upload about                                             | Keep in mind                                                                                                          |
-| ------------------------------------------------------ | --------------------------------------------- | ------------------------------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Product photos**                                     | Medusa → the product → Media (1.10)           | Tall, **2 : 3**                            | 1200 × 1800 px                                           | The big photo on the product page trims a little off the top and bottom (4 : 5)                                       |
-| **Category tile** (the pictures on /men and /women)    | Medusa → the category → Tile photograph (2.3) | Nearly square                              | 1200 × 1200 px                                           | Head well below the top edge; no focal point here                                                                     |
-| **Home page hero** and the **Men / Women** page heroes | Payload → Pages → Home, Men, Women            | A wide band                                | 1845 × 560 px                                            | On a phone the band is almost square, so only the **middle third** of the width shows — keep the person in the middle |
-| **Men / Women / Sale cards** under the home hero       | Payload → Pages → Home                        | Wide strip                                 | 1600 × 900 px                                            | The words sit over the left side, so put the person on the **right**                                                  |
-| **Sale page banner** and the **Mix & Match** photo     | Payload → Pages → Sale                        | Wide band                                  | 1845 × 560 px                                            | Darkened so the words stay readable                                                                                   |
-| **Photograph** block, a page you add (11.5)            | Payload → the page → Photograph               | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick                                                                            |
-| **Photo slider** and **Photo grid** blocks             | Payload → the page                            | Slider tall (4 : 5), grid square           | 1200 × 1500 px / 1200 × 1200 px                          | Use photos of one shape in the same block                                                                             |
-| **Image Text** block                                   | Payload → the page                            | Landscape (4 : 3)                          | 1600 × 1200 px                                           |                                                                                                                       |
-| **Brand story** (home)                                 | Payload → Pages → Home                        | Landscape (16 : 10)                        | 1600 × 1000 px                                           |                                                                                                                       |
-| **Section (columns)** background photo                 | Payload → the page → Section                  | Fills the whole section                    | 1845 × 900 px                                            | Darkened; keep the subject in the middle                                                                              |
+| Photo                                                  | Where you upload it                             | Shape                                      | Upload about                                             | Keep in mind                                                                                                          |
+| ------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Product photos**                                     | Medusa → the product → Media (1.10)             | Tall, **2 : 3**                            | 1200 × 1800 px                                           | The big photo on the product page trims a little off the top and bottom (4 : 5)                                       |
+| **Category tile** (the pictures on /men and /women)    | Medusa → the category → Tile photograph (2.3)   | Nearly square                              | 1200 × 1200 px                                           | Head well below the top edge; no focal point here                                                                     |
+| **Home page hero** and the **Men / Women** page heroes | Payload → Pages → Home, Men, Women              | A wide band                                | 1845 × 560 px                                            | On a phone the band is almost square, so only the **middle third** of the width shows — keep the person in the middle |
+| **Home page hero video** (11.9)                        | Payload → Pages → Home → Hero → **Video**       | Wide video, **16 : 9**                     | 1920 × 1080 px, MP4, under 6 MB, up to 20 seconds        | The top and bottom are trimmed to a wide band — keep the action in the middle                                         |
+| **Home page hero phone video** (11.9, optional)        | Payload → Pages → Home → Hero → **Phone video** | Tall video, **4 : 5**                      | 1080 × 1350 px, MP4, under 4 MB, up to 20 seconds        | Recommended: phones download less and show the whole shot                                                             |
+| **Men / Women / Sale cards** under the home hero       | Payload → Pages → Home                          | Wide strip                                 | 1600 × 900 px                                            | The words sit over the left side, so put the person on the **right**                                                  |
+| **Sale page banner** and the **Mix & Match** photo     | Payload → Pages → Sale                          | Wide band                                  | 1845 × 560 px                                            | Darkened so the words stay readable                                                                                   |
+| **Photograph** block, a page you add (11.5)            | Payload → the page → Photograph                 | You pick: **Wide**, **Square** or **Tall** | Wide 1600 × 900, Square 1200 × 1200, Tall 1200 × 1500 px | The photo is cropped to the shape you pick                                                                            |
+| **Photo slider** and **Photo grid** blocks             | Payload → the page                              | Slider tall (4 : 5), grid square           | 1200 × 1500 px / 1200 × 1200 px                          | Use photos of one shape in the same block                                                                             |
+| **Image Text** block                                   | Payload → the page                              | Landscape (4 : 3)                          | 1600 × 1200 px                                           |                                                                                                                       |
+| **Brand story** (home)                                 | Payload → Pages → Home                          | Landscape (16 : 10)                        | 1600 × 1000 px                                           |                                                                                                                       |
+| **Section (columns)** background photo                 | Payload → the page → Section                    | Fills the whole section                    | 1845 × 900 px                                            | Darkened; keep the subject in the middle                                                                              |
 
 If you are unsure, upload the **biggest, cleanest** version you have, with
 the person in the middle. The website never stretches a photo; it trims.
@@ -1607,6 +1624,88 @@ either way.
 ![Media](assets/merchant-guide/11-09-media.webp)
 
 ![Payload users](assets/merchant-guide/11-10-users.webp)
+
+### 11.9 The home page hero — a video, and how dark it is
+
+**Where:** Payload → **Pages → Home** → **Hero** tab. Press **Save** when
+done; the shop changes within seconds.
+
+**How dark the picture is.** The photo or video behind the words is
+darkened so the white words stay readable. Drag the **Darkness** slider
+(1): left is lighter, right is darker. **0** is not darkened at all,
+**100** is black, **40** is how the shop has always looked. The small
+picture under the slider shows the result straight away, on your own first
+photo or video. Bright daylight shots usually need more.
+
+![The Darkness slider and its preview](assets/merchant-guide/11-15-hero-darkness.webp)
+
+**A video instead of the sliding photos.**
+
+1. Under **Background**, choose **Video** (1). The photo list hides — it
+   is kept, so choosing **Sliding photos** again brings it back — and a
+   box appears saying how to prepare the video.
+
+   ![Background: Video, and how to prepare it](assets/merchant-guide/11-13-hero-background.webp)
+
+2. Under **Video**, **Create New** and choose the file (or **Choose from
+   existing** if it is already in Media). Give it a short description in
+   **Alt**, then **Save** in that panel.
+3. Wait a few seconds for **Cover ready**. The website takes the video's
+   first frame as its **cover**: shoppers see it the moment the page opens,
+   and the video takes its place as soon as it is playing, so there is no
+   black gap. You do not upload a cover yourself.
+4. **Phone video (recommended):** add the same clip cut tall, 4 : 5, the
+   same way. Phones then download the smaller file and show the whole
+   shot; without it, phones show only the middle of the wide video.
+5. Set the **Darkness**, then **Save**.
+
+Shoppers who have asked their phone to **reduce motion** or **save data**
+see the cover only, and do not download the video.
+
+**What the website checks for you**
+
+- A video over **6 MB** (phone video over **4 MB**), or a file that is not
+  MP4, is refused with the reason:
+
+  ![A video that is too big](assets/merchant-guide/11-17-video-too-big.webp)
+
+- A video this browser cannot play — usually an iPhone **.mov** — gets no
+  cover, and the hero will not save until it is replaced. It would not
+  play for shoppers either.
+- A video the wrong shape for its box is flagged (1) — for example a tall
+  phone clip in the **Video** box, where computers would show only a thin
+  strip from its middle. It still saves; swap it if the warning is right.
+
+  ![A tall video in the computer box](assets/merchant-guide/11-14-hero-video-cover.webp)
+
+**How to prepare a video** (the same steps are in the box in Payload)
+
+| What   | Computer video ("Video")     | Phone video             |
+| ------ | ---------------------------- | ----------------------- |
+| Shape  | Wide, **16 : 9**             | Tall, **4 : 5**         |
+| Size   | 1920 × 1080 px               | 1080 × 1350 px          |
+| File   | **MP4**, under **6 MB**      | **MP4**, under **4 MB** |
+| Length | Up to **20 seconds**         | The same clip           |
+| Sound  | Not played — it does no harm | Not played              |
+
+1. **Cut it in CapCut** (phone or computer, free): trim the clip to 20
+   seconds or less; for the phone video set the ratio to **4 : 5**; export
+   at **1080p, 30 fps**. A clip that ends where it starts loops best.
+2. **Shrink it with FreeConvert** (free, in the browser — the TinyPNG of
+   video): open **freeconvert.com/video-compressor**, add the video, open
+   the settings, choose **Target a file size** — about **5 MB** for the
+   computer video, **3 MB** for the phone video — keep the codec **H.264**,
+   compress, and download.
+3. Upload that file as above.
+
+**Changing the video later.** Choose the new one in the hero and **Save**;
+the cover is made again and shoppers get the new video at once. If you
+replaced the file inside **Media** instead, open **Pages → Home → Hero**
+once, wait for **Cover ready**, and **Save**, so the cover matches.
+
+Each time a video is chosen, its cover is saved in **Media** as a photo
+named "… (first frame)". Covers of videos you no longer use can be
+deleted there.
 
 ---
 

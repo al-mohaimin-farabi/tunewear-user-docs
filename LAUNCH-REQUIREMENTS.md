@@ -66,21 +66,24 @@ We create their logins — you do not need their email addresses.
 
 ## Photos
 
-| Photo                                | How many                               | Size           | Shape              |
-| ------------------------------------ | -------------------------------------- | -------------- | ------------------ |
-| Product photos                       | 3–5 per colour (front, back, close-up) | 1200 × 1800 px | Tall, 2 : 3        |
-| Category tiles (on /men, /women)     | 1 per category                         | 1200 × 1200 px | Square             |
-| Home page banner                     | 1 or more (they slide)                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Men / Women / Sale cards (home page) | 3                                      | 1600 × 900 px  | Wide, 16 : 9       |
-| Brand story (home page)              | 1                                      | 1600 × 1000 px | 16 : 10            |
-| Men page banner, Women page banner   | 1 each                                 | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Sale page banner                     | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| Mix & Match (Sale page)              | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page banner                    | 1                                      | 1845 × 560 px  | Wide band, 3.3 : 1 |
-| About page photo beside the text     | 1                                      | 1600 × 1200 px | 4 : 3              |
+| Photo                                                    | How many                                    | Size                                   | Shape                             |
+| -------------------------------------------------------- | ------------------------------------------- | -------------------------------------- | --------------------------------- |
+| Product photos                                           | 3–5 per colour (front, back, close-up)      | 1200 × 1800 px                         | Tall, 2 : 3                       |
+| Category tiles (on /men, /women)                         | 1 per category                              | 1200 × 1200 px                         | Square                            |
+| Home page banner                                         | 1 or more (they slide)                      | 1845 × 560 px                          | Wide band, 3.3 : 1                |
+| Home page video (optional, instead of the banner photos) | 1, plus 1 tall cut for phones (recommended) | 1920 × 1080 px (phone: 1080 × 1350 px) | Wide, 16 : 9 (phone: tall, 4 : 5) |
+| Men / Women / Sale cards (home page)                     | 3                                           | 1600 × 900 px                          | Wide, 16 : 9                      |
+| Brand story (home page)                                  | 1                                           | 1600 × 1000 px                         | 16 : 10                           |
+| Men page banner, Women page banner                       | 1 each                                      | 1845 × 560 px                          | Wide band, 3.3 : 1                |
+| Sale page banner                                         | 1                                           | 1845 × 560 px                          | Wide band, 3.3 : 1                |
+| Mix & Match (Sale page)                                  | 1                                           | 1845 × 560 px                          | Wide band, 3.3 : 1                |
+| About page banner                                        | 1                                           | 1845 × 560 px                          | Wide band, 3.3 : 1                |
+| About page photo beside the text                         | 1                                           | 1600 × 1200 px                         | 4 : 3                             |
 
-Bigger is fine if the shape is the same. More detail: Merchant guide,
-section 11.7.
+Bigger is fine if the shape is the same. Every photo **under 2 MB**, JPEG
+or WebP — too big, use tinypng.com. Videos: **MP4**, up to 20 seconds,
+under **6 MB** (phone cut under **4 MB**); how to make one: Merchant guide,
+section 11.9. More detail on photos: section 11.7.
 
 ## Business details
 
