@@ -1035,7 +1035,7 @@ for either. Ask an Admin, or your developer if Staff should be allowed.
 | ----- | --------------------------------- | ----------------------- |
 | 7.6.1 | Open the newest order             | Yes                     |
 | 7.6.2 | See how it was paid               | Yes                     |
-| 7.6.3 | Cash on Delivery: call first      | COD only                |
+| 7.6.3 | Call first: fake order check      | Yes                     |
 | 7.6.4 | Pack, ship, deliver, take payment | Yes                     |
 | 7.6.5 | Cancel                            | Only if it is not going |
 | 7.6.6 | A customer sends something back   | Only for a return       |
@@ -1073,14 +1073,51 @@ its top right (1):
 An online order only appears here **after** SSLCommerz has confirmed the
 money, so an online order you can see is a paid one.
 
-#### 7.6.3 Cash on Delivery: call the customer first
+#### 7.6.3 Call the customer first: the fraud / fake order check
+
+**Every order gets a phone call before it is packed.** A fake order is one
+nobody meant to receive: a made-up address, a prank, or someone who will
+refuse the parcel at the door. Each one costs two courier trips and keeps
+the pieces off sale. The shop helps you spot them. It never cancels
+anything by itself: you decide.
+
+**On the Orders list,** the **Fraud / fake order check** column shows each
+order's state:
+
+| Shows           | Means                                                      |
+| --------------- | ---------------------------------------------------------- |
+| **Suspicious**  | Not called yet, and something looks wrong. Call carefully. |
+| **Unverified**  | Not called yet. Nothing looks wrong.                       |
+| **No answer**   | Someone called and nobody answered. Call again.            |
+| **Verified**    | The customer confirmed on the phone. Safe to pack.         |
+| **Paid online** | Already paid online. A call is up to you.                  |
+| **—**           | An older order, from before this check existed.            |
+
+**On the order page,** the **Fraud / fake order check** box (right-hand
+side) shows:
+
+- **Why it looks suspicious**, in plain words. For example: "This number
+  had 2 orders cancelled or returned before (#21, #20)", "Another order
+  from this number within a day (#24)", or "The address looks incomplete".
+- **This number at TuneWear**: how many earlier orders were delivered,
+  cancelled or returned. Click an order number to open it.
+
+**What to do:**
 
 1. In the **Customer** box, the second line under **Contact** is the
    phone number (1). The copy button beside it copies it.
 2. Ring it and confirm the **size**, the **address**, and that they still
-   want it.
-3. Pack only after they say yes. A number that never answers is the usual
-   sign of a fake order — cancel it (7.6.5) so the pieces go back on sale.
+   want it. If the box says **Suspicious** and you are not sure, ask for
+   the delivery charge by bKash before you send it.
+3. Record what happened in the **Fraud / fake order check** box:
+   - They said yes: click **Customer confirmed**. The order shows
+     **Verified**.
+   - Nobody answered: click **No answer**, and try again later. The box
+     counts the tries.
+   - Clicked by mistake: **Undo** puts it back.
+4. Pack only **Verified** orders. If the order is fake, cancel it (7.6.5)
+   so the pieces go back on sale. The next order from that number will
+   then show **Suspicious**.
 
 ![Customer phone](assets/merchant-guide/06-32-customer-phone.webp)
 
