@@ -24,7 +24,7 @@ _who_ may use it, then the clicks, with a worked example.
 11. The website's words and photos (Payload), and the photo guide — the right size and shape for every photo
 12. Staff and roles
 13. Store settings
-14. Analytics, and visitor numbers in Umami
+14. Analytics, and the visitor report
 15. Glossary
 
 ---
@@ -34,13 +34,13 @@ _who_ may use it, then the clicks, with a worked example.
 ### The two admins
 
 The shop has **two separate admin panels**, each with its own address and
-login. Nothing in one links to the other.
+login, plus a visitor report (its own login too) you open from the first.
 
-| Admin       | Address                                     | Holds                                                         |
-| ----------- | ------------------------------------------- | ------------------------------------------------------------- |
-| **Medusa**  | `https://tunewear-admin.<domain>/greenroom` | Products, categories, prices, stock, orders, customers, staff |
-| **Payload** | `https://tunewear.<domain>/admin`           | The words and photos on the pages: home, about, footer, FAQ…  |
-| **Umami**   | `https://tunewear-analytics.<domain>`       | Visitor numbers (chapter 14)                                  |
+| Admin              | Address                                          | Holds                                                              |
+| ------------------ | ------------------------------------------------ | ------------------------------------------------------------------ |
+| **Medusa**         | `https://tunewear-admin.<domain>/greenroom`      | Products, categories, prices, stock, orders, customers, staff      |
+| **Payload**        | `https://tunewear.<domain>/admin`                | The words and photos on the pages: home, about, footer, FAQ…       |
+| **Visitor report** | Medusa → **Analytics** → **Open visitor report** | Who visited, from where, and what they did — your own login (14.2) |
 
 > The Medusa address ends in **`/greenroom`**, not `/app`. `/app` shows a
 > "not found" page.
@@ -168,6 +168,10 @@ unless no discount should ever apply. **TuneWear Storefront** must stay
 under Sales channels, or the product never appears on the website.
 
 ![Type](assets/merchant-guide/01-07-type.webp)
+
+**Shipping profile** is always **Default Shipping Profile** — the only one
+the shop has. The delivery charge comes from the address, not the product
+(chapter 5).
 
 ![Shipping profile](assets/merchant-guide/01-08-shipping-profile.webp)
 
@@ -755,15 +759,22 @@ inside or outside Dhaka.\
 
 Checkout charges by district:
 
-| Delivery                   | For                         | Staging price |
-| -------------------------- | --------------------------- | ------------- |
-| **Inside Dhaka**           | the **Dhaka district** only | ৳60           |
-| **Outside Dhaka**          | every other district        | ৳160          |
-| **Express (Inside Dhaka)** | not offered at checkout yet | ৳180          |
+| Delivery          | For                         | Staging price |
+| ----------------- | --------------------------- | ------------- |
+| **Inside Dhaka**  | the **Dhaka district** only | ৳60           |
+| **Outside Dhaka** | every other district        | ৳160          |
 
 The shopper sees the charge the moment they pick their district, and the
 order is charged exactly that. Change a price here and checkout shows the
 new one straight away — no code, no deploy.
+
+> **Only change prices — never add or delete a delivery.** Checkout picks
+> the delivery by a hidden setting, not by its name, so a second delivery
+> can be charged instead of the real one: a leftover "Test" delivery
+> charged ৳180 instead of ৳60. To try a new price, change the real
+> delivery (5.1).
+
+### 5.1 Change a delivery charge
 
 1. **Settings** (bottom of the sidebar) → **Locations & Shipping** (1) →
    **Dhaka Warehouse** (2).
@@ -786,6 +797,21 @@ new one straight away — no code, no deploy.
 
 > **Free delivery is a promotion** (4.6), not a ৳0 price here — a ৳0
 > price would make delivery free for everyone, always.
+
+### 5.2 Shipping profiles — you do not need one
+
+Inside and outside Dhaka are **not** shipping profiles; they are the
+deliveries above. Every product uses the one **Default Shipping Profile**,
+and every delivery belongs to it. Do not create another profile: a product
+moved to a profile with no delivery cannot be ordered at all — checkout
+has nothing to charge it.
+
+### 5.3 A delivery is missing
+
+If **Inside Dhaka** or **Outside Dhaka** is no longer in the list, do not
+create a new one — tell your developer. A new delivery needs a hidden
+setting the admin cannot show clearly, and a wrong one charges the wrong
+price at checkout.
 
 ---
 
@@ -855,8 +881,12 @@ like **TW-Q2NG7A**. That is what they will quote on WhatsApp.
 
 ### 7.2 Finding an order
 
-Sidebar **Orders**. Paste the shopper's `TW-…` reference into the search
-box to find it.
+Sidebar **Orders**. Paste the shopper's `TW-…` reference — or their phone
+number — into the search box to find it. The list shows each order's
+customer by **name** and their **Phone**.
+
+To show or hide columns, press the **sliders** button above the list:
+**Search columns** at the top of that menu finds one by name.
 
 ![Orders](assets/merchant-guide/06-03-orders-list.webp)
 
@@ -867,7 +897,7 @@ box to find it.
 | Step                  | What it means                                              | What happens to stock and money |
 | --------------------- | ---------------------------------------------------------- | ------------------------------- |
 | **Fulfill**           | You picked and packed the items — "ready for the courier". | Stock goes down for real (6.3). |
-| **Mark as shipped**   | Handed to the courier. Add the tracking number.            | —                               |
+| **Mark as shipped**   | Handed to the courier. Say which courier, and its link.    | —                               |
 | **Mark as delivered** | The customer has it.                                       | —                               |
 | **Capture payment**   | For Cash on Delivery: the rider handed over the cash.      | The order counts as paid.       |
 
@@ -882,8 +912,17 @@ shows which location the stock leaves from.
 
 ![Fulfilled](assets/merchant-guide/06-07-fulfilled.webp)
 
-**Mark as shipped** → type the courier's tracking number in the **Tracking
-number** field.
+**Mark as shipped** → the two boxes are already open:
+
+- **Courier provider** — pick the courier from the list (Pathao,
+  Steadfast, RedX…). Not there? Pick **Other courier** and type its name
+  in the box that appears.
+- **Tracking URL** — paste the parcel's tracking link from the courier's
+  app or website (it starts `https://`).
+
+**Save.** On the order page the courier's name then appears under
+**Tracking**, as a link to that parcel. Leave both boxes empty and the
+order is still marked shipped, just without a courier.
 
 ![Mark as shipped](assets/merchant-guide/06-08-mark-shipped.webp)
 
@@ -905,6 +944,27 @@ payments (SSLCommerz: card, bKash, Nagad) are captured already.
 ![Confirm](assets/merchant-guide/06-14-capture-confirm.webp)
 
 ![Done](assets/merchant-guide/06-15-order-complete.webp)
+
+**Printing an invoice.** On any order, at the top of the **Summary** box,
+beside the **⋯** menu, there are two buttons:
+
+| Button                    | For                                                               |
+| ------------------------- | ----------------------------------------------------------------- |
+| **Print invoice (A4)**    | A normal printer. One A4 page (more for a very long order).       |
+| **Print receipt (80 mm)** | A small receipt printer (80 mm paper roll). A narrow paper strip. |
+
+Each opens the invoice in a new tab; press **Print** there (or `Ctrl+P`).
+Use the button that matches your printer — an A4 invoice sent to a receipt
+printer comes out tiny.
+
+The invoice shows the shop's phone, email and address exactly as they are
+on the website's **Contact** page — change them there (11.4) and every
+invoice follows. Its number is the order reference the customer saw
+(`TW-…`). It always shows the order as it is now, so print again after a
+change. There are no pictures on it, on purpose.
+
+Under each item, the order page now says which size (and colour) was
+ordered — **Size: S** — rather than a bare "S".
 
 ### 7.4 DM orders — Draft orders
 
@@ -983,8 +1043,8 @@ come back to it; the **Refresh** button at the top checks straight away.
    the order and confirm the size, the address and that they want it.
    Pack only after they say yes. A number that never answers is the usual
    sign of a fake order — cancel it (step 5) so the pieces go back on sale.
-3. **Fulfill** (pack) → **Mark as shipped** with the courier's tracking
-   number → **Mark as delivered** — the steps in 7.3.
+3. **Fulfill** (pack) → **Mark as shipped** with the courier and its
+   tracking link → **Mark as delivered** — the steps in 7.3.
 4. **Cash on Delivery: Capture payment** once the courier hands you the
    cash. Online orders skip this.
 5. **Cancelling.** Order page → **⋯** (top right) → **Cancel** →
@@ -1384,7 +1444,7 @@ when — in plain sentences. Super Admin, or a Trusted Admin.
 
 ---
 
-## 14. Analytics, and visitor numbers in Umami
+## 14. Analytics, and the visitor report
 
 ### 14.1 Analytics (in Medusa)
 
@@ -1402,17 +1462,42 @@ left) and revenue by product.
 
 ![Analytics](assets/merchant-guide/14-01-analytics.webp)
 
-### 14.2 Visitors — Umami
+### 14.2 Visitors and what they did
 
-`https://tunewear-analytics.<domain>` — its own login.
+On the **Analytics** page, top right: **Open visitor report**. It opens in
+a new tab and asks for **your visitor-report login** — a username and
+password your developer gives you, separate from this admin. (If the page
+says "Visitor report not set up yet", ask your developer.)
 
-![Umami login](assets/merchant-guide/00-login-umami.webp)
+**The very first time**, after logging in you land on an empty
+**Websites** page. Come back to this tab and press **Open visitor report**
+again — it now goes straight to TuneWear, and it will every time after,
+because your browser stays logged in.
 
-Open **Websites →
-TuneWear** for visitors, page views, where they came from and which pages
-they read.
+Your login can only look: nothing you click there changes the shop or its
+settings. The menu on the left has many pages; these three are the ones
+worth knowing:
 
-![Umami](assets/merchant-guide/14-02-umami.webp)
+| Page         | Shows                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| **Overview** | Visitors, the pages they read, where they came from (Facebook, Google…), and their country |
+| **Events**   | What shoppers did: **Added to bag** (which garment and size) and **Order placed**          |
+| **Realtime** | Who is on the shop right now                                                               |
+
+There is no money in the visitor report on purpose: sales, order values
+and profit are all in **Analytics** (14.1). Its **Revenue** page stays
+empty — that is expected.
+
+Pick the period at the top right, as in Analytics.
+
+> **Why are the two order counts a little different?** Analytics (14.1)
+> counts every order in the shop. The visitor report counts orders placed
+> on the website by shoppers who have not blocked tracking, so it is a
+> little lower — and it never includes DM orders typed in by you (7.4).
+> Analytics is the true count; use the visitor report to see **where**
+> shoppers come from and **what** they look at.
+
+![Visitor report](assets/merchant-guide/14-02-umami.webp)
 
 ---
 
