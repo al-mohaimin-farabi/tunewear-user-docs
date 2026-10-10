@@ -1,7 +1,7 @@
 # Running TuneWear — the admin guide
 
 For whoever runs the shop day to day. Every screenshot was taken on the
-real admin (staging, September 2026; 7.6 on a demo order, October 2026; the photo guide, 11.7, from the live site). The gold rings and numbers show what
+real admin (staging, September 2026; 1.2–1.5, the Add product page, and 7.6 on a demo order, October 2026; the photo guide, 11.7, from the live site). The gold rings and numbers show what
 to click, in order. Nothing here needs a terminal, code or a deploy: every
 change reaches the website by itself, most within seconds.
 
@@ -92,10 +92,9 @@ thing a shopper actually buys, with its own stock count.
 _Example:_ a T-shirt in Black and White, sizes S, M and L, has 2 × 3 = 6
 variants: Black / S, Black / M, … White / L.
 
-> **Decide the colours when you create the product.** Colours added later
-> do not reach the sizes that already exist, and each size then has to be
-> given its colour by hand (1.6). Name the option **Colour** (or Color);
-> the shop looks for either.
+> **Decide the colours when you add the product** (1.5). Colours added
+> later do not reach the sizes that already exist, and each size then has
+> to be given its colour by hand (1.6).
 
 A shop that lists each colour as **its own product** can do that too: name
 them `Solid Summer T-Shirt - White`, `Solid Summer T-Shirt - Blue`, give
@@ -128,77 +127,83 @@ straight to the sizes (1). Its other colour, sold as its own product
 
 ![One colour: nothing to choose, straight to the sizes](assets/merchant-guide/01-45-one-colour.webp)
 
-### 1.2 Create the product — details
+### 1.2 Add a product — everything on one page
 
-Sidebar **Products** → **Create**.
+Sidebar **Products** → **Create**. One page opens, **Add product**, with
+everything a new garment needs, from top to bottom. Nothing is saved until
+you press **Publish** or **Save as draft** at the bottom right.
 
 ![Products list, Create](assets/merchant-guide/01-01-products-create.webp)
 
-Fill in **Title** (1), a one-line **Subtitle** (2), the **Description** (3)
-and drop the photos into **Media** (4). Leave **Handle** empty: Medusa
-makes the web address from the title.
+**Details.** The garment's **Name** (1), its **Price** (2) and, if you like,
+a **Description** (3) — fabric, fit, how to wash it. The price is **one
+price for every size and colour**: type it once. The web address is made
+from the name by itself; two products may share a name.
 
-![Details](assets/merchant-guide/01-02-details.webp)
+![Details: name, one price, description](assets/merchant-guide/01-50-add-details.webp)
 
-### 1.3 Sizes (and colours)
+### 1.3 Photos, and the colour each one shows
 
-Switch on **Yes, this is a product with variants**, then add an option.
-Type the option name — **Size** — and the values: type one value, press
-**Enter**, type the next. (The box says so: _Type a value, then press
-Enter_.) Add **Colour** the same way if the garment has colours.
+**Add photos** (1): click, or drag photos onto the box. The box states the
+photo rule — JPEG or WebP, tall 2 : 3, under 2 MB (more in 1.10). For each
+photo, pick **the colour it shows** (2); a shopper who picks that colour is
+taken straight to it. The colour list fills once you add colours further
+down (1.5); leave **Every colour** for a photo that is not one colour. The
+**description** (3) is written for you from the name and the colour — read
+by screen readers and Google Images; change it only if you have a better
+one. The first photo is the **Cover** — the one on the product's card in
+the shop. **Make cover** (4) moves a photo to the front.
 
-![Variants switch](assets/merchant-guide/01-03-variants-toggle.webp)
+![Photos, each with its colour and description](assets/merchant-guide/01-51-add-photos.webp)
 
-![Size option](assets/merchant-guide/01-04-option-size.webp)
+### 1.4 Where it shows — who it is for, category, tags
 
-![Size values](assets/merchant-guide/01-05-size-values.webp)
+**Who it is for** (1) decides the aisle: **Men** shows the product on
+/men, **Women** on /women, **Unisex** on both. **Category** (2) puts it in
+a tile (chapter 2) — and gives the sizes (1.5). **Tags** (3) are optional
+labels such as `new-arrival`: click one to add it, again to take it off
+(what each tag does: 1.11). The delivery set-up and the website's sales
+channels are filled in for you — there is nothing to choose.
 
-Medusa lists every combination. Leave them all ticked; an unticked row is
-simply not created.
+![Who it is for, category, tags](assets/merchant-guide/01-52-add-where.webp)
 
-![Variant rows](assets/merchant-guide/01-06-variant-rows.webp)
+### 1.5 Colours, sizes and stock
 
-### 1.4 Organize — Type decides /men or /women
+**Colours.** Type a colour and press **Enter** (1); the box empties, ready
+for the next one. Each colour gets a **swatch** — the dot shoppers tap:
+click the square to pick the colour (2), or paste its code, such as
+`#5b5e3a`, into the box beside it (3). A colour with no swatch says so;
+the shop then guesses one from the name.
 
-**Type** is the aisle: `men` shows the product on /men, `women` on /women,
-`unisex` on both. **Categories** puts it in a tile (chapter 2). **Tags**
-are labels such as `new-arrival` or `featured`; type a new tag and choose
-**Create "…"** to make one on the spot (1.11). Leave **Discountable** on
-unless no discount should ever apply. **TuneWear Storefront** must stay
-under Sales channels, or the product never appears on the website.
+**Sizes** come from the **category's size chart** (4): they are already
+ticked. Untick any size this garment does not come in (5). A category with
+no size chart offers S to XXL to tick. **Another size** adds one that is
+not on the list (e.g. 3XL).
 
-![Type](assets/merchant-guide/01-07-type.webp)
+![Colours with swatches, and sizes from the size chart](assets/merchant-guide/01-53-add-colours-sizes.webp)
 
-**Shipping profile** is always **Default Shipping Profile** — the only one
-the shop has. The delivery charge comes from the address, not the product
-(chapter 5).
+**Stock** — how many of each are on the shelf now. One box for every colour
+and size. If they are all the same, type the number once in **Same for
+every size and colour** (1) and press **Fill all boxes** (2); then change
+any box that differs (3). The total underneath (4) is what the shop will
+sell. A size left at 0 shows on the website as sold out, crossed out.
+Every size is counted: the shop stops selling it at zero by itself.
 
-![Shipping profile](assets/merchant-guide/01-08-shipping-profile.webp)
+![Stock: fill all boxes, then change one](assets/merchant-guide/01-55-add-stock.webp)
 
-![Organize done](assets/merchant-guide/01-09-organize-done.webp)
+**Complete the look** (optional, 1) — up to two other products shown under
+this one; search and click (more in 1.12). Then **Save as draft** (2) — not
+on the website yet — or **Publish** (3), on the website within seconds.
 
-### 1.5 The variants grid — the ticks explained
+![Complete the look, then Save as draft or Publish](assets/merchant-guide/01-56-add-publish.webp)
 
-The last step of the wizard is a grid with one row per size. The same three
-switches appear when you add one size later (**Variants → Create**):
+If something is missing, nothing is saved and the bar says what (1); the
+empty boxes are outlined in red.
 
-![Manage inventory starts on](assets/merchant-guide/01-10-variant-switches.webp)
+![What is still needed](assets/merchant-guide/01-57-add-missing.webp)
 
-![One price column, in Taka](assets/merchant-guide/01-10b-price-column.webp)
-
-| Column                | Meaning                                                                                    | Leave it              |
-| --------------------- | ------------------------------------------------------------------------------------------ | --------------------- |
-| **Managed inventory** | The shop counts stock for this size and stops selling at zero.                             | **On** (it starts on) |
-| **Allow backorder**   | Keep selling after stock reaches zero. Only for made-to-order pieces.                      | Off                   |
-| **Has inventory kit** | This size is made of several stocked parts (a set sold as one). Not for normal garments.   | Off                   |
-| **Price BDT**         | The price. You can leave it empty here and set it for every size at once afterwards (1.8). | —                     |
-
-> The wizard **does not insist on a price**. A product without one cannot
-> be bought; set it straight after (1.8).
-
-**Save** (as draft) or **Publish**. A draft is invisible on the website.
-
-![Created as draft](assets/merchant-guide/01-11-created-draft.webp)
+After saving you land on the product's own page, where everything can be
+changed later (1.6 onwards).
 
 ### 1.6 Adding a colour afterwards
 
@@ -231,8 +236,9 @@ Options screen.
 
 ### 1.7 The colour swatch
 
-The **Colours** box on the product page sets the dot shoppers tap. Pick the
-colour or type its code (`#1a1a1a`) → **Save colours**.
+Set when you add the product (1.5). To change it later: the **Colours**
+box on the product page — pick the colour or type its code (`#1a1a1a`) →
+**Save colours**.
 
 ![Swatch](assets/merchant-guide/01-24-swatch.webp)
 
@@ -240,7 +246,8 @@ colour or type its code (`#1a1a1a`) → **Save colours**.
 
 ### 1.8 Price — one box for every size
 
-The **Price** box sets one price for every size and colour: type it →
+Set when you add the product (1.2). To change it later: the **Price** box
+on the product page sets one price for every size and colour — type it →
 **Apply to all**. Sale prices are separate (chapter 3).
 
 ![Price](assets/merchant-guide/01-12-price.webp)
@@ -277,8 +284,9 @@ logos and graphics — a PNG photo is several times bigger.
 
 ![The upload box states the rule, and names a photo that is too big](assets/merchant-guide/01-28b-media-upload-rules.webp)
 
-The **Photographs & image SEO** box: for each photo, pick which colour it
-shows (or **Shows every colour**). A shopper who picks that colour is taken
+Photos added with the product already have their colour (1.3). Photos
+added later, on the product page: the **Photographs & image SEO** box — for
+each photo, pick which colour it shows (or **Shows every colour**). A shopper who picks that colour is taken
 to that photo. The description underneath is read by screen readers and
 Google Images; it is pre-written for you.
 
@@ -314,8 +322,8 @@ recently; the product page shows them all.
 
 Three sections under the details on every product page.
 
-- **Complete the look** — up to two pieces **you** choose. On the product's
-  admin page, **Complete the look** box: type a name in the search box,
+- **Complete the look** — up to two pieces **you** choose, when you add the
+  product (1.5) or later on the product's admin page, **Complete the look** box: type a name in the search box,
   click the product. It saves at once. **Remove** takes one off. With
   nothing picked, the section does not show.
 - **Other colours** — turned on by the product names. Steps just below.
@@ -344,7 +352,7 @@ switch to turn on: **the product names are the switch.**
    `Polo Shirt - Black`.
 
 3. **Give each one its colour** — one **Colour** option with **one**
-   value, next to Size, when you create it (1.3): `Colour` → `Blue`. This
+   colour, when you add it (1.5): type `Blue`. This
    is what puts the product under **Blue** in the shop's colour filter and
    the blue dot on its card. The product page names it — "Color: Blue"
    with its dot — but there is nothing to click: switching colour is what
@@ -414,8 +422,10 @@ Which names join the group:
 
 ### 1.14 Publish
 
-Top of the product: **⋯ → Edit** → **Status: Published** → **Save**. The
-product is on the website within seconds.
+**Publish** on the Add product page puts it on the website at once (1.5).
+A product saved as a draft is published later from its page: top of the
+product, **⋯ → Edit** → **Status: Published** → **Save**. The product is on
+the website within seconds.
 
 ![Status](assets/merchant-guide/01-37-publish-status.webp)
 
@@ -425,8 +435,7 @@ product is on the website within seconds.
 
 ![On the website](assets/merchant-guide/01-40-storefront-product.webp)
 
-**Not showing?** In order: it is Draft; it is not in the TuneWear
-Storefront sales channel; it has no price; every size is out of stock (it
+**Not showing?** In order: it is Draft; every size is out of stock (it
 shows, but crossed out).
 
 ---
@@ -1391,10 +1400,10 @@ you can stand behind.
 
 ## 10. Sales channels
 
-Sidebar **Settings → Sales Channels**. There is one: **TuneWear
-Storefront**, the website. Every product must be in it to appear on the
-site. There is **no Facebook or Instagram shop connected** — DM orders are
-typed in as Draft orders (7.4).
+Sidebar **Settings → Sales Channels**. There are three: **TuneWear
+Storefront** (the website), **Facebook DM** and **Insta DM** (orders taken
+in messages, typed in as Draft orders — 7.4). Every new product is put in
+all three by itself. There is **no Facebook or Instagram shop connected**.
 
 ![Sales channels](assets/merchant-guide/10-01-sales-channels.webp)
 
