@@ -1,7 +1,7 @@
 # Running TuneWear — the admin guide
 
 For whoever runs the shop day to day. Every screenshot was taken on the
-real admin (staging, September 2026; the photo guide, 11.7, from the live site). The gold rings and numbers show what
+real admin (staging, September 2026; 7.6 on a demo order, October 2026; the photo guide, 11.7, from the live site). The gold rings and numbers show what
 to click, in order. Nothing here needs a terminal, code or a deploy: every
 change reaches the website by itself, most within seconds.
 
@@ -865,7 +865,8 @@ yourself; Medusa does that.
 
 ## 7. Orders
 
-**Who:** Staff and above.
+**Who:** Staff and above — except **Capture payment** and **Refund**, which
+need Admin (7.6).
 
 ### 7.1 What the shopper sees
 
@@ -1023,46 +1024,245 @@ their account's.
 
 ### 7.6 When a new order arrives — what to do, in order
 
+**When:** every new order, from the first look to a refund if it comes
+back. The pictures follow one demo order (#20) the whole way through.
+
+**Who:** Staff and above for 7.6.1–7.6.6. **Capture payment** (7.6.4) and
+**Refund** (7.6.7) need **Admin** — a Staff login does not have permission
+for either. Ask an Admin, or your developer if Staff should be allowed.
+
+| Step  | What                              | Every order?            |
+| ----- | --------------------------------- | ----------------------- |
+| 7.6.1 | Open the newest order             | Yes                     |
+| 7.6.2 | See how it was paid               | Yes                     |
+| 7.6.3 | Cash on Delivery: call first      | COD only                |
+| 7.6.4 | Pack, ship, deliver, take payment | Yes                     |
+| 7.6.5 | Cancel                            | Only if it is not going |
+| 7.6.6 | A customer sends something back   | Only for a return       |
+| 7.6.7 | Give the money back               | Only for a refund       |
+| 7.6.8 | The reason lists                  | Rarely                  |
+
+#### 7.6.1 Open the newest order
+
 **The shop does not email or text you about new orders yet.** Open
-**Orders** at least every morning and evening — the newest order is always
-at the top. While the page is open it
-checks for new orders every 2 minutes on its own, and again whenever you
-come back to it; the **Refresh** button at the top checks straight away.
+**Orders** at least every morning and evening.
 
-1. **See how it was paid.** Open the order and look at **Payment**:
+1. Sidebar **Orders** (1).
+2. The list checks for new orders every 2 minutes while it is open, and
+   again whenever you come back to it. **Refresh** (2) checks straight
+   away.
+3. The newest order is always at the top (3). Click anywhere on its row to
+   open it.
 
-   | Payment shows  | Means                                                           |
-   | -------------- | --------------------------------------------------------------- |
-   | **Captured**   | Paid online (card, bKash, Nagad). The money is with SSLCommerz. |
-   | **Authorized** | Cash on Delivery. Nothing paid yet — the rider collects it.     |
+![Newest order at the top](assets/merchant-guide/06-30-new-order-list.webp)
 
-   An online order only appears here **after** SSLCommerz has confirmed the
-   money, so an online order you can see is a paid one.
+#### 7.6.2 See how it was paid
 
-2. **Cash on Delivery: call the customer first.** Ring the phone number on
-   the order and confirm the size, the address and that they want it.
-   Pack only after they say yes. A number that never answers is the usual
-   sign of a fake order — cancel it (step 5) so the pieces go back on sale.
-3. **Fulfill** (pack) → **Mark as shipped** with the courier and its
-   tracking link → **Mark as delivered** — the steps in 7.3.
-4. **Cash on Delivery: Capture payment** once the courier hands you the
-   cash. Online orders skip this.
-5. **Cancelling.** Order page → **⋯** (top right) → **Cancel** →
-   **Continue**. Do this **before** fulfilling: the reserved pieces go back
-   on sale at once (6.3). A fulfilled order refuses to cancel — cancel its
-   fulfilment first, or, if it already went to the courier, create a
-   return.
+On the order page, scroll to the **Payments** box and read the label at
+its top right (1):
 
-**Refunding an online payment.** The admin has no refund button for
-SSLCommerz yet. Refund it in the **SSLCommerz merchant panel** — find the
-payment by its amount and date — then cancel or return the order here so
-stock is right.
+![Payment label](assets/merchant-guide/06-31-payment-authorized.webp)
+
+| Label shows            | Means                                                                    |
+| ---------------------- | ------------------------------------------------------------------------ |
+| **Authorized**         | Cash on Delivery. Nothing paid yet — the rider collects it.              |
+| **Captured**           | Paid: online (card, bKash, Nagad), or COD after you captured it (7.6.4). |
+| **Partially refunded** | Some of the money was given back (7.6.7).                                |
+| **Canceled**           | The order was cancelled (7.6.5).                                         |
+
+An online order only appears here **after** SSLCommerz has confirmed the
+money, so an online order you can see is a paid one.
+
+#### 7.6.3 Cash on Delivery: call the customer first
+
+1. In the **Customer** box, the second line under **Contact** is the
+   phone number (1). The copy button beside it copies it.
+2. Ring it and confirm the **size**, the **address**, and that they still
+   want it.
+3. Pack only after they say yes. A number that never answers is the usual
+   sign of a fake order — cancel it (7.6.5) so the pieces go back on sale.
+
+![Customer phone](assets/merchant-guide/06-32-customer-phone.webp)
+
+#### 7.6.4 Pack, ship, deliver, take payment
+
+These four steps are in 7.3, with a picture for every click:
+
+1. **Fulfill** — **Unfulfilled Items** box → **⋯** → **Fulfill items** →
+   check the numbers → confirm. Stock goes down now.
+2. **Mark as shipped** — pick the courier, paste its tracking link →
+   **Save**.
+3. **Mark as delivered** — when the courier says it arrived → confirm.
+4. **Capture payment** (Cash on Delivery only, **Admin**) — once the
+   courier hands you the cash: **Payments** box → **Capture payment** →
+   **Continue**. Online orders were captured already; skip this.
+
+When all four are done the order shows **Captured** and **Delivered**.
+
+#### 7.6.5 Cancel an order
+
+**When:** the customer changed their mind before it was packed, the phone
+never answers, or it is a fake order. **Do it before Fulfill** — the
+pieces go back on sale at once (6.3).
+
+1. Top box of the order → **⋯** (1) → **Cancel** (2).
+
+   ![Cancel](assets/merchant-guide/06-33-cancel-menu.webp)
+
+2. Read the message, then **Continue** (1). This cannot be undone.
+
+   ![Confirm cancel](assets/merchant-guide/06-34-cancel-confirm.webp)
+
+3. The order now shows **Canceled** (1).
+
+   ![Cancelled](assets/merchant-guide/06-35-cancelled.webp)
+
+**Already fulfilled?** Cancel refuses. If it has **not** left the shop:
+cancel the fulfilment first (**Fulfillment** box → **⋯** → **Cancel**),
+then cancel the order. If it already went to the courier, it is a return
+(7.6.6) once it comes back.
+
+**Paid online and cancelled?** Give the money back too (7.6.7), with the
+reason **Cancelled order**.
+
+#### 7.6.6 A customer sends something back (a return)
+
+**When:** a delivered piece comes back — wrong size, damaged, not as
+pictured. Worked example: the customer returns the **Cable Knit Button
+Cardigan** from order #20 because it is too small, and keeps the sweater.
+
+The order must be **Delivered**. Do the return when the parcel is in your
+hands, so what you type matches what came back.
+
+1. **Summary** box → **⋯** (1) → **Create Return** (2).
+
+   ![Create Return](assets/merchant-guide/06-36-return-menu.webp)
+
+2. **Add items** (1).
+
+   ![Add items](assets/merchant-guide/06-37-return-add-items.webp)
+
+3. Tick the piece that came back (1) → **Save** (2). Tick only what
+   actually came back; the sweater stays unticked.
+
+   ![Pick the item](assets/merchant-guide/06-38-return-pick-item.webp)
+
+4. On the item, **⋯** (1) → **Add Reason** (2).
+
+   ![Add reason](assets/merchant-guide/06-39-return-add-reason.webp)
+
+5. Open the **Reason** box and pick why it came back (1). The list is
+   already filled in (7.6.8); here, **Wrong size / doesn't fit**.
+
+   ![Reason list](assets/merchant-guide/06-40-return-reason-list.webp)
+
+6. Check the form:
+
+   - (1) **Reason** — the one you picked.
+   - (2) **Location** — **Dhaka Warehouse**. This box starts **empty**:
+     pick it, or the return has nowhere to put the stock.
+   - (3) **Return shipping** — **leave it empty.** It is optional, and
+     the shop has no return delivery option. If the customer paid the
+     courier themselves, there is nothing to enter here.
+   - (4) **Confirm Return**.
+
+   ![Return form](assets/merchant-guide/06-41-return-form.webp)
+
+7. **Continue** to confirm.
+
+   ![Confirm return](assets/merchant-guide/06-42-return-confirm-dialog.webp)
+
+8. Back on the order, the Summary shows the return and its reason (1).
+   Press **Receive items** (2) once the piece is checked and back on the
+   shelf. **Refund** (3) is the next section — do it **after** receiving.
+
+   ![Return requested](assets/merchant-guide/06-43-return-requested.webp)
+
+9. The number (1) is how many came back — normally the number already
+   there. **Save** (2). Stock goes back up by that number straight away;
+   the piece is on sale again.
+
+   ![Receive items](assets/merchant-guide/06-44-receive-items.webp)
+
+**Stopped halfway?** A **Return initiated** box appears at the top of the
+order with **Continue** (carry on where you left off) and **Cancel
+Return** (throw it away; nothing changes).
+
+#### 7.6.7 Give the money back (a refund)
+
+**Who:** Admin.
+
+**Pressing Refund here does NOT send any money.** It records, on the
+order, that money went back and why — so sales and Analytics stay right.
+Send the money first, then record it:
+
+| The customer paid by                | Send the money back                                                    |
+| ----------------------------------- | ---------------------------------------------------------------------- |
+| Online (card, bKash, Nagad)         | In the **SSLCommerz merchant panel** — find it by its amount and date. |
+| Cash on Delivery (already captured) | By bKash, Nagad or cash, the way you agreed with the customer.         |
+
+Then:
+
+1. Order page → **Refund ৳…** (1), under the order totals. It appears
+   whenever the shop owes the customer money (after a return is received,
+   or a paid order is cancelled) and already holds the right amount.
+
+   ![Refund button](assets/merchant-guide/06-45-refund-button.webp)
+
+2. **Select payment to refund** → the one payment on the order.
+3. **Refund Reason** → pick why (1). For a return, **Returned item**.
+
+   ![Refund reasons](assets/merchant-guide/06-46-refund-reason-list.webp)
+
+4. Check the form:
+
+   - (1) the payment;
+   - (2) **Amount** — filled in already with what is owed. **Check it**
+     matches what you actually sent;
+   - (3) the reason;
+   - (4) **Note** — how and when you sent it, e.g. "Sent 2,150 Tk by
+     bKash to 01700000001 on 10 Oct." The next person to open the order
+     will thank you;
+   - (5) **Save**.
+
+   ![Refund form](assets/merchant-guide/06-47-refund-form.webp)
+
+5. The **Payments** box shows the refund with its reason (1), and
+   **Total paid by customer** drops by that amount.
+
+   ![Refund recorded](assets/merchant-guide/06-48-refund-recorded.webp)
+
+**Do not refund from the payment's own ⋯ menu.** It fills in the **whole
+payment**, not what is owed, and saving a wrong amount cannot be undone.
+Use the **Refund ৳…** button from step 1.
 
 **"I paid but there is no order."** If a customer says this, look the
 payment up in the SSLCommerz merchant panel. If SSLCommerz shows it paid
 and there is no order here, refund it there or type the order in as a
 Draft order (7.4) — tell your developer either way, because it should not
 happen.
+
+#### 7.6.8 The reason lists
+
+The shop comes with these, ready to pick:
+
+| Return reasons (7.6.6)   | Refund reasons (7.6.7)                          |
+| ------------------------ | ----------------------------------------------- |
+| Wrong size / doesn't fit | Returned item                                   |
+| Damaged or faulty        | Cancelled order                                 |
+| Wrong item sent          | Shipping Issue — lost, late or wrong address    |
+| Not as pictured          | Customer Care Adjustment — goodwill, "sorry" Tk |
+| Changed mind             | Pricing Error — charged too much, missed a code |
+
+To add, rename or remove one (**Admin**): **Settings → Return Reasons**
+(1) or **Refund Reasons** (1) → **Create** (2), or **⋯** on a row to edit
+or delete it. **Label** is what you will see in the list. **Value** (or
+**Code**) is a short name for the computer: small letters and `_`, no
+spaces — for "Sleeves too long", type `sleeves_too_long`.
+
+![Return reasons](assets/merchant-guide/06-50-settings-return-reasons.webp)
+
+![Refund reasons](assets/merchant-guide/06-51-settings-refund-reasons.webp)
 
 ---
 
@@ -1379,12 +1579,12 @@ either way.
 
 ### 12.1 The roles
 
-| Role                | Can                                                                              | Cannot                                                                 |
-| ------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Super Admin**     | Everything, including staff accounts and roles                                   | —                                                                      |
-| **Admin**           | Products, categories, orders, prices, promotions, customers, settings, analytics | Manage staff; see the audit log or make reset links unless **Trusted** |
-| **Admin + Trusted** | Everything Admin can, plus the audit log and password reset links                | Manage staff                                                           |
-| **Staff**           | Orders end to end, customers, products and variants, stock                       | Price lists, promotions, analytics, audit log, categories, staff       |
+| Role                | Can                                                                                 | Cannot                                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Super Admin**     | Everything, including staff accounts and roles                                      | —                                                                                          |
+| **Admin**           | Products, categories, orders, prices, promotions, customers, settings, analytics    | Manage staff; see the audit log or make reset links unless **Trusted**                     |
+| **Admin + Trusted** | Everything Admin can, plus the audit log and password reset links                   | Manage staff                                                                               |
+| **Staff**           | Orders (open, pack, ship, cancel, returns), customers, products and variants, stock | Capture payment, refunds, price lists, promotions, analytics, audit log, categories, staff |
 
 ![Roles](assets/merchant-guide/12-04-roles.webp)
 
