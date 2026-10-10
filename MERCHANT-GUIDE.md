@@ -92,7 +92,7 @@ thing a shopper actually buys, with its own stock count.
 _Example:_ a T-shirt in Black and White, sizes S, M and L, has 2 × 3 = 6
 variants: Black / S, Black / M, … White / L.
 
-> **Decide the colours when you add the product** (1.5). Colours added
+> **Decide the colours when you add the product** (1.4). Colours added
 > later do not reach the sizes that already exist, and each size then has
 > to be given its colour by hand (1.6).
 
@@ -142,32 +142,18 @@ from the name by itself; two products may share a name.
 
 ![Details: name, one price, description](assets/merchant-guide/01-50-add-details.webp)
 
-### 1.3 Photos, and the colour each one shows
-
-**Add photos** (1): click, or drag photos onto the box. The box states the
-photo rule — JPEG or WebP, tall 2 : 3, under 2 MB (more in 1.10). For each
-photo, pick **the colour it shows** (2); a shopper who picks that colour is
-taken straight to it. The colour list fills once you add colours further
-down (1.5); leave **Every colour** for a photo that is not one colour. The
-**description** (3) is written for you from the name and the colour — read
-by screen readers and Google Images; change it only if you have a better
-one. The first photo is the **Cover** — the one on the product's card in
-the shop. **Make cover** (4) moves a photo to the front.
-
-![Photos, each with its colour and description](assets/merchant-guide/01-51-add-photos.webp)
-
-### 1.4 Where it shows — who it is for, category, tags
+### 1.3 Where it shows — who it is for, category, tags
 
 **Who it is for** (1) decides the aisle: **Men** shows the product on
 /men, **Women** on /women, **Unisex** on both. **Category** (2) puts it in
-a tile (chapter 2) — and gives the sizes (1.5). **Tags** (3) are optional
+a tile (chapter 2) — and gives the sizes (1.4). **Tags** (3) are optional
 labels such as `new-arrival`: click one to add it, again to take it off
 (what each tag does: 1.11). The delivery set-up and the website's sales
 channels are filled in for you — there is nothing to choose.
 
 ![Who it is for, category, tags](assets/merchant-guide/01-52-add-where.webp)
 
-### 1.5 Colours, sizes and stock
+### 1.4 Colours and sizes
 
 **Colours.** Type a colour and press **Enter** (1); the box empties, ready
 for the next one. Each colour gets a **swatch** — the dot shoppers tap:
@@ -181,6 +167,20 @@ no size chart offers S to XXL to tick. **Another size** adds one that is
 not on the list (e.g. 3XL).
 
 ![Colours with swatches, and sizes from the size chart](assets/merchant-guide/01-53-add-colours-sizes.webp)
+
+### 1.5 Photos, stock, and publishing
+
+**Add photos** (1): click, or drag photos onto the box. The box states the
+photo rule — JPEG or WebP, tall 2 : 3, under 2 MB (more in 1.10). For each
+photo, pick **the colour it shows** (2); a shopper who picks that colour is
+taken straight to it. The list holds the colours you added above (1.4);
+leave **Every colour** for a photo that is not one colour. The
+**description** (3) is written for you from the name and the colour — read
+by screen readers and Google Images; change it only if you have a better
+one. The first photo is the **Cover** — the one on the product's card in
+the shop. **Make cover** (4) moves a photo to the front.
+
+![Photos, each with its colour and description](assets/merchant-guide/01-51-add-photos.webp)
 
 **Stock** — how many of each are on the shelf now. One box for every colour
 and size. If they are all the same, type the number once in **Same for
@@ -236,7 +236,7 @@ Options screen.
 
 ### 1.7 The colour swatch
 
-Set when you add the product (1.5). To change it later: the **Colours**
+Set when you add the product (1.4). To change it later: the **Colours**
 box on the product page — pick the colour or type its code (`#1a1a1a`) →
 **Save colours**.
 
@@ -284,7 +284,7 @@ logos and graphics — a PNG photo is several times bigger.
 
 ![The upload box states the rule, and names a photo that is too big](assets/merchant-guide/01-28b-media-upload-rules.webp)
 
-Photos added with the product already have their colour (1.3). Photos
+Photos added with the product already have their colour (1.5). Photos
 added later, on the product page: the **Photographs & image SEO** box — for
 each photo, pick which colour it shows (or **Shows every colour**). A shopper who picks that colour is taken
 to that photo. The description underneath is read by screen readers and
@@ -352,7 +352,7 @@ switch to turn on: **the product names are the switch.**
    `Polo Shirt - Black`.
 
 3. **Give each one its colour** — one **Colour** option with **one**
-   colour, when you add it (1.5): type `Blue`. This
+   colour, when you add it (1.4): type `Blue`. This
    is what puts the product under **Blue** in the shop's colour filter and
    the blue dot on its card. The product page names it — "Color: Blue"
    with its dot — but there is nothing to click: switching colour is what
